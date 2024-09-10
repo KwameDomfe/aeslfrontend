@@ -1,0 +1,193 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const AESLProjectDetailsNav = () => {
+  return (
+    <div id="project_summary"
+    class="gc1s12 grid gtc12 ggap1-00
+    items-center justify-center
+    ph1-00 min-h14-00
+    "
+    >
+    <article id="consultants_info" 
+        class="gc1s6 gr1s1 
+            gc1s4-s 
+            gc1s3-m
+            gc1s3-l
+            gc1s1-xl
+            "
+    >
+        <div
+            class="w12-00-xl h12-00-xl pb0-00-xl h0-00 pb-100 pa0-50
+                bg-blue0 flex flex-column
+                br0-50 white-90"
+        >
+            <hgroup class="mb1-00">
+                <h2 class="mb0-50 f0-75 white-60">
+                    Project Coordinator
+                </h2>
+                <p class="mb0-25">
+                    Arc. Agyei Marfo Isaac
+                </p>
+            </hgroup>
+            <hgroup class="mb0-00">
+                <h2 class="mb0-50 f0-75 white-60">
+                    Project Leads
+                </h2>
+                <ul class="mb0-25"
+                >
+                    <li>Arc. Agyei Marfo Isaac</li>
+                    <li>Arc. Amen A. K. Gbeckor-Kove</li>
+                    <li>Arc. Basil Akushey</li> 
+                </ul>
+            </hgroup>
+        </div>
+    </article>
+
+    <article id="project_info" 
+        class="gc7s6 gr2s1 
+        gc9s4-s
+        gc10s3-m gr1s1-m
+        gc4s3-l
+        gc2s1-xl
+        "
+    >
+        <div class="w12-00-xl h12-00-xl pb0-00-xl h0-00 pb-100 pa0-50 
+            bg-blue0 white-90
+            br0-50"
+        >
+            <hgroup 
+                class="mb1-00"
+            >
+                <h2 class="mb0-50 f0-75 white-60">
+                    Client
+                </h2>
+                <p class="mb0-25">
+                   Manhyia Palace
+                </p>     
+            </hgroup>
+            <hgroup 
+                class="mb0-50"
+            >
+                <h2 class="mb0-50 f0-75 white-60">
+                    Total Floor Area
+                </h2>
+                <p class="mb0-25">
+                   3,456 m<sup>2</sup>
+                </p>     
+            </hgroup>
+            <hgroup 
+                class="mb0-00"
+            >
+                <h2 class="mb0-50 f0-75 white-60">
+                    Cost
+                </h2>
+                <p class="mb0-25">
+                    GHC 356.00 million
+                </p>     
+            </hgroup>
+        </div> 
+    </article>
+    
+    <article id="project_dates" 
+        class=" gc7s6 gr1s1 
+            gc5s4-s
+            gc7s3-m
+            gc7s3-l
+            gc3s1-xl
+            "
+    >
+        <div 
+            class="w12-00-xl h12-00-xl pb0-00-xl h0-00 pb-100 pa0-50 
+            bg-blue2 white-90
+            br0-50"
+        >
+           
+            <hgroup class="mb1-00">
+                <h2 class="mb0-50 f0-75 white-60">
+                    Start Date
+                </h2>
+                <p class="mb0-25">
+                    November, 2012
+                </p>     
+            </hgroup>
+            <hgroup class="mb1-00">
+                <h2 class="mb0-50 f0-75 white-60">
+                    Completed Date
+                </h2>
+                <p class="mb0-25">
+                    March, 2015
+                </p>     
+            </hgroup>
+        
+        </div> 
+    </article>
+
+    <article id="project_jobsheet" 
+        class="gc1s6 gr2s1 
+        gc5s4-s
+        gc4s3-m gr1s1-m 
+        gc10s3-l
+        gc10s1-xl 
+        "
+    >
+       <div 
+            class="w12-00-xl h12-00-xl pb0-00-xl h0-00 pb-100 pa0-50
+            bg-blue1 white-90
+            br0-50"
+        >
+            <hgroup 
+                class="mb1-00"
+            >
+                <h2 class="mb0-50 f0-75 white-60">
+                    Job Sheets 
+                </h2>
+                <Link to="/"
+                    class="white-90"
+                >
+                    <p class="mb0-25">
+                        English
+                    </p>
+                </Link>
+            </hgroup>
+            <hgroup 
+                class="mb0-00"
+            >
+                <h2 class="mb0-50 f0-75 white-60">
+                    Certifications
+                </h2>
+                <ul class="mb0-25">
+                    <li>Ghana Standard authority</li>
+                </ul>  
+            </hgroup>
+            
+        </div> 
+    </article>
+
+    <article id="blank_1" 
+        class="gc9s4 gc9s1-xl gr1s1-xl"
+    >
+        <div 
+            class="dn dib-s dn-m w-100-s w12-00-l h12-00-l pb0-00-m h0-00 pb-100
+            bg-blue4 white-90 pa0-50
+            br0-50 ba"
+        >
+        </div> 
+    </article>
+
+    <article id="blank_2" 
+        class=" gc1s4 gr2s1
+            "
+    >
+        <div 
+            class="dn dib-s dn-m w12-00-l h12-00-l pb0-00-s w-100-s h0-00-s pb-100-s
+            bg-blue0 white-90 pa0-50
+            br0-50 ba bw1 b--white-90"
+        >
+        </div> 
+    </article>
+</div>
+  )
+}
+
+export default AESLProjectDetailsNav

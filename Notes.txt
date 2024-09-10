@@ -1,0 +1,9 @@
+npx create-react-app <foldername> .
+cd <foldername>
+npm start
+npm install react-router-dom
+npm install @material-ui/core
+pip install django-cors-headers
+
+Info:
+Strict Mode
