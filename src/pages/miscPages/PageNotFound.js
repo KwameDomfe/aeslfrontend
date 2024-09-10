@@ -4,15 +4,17 @@ import { Link } from 'react-router-dom'
 const PageNotFound = () => {
   
     return (
-        <div>
+        <div className="vh-90 flex flex-column items-center justify-center">
             <h2>
-            Page Not Found
+                Welcome to AESL Website
             </h2>
-            <p>
-            Over the years, our thoughts, words, and deeds have contributed, to a great extent, to shape the various facets of life in KNUST and Ghana as a whole. Our mission is to bring Katanga Alumni worldwide together, to discover the opportunities available, and get involved in helping to build and strengthen our network.
-            </p>
 
-            <p>Go to the <Link to = '/'>Homepage</Link></p>
+            <div>
+                <p className="mb2-00  ">Go to the <Link className="dib w16-00 ba ma2-00 pa1-00 tc ttu b f2-00" to = '/'>Homepage</Link></p>
+                <p className="mb2-00  ">Go to the <Link className="dib w16-00 ba ma2-00 pa1-00 tc ttu b f2-00" to = '/projects'>Projects</Link></p>
+                <p className="mb2-00  ">Go to the <Link className="dib w16-00 ba ma2-00 pa1-00 tc ttu b f2-00" to = '/practice'>Practice</Link></p>
+                <p className="mb2-00  ">Go to the <Link className="dib w16-00 ba ma2-00 pa1-00 tc ttu b f2-00" to = '/people'>People</Link></p>
+            </div>
         </div>
     )
 }
