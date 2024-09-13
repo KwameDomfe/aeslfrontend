@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aeslfrontend/static/css/main.0815f5bb.css",
-    "main.js": "/aeslfrontend/static/js/main.6ba3e744.js",
+    "main.js": "/aeslfrontend/static/js/main.f1621fc1.js",
     "static/media/1_0.jpg": "/aeslfrontend/static/media/1_0.e9011506008aa52aae29.jpg",
     "static/media/5_0.jpg": "/aeslfrontend/static/media/5_0.277ddda26f5594d58fd3.jpg",
     "static/media/2.PNG": "/aeslfrontend/static/media/2.e6ce130676952911ce4a.PNG",
@@ -20,6 +20,7 @@
     "static/media/00.jpeg": "/aeslfrontend/static/media/00.fb8483d83489e84d9858.jpeg",
     "static/media/board-member-05.jpg": "/aeslfrontend/static/media/board-member-05.b7cccad38f4ab366a211.jpg",
     "static/media/board-member-04.jpg": "/aeslfrontend/static/media/board-member-04.ec6d04f78f5f9a28dacd.jpg",
+    "static/media/4.jpeg": "/aeslfrontend/static/media/4.237f7701f7652932ba40.jpeg",
     "static/media/management-01.jpeg": "/aeslfrontend/static/media/management-01.b2f7a4629347f880c906.jpeg",
     "static/media/dof-01.jpeg": "/aeslfrontend/static/media/dof-01.2c61891865ac2c80d111.jpeg",
     "static/media/dof-03.jpeg": "/aeslfrontend/static/media/dof-03.4f901a80667872f16757.jpeg",
@@ -57,18 +58,18 @@
     "static/media/4.jpg": "/aeslfrontend/static/media/4.b7fca54b6921f326d61a.jpg",
     "static/media/aesl_logo.png": "/aeslfrontend/static/media/aesl_logo.811e8c7d371dee49c48d.png",
     "static/media/ghip.jpg": "/aeslfrontend/static/media/ghip.769902970ccdfc8b5008.jpg",
-    "static/media/linkedin.svg": "/aeslfrontend/static/media/linkedin.33129ba0cdc4cb48fb4e6b583ac1060e.svg",
-    "static/media/youtube.svg": "/aeslfrontend/static/media/youtube.643a7e472730ec77d8bdc252cf23edc0.svg",
+    "static/media/linkedin.svg": "/aeslfrontend/static/media/linkedin.76a86f0909fed0d40156cd02f87b6798.svg",
+    "static/media/youtube.svg": "/aeslfrontend/static/media/youtube.d7d2219aee3001c9063c70ad8b82c3b7.svg",
     "index.html": "/aeslfrontend/index.html",
     "static/media/twitter.svg": "/aeslfrontend/static/media/twitter.66fd1faabbfa4faee2bbfd08cd71be83.svg",
     "static/media/close-svgrepo-com_1.svg": "/aeslfrontend/static/media/close-svgrepo-com_1.e656c70adb2f4a9f6516643d7f02403e.svg",
     "static/media/facebook.svg": "/aeslfrontend/static/media/facebook.4c38149b469ee5615f4a02295a5f8d80.svg",
-    "static/media/burger-menu-svgrepo-com.svg": "/aeslfrontend/static/media/burger-menu-svgrepo-com.f8955b0cc62d5278a17857552e9e2908.svg",
+    "static/media/burger-menu-svgrepo-com.svg": "/aeslfrontend/static/media/burger-menu-svgrepo-com.25a2ee7d2dd76688a91386dc6fc7b146.svg",
     "main.0815f5bb.css.map": "/aeslfrontend/static/css/main.0815f5bb.css.map",
-    "main.6ba3e744.js.map": "/aeslfrontend/static/js/main.6ba3e744.js.map"
+    "main.f1621fc1.js.map": "/aeslfrontend/static/js/main.f1621fc1.js.map"
   },
   "entrypoints": [
     "static/css/main.0815f5bb.css",
-    "static/js/main.6ba3e744.js"
+    "static/js/main.f1621fc1.js"
   ]
 }
