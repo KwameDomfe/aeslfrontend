@@ -8,9 +8,9 @@ const ProjectConstruction = () => {
                                 ph1-00 mb3-00">
        {/* <!-- Project constuction Title --> */}
        <hgroup id="project_constuction Title"
-            class="gc1s12"
+            className="gc1s12"
         >
-            <h2 class="mv1-00
+            <h2 className="mv1-00
                 f2-00 f3-00-m"
             >
                 PROJECT CONSTRUCTION
@@ -20,9 +20,9 @@ const ProjectConstruction = () => {
 
         {/* <!-- Project constuction Description --> */}
         <article id="project_constuction_Description" 
-            class="gr2s1 gc1s12 ggap2-00 flex w-100 tj"
+            className="gr2s1 gc1s12 ggap2-00 flex w-100 tj"
         >
-        <div class="f1-25 tj lh-copy">
+        <div className="f1-25 tj lh-copy">
             {/* {% for p in project_construction %} */}
             <p>
                 Project Contruction Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis repellendus rerum explicabo, quam modi odit. Eum perferendis quibusdam accusantium rem doloribus quo aspernatur beatae maxime repudiandae voluptates quisquam ex labore sed autem, tempora magni veritatis iusto tempore saepe consectetur. Voluptatibus at adipisci beatae officia in. Corporis, sunt. Ipsam, perferendis molestiae.
@@ -34,7 +34,7 @@ const ProjectConstruction = () => {
 
         {/* <!-- Project constuction gallery --> */}
         <article id="project_constuction_gallery_1" 
-            class="gr3s2 gc2s4
+            className="gr3s2 gc2s4
                 flex items-center justify-center
                 relative
                 "
@@ -47,7 +47,7 @@ const ProjectConstruction = () => {
         </article>
 
         <article id="project_constuction_gallery_2" 
-            class="gr3s3 gc7s6
+            className="gr3s3 gc7s6
                 flex items-center justify-center
                 relative"
         >
@@ -59,7 +59,7 @@ const ProjectConstruction = () => {
         </article>
 
         <article id="project_constuction_gallery_3" 
-            class="gr6s3 gc7s6
+            className="gr6s3 gc7s6
                 flex items-center justify-center
                 min-vh-50
                 relative " 
@@ -72,7 +72,7 @@ const ProjectConstruction = () => {
         </article>
 
         <article id="project_constuction_gallery_4" 
-            class="gr5s2 gc2s4
+            className="gr5s2 gc2s4
                 flex items-center justify-center
                 h-100
                 relative"
@@ -85,7 +85,7 @@ const ProjectConstruction = () => {
         </article>
 
         <article id="project_constuction_gallery_5" 
-            class="gr7s2 gc2s4
+            className="gr7s2 gc2s4
                 flex items-center justify-center
                 h-100
                 relative"
@@ -98,7 +98,7 @@ const ProjectConstruction = () => {
         </article>
 
         <footer id="project_Concept_gallery_5" 
-            class="gr9s1 gc1s12
+            className="gr9s1 gc1s12
                 items-center justify-center
                 h-100
                 relative"

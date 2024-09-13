@@ -22,7 +22,7 @@ const Alliances = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Alliances"/>
+            <AESLPageFooter pageTitle="Alliances"/>
             {/* Page Footer End */}
         </div>
     )

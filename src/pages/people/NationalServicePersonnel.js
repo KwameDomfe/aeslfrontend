@@ -421,7 +421,7 @@ const ServicePersonnel = () => {
         {/* <!-- Page Main -->  */}
         {/* <!-- Page Footer -->   */}
         <AESLPageFooter 
-            pageName = "Service Personnels"
+            pageTitle = "Service Personnels"
         />
         {/* <!-- Page Footer -->  */}
     </div>

@@ -7,11 +7,11 @@ const CategoryPageLayout = (props) => {
     const {bannerImage, title} = props
     return (
         <div id={`${title} Page`}
-            class=""
+            className=""
         >
             {/* Page Header Start */}
             <header id = {`${title}PageHeader`}
-                class="bg-white"
+                className="bg-white"
             >
                 <CategoryHeaderBanner 
                     image = {bannerImage}
@@ -29,7 +29,7 @@ const CategoryPageLayout = (props) => {
 
             {/* Page Footer Start */}
             <footer id = {`${title}PageFooter`}
-                class="w-100 mb1-00"
+                className="w-100 mb1-00"
             >
                 <AESL_PageFooter />
             </footer>

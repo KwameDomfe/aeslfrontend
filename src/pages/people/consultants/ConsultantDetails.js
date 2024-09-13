@@ -9,20 +9,20 @@ import { Link } from 'react-router-dom'
 const ConsultantDetails = () => {
     return (
         <div id=""
-            class="min-vh-100 w-100">
+            className="min-vh-100 w-100">
         
             {/* <!-- Page Header --> */}
             <header id="consultant_pageHeader"
-                class="grid gtc12"
+                className="grid gtc12"
             >
-                <figure class="gc1s12">
+                <figure className="gc1s12">
                     <img src={xxx}
                         alt=""
-                        class="vh-50 cover"
+                        className="vh-50 cover"
                     />
                 </figure>
-                <hgroup class="gc1s12 w-100 blue0">
-                    <h2 class="w-100 h-100
+                <hgroup className="gc1s12 w-100 blue0">
+                    <h2 className="w-100 h-100
                         pa1-00 pb1-00 mb0-00
                         f3-00
                         ">
@@ -34,33 +34,33 @@ const ConsultantDetails = () => {
             
             {/* <!-- Page Main --> */}
             <main id = "consultant-pagemain"
-                class="bg-white"
+                className="bg-white"
             >
                 <div id="l_3:1" 
-                    class="grid gtc4 ph1-00"
+                    className="grid gtc4 ph1-00"
                 >
                     {/* <!-- AESL History Start --> */}
                     <div id="lc_gc1s3__pageMain--Consultant"
-                        class="gc1s3
+                        className="gc1s3
                         min-vh-100
                         mb1-00"
                     >   
                         {/* <!-- Page Navigation --> */}
                         <div id="consultants_summary"
-                            class="pt2-00"
+                            className="pt2-00"
                         >
                             <div id="pageNav"
-                                class="grid gtc12 gc1s12 ggap1-00
+                                className="grid gtc12 gc1s12 ggap1-00
                                     white-90 ph4-00 mb2-00
                                     tracked-tight"
                             >
                                 <article id="people_nav1" 
-                                    class="gr1s1 gc1s2
+                                    className="gr1s1 gc1s2
                                         h10-00 w10-00
                                         f1-00 bg-blue0"
                                 >
                                     <hgroup id=""
-                                        class="
+                                        className="
                                             w-100 h-100 
                                             pa1-00
                                             bg-green
@@ -70,7 +70,7 @@ const ConsultantDetails = () => {
                                 </article>
 
                                 <article id="brief_summary" 
-                                    class="gr1s1 gc3s10
+                                    className="gr1s1 gc3s10
                                         h10-00 w-100
                                         pa1-00
                                         f1-25 bg-blue0"
@@ -84,32 +84,32 @@ const ConsultantDetails = () => {
 
                         {/* <!-- Consultants --> */}
                         <div id="consultant"
-                            class="grid gtc12 ggap1-00
+                            className="grid gtc12 ggap1-00
                                 mb2-00"
                         >
                             <div id="consultants_gallery"
-                                class="gr1s1 gc1s12
+                                className="gr1s1 gc1s12
                                     grid gtc12 ggap1-00
                                     mb2-00
                                     white-90"
                             >
                                 <article id="people_consultant_gallery_3" 
-                                    class="gr1s1 gc1s6
+                                    className="gr1s1 gc1s6
                                             pa2-00
                                             white-90 bg-blue1"
                                 >
-                                    <figure class="shadow-5 bg-blue2 mb0-50">
+                                    <figure className="shadow-5 bg-blue2 mb0-50">
                                         <img src={xxx}
                                             alt=""
-                                            class="pa0-50 bg-blue0"
+                                            className="pa0-50 bg-blue0"
                                         /> 
                                     </figure>
                                     <hgroup 
-                                        class="flex flex-column
+                                        className="flex flex-column
                                             w-100 bg-blue0 
                                             white-90 pa0-50 "
                                         >
-                                        <h5 class="mb0-50">
+                                        <h5 className="mb0-50">
                                             Image Title
                                         </h5> 
                                         <h6>
@@ -119,24 +119,24 @@ const ConsultantDetails = () => {
                                 </article>
                                 
                                 <article id="people_consultant_gallery_4" 
-                                    class="gr1s1 gc7s6
+                                    className="gr1s1 gc7s6
                                         pa2-00
                                         white-90 bg-blue1"
                                 >
-                                    <figure class="shadow-5 bg-blue2 mb0-50">
+                                    <figure className="shadow-5 bg-blue2 mb0-50">
                                         <img src={xxx}
                                             alt=""
-                                            class="pa0-50 bg-blue0"
+                                            className="pa0-50 bg-blue0"
                                         /> 
                                     </figure>
                                     <hgroup 
-                                        class="flex flex-column
+                                        className="flex flex-column
                                             w-100 
                                             pa0-50
                                             bg-blue0 
                                             white-90 "
                                         >
-                                        <h5 class="mb0-50">
+                                        <h5 className="mb0-50">
                                             Image Title
                                         </h5> 
                                         <h6>
@@ -149,11 +149,11 @@ const ConsultantDetails = () => {
 
                             {/* <!-- Consultants Description --> */}
                             <article id="consultants_description" 
-                                class="gr2s1 gc1s12"
+                                className="gr2s1 gc1s12"
                             > 
                                 <div id=""
-                                    class="flex ggap1-00 w-100 tj">
-                                    <div id="div" class="w-50">
+                                    className="flex ggap1-00 w-100 tj">
+                                    <div id="div" className="w-50">
                                         <p>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat, culpa pariatur, tenetur, necessitatibus nisi minima
                                         </p>
@@ -164,7 +164,7 @@ const ConsultantDetails = () => {
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt dolorum, veritatis blanditiis obcaecati nesciunt v
                                         </p>
                                     </div>
-                                    <div id="div" class="w-50">
+                                    <div id="div" className="w-50">
                                         <p>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat, culpa pariatur, tenetur, necessitatibus nisi
                                         </p>
@@ -181,24 +181,24 @@ const ConsultantDetails = () => {
                             {/* <!-- Consultants Description --> */}
                             
                             <div id="people_consultants_extra"
-                                    class="gr3s1 gc1s12
+                                    className="gr3s1 gc1s12
                                         grid gtc12 ggap1-00
                                         mb2-00
                                         white-90"
                             >
                                 
                                 <article id="news_1" 
-                                    class="gr1s1 gc1s3
+                                    className="gr1s1 gc1s3
                                         flex
                                         h0-00 
                                         pb-100 
                                         white-90 bg-blue0"
                                     >
-                                    <hgroup class="flex justify-start items-start flex-column 
+                                    <hgroup className="flex justify-start items-start flex-column 
                                                 h-100
                                                 pa0-50"
                                     >
-                                        <h5 class="flex items-center justify-start
+                                        <h5 className="flex items-center justify-start
                                             mb0-50"
                                         >
                                             News 1
@@ -207,7 +207,7 @@ const ConsultantDetails = () => {
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate unde eius, est fugiat rerum possimus, modi eos officiis, architecto saepe cupidita
                                         </p>    
                                         <a  href="{% url 'website:practice-home' %}"
-                                            class="pa0-25
+                                            className="pa0-25
                                                 white-90 f0-75
                                                 ba b--white-90 br0-25"
                                         >Read More</a> 
@@ -215,25 +215,25 @@ const ConsultantDetails = () => {
                                 </article>
                                 
                                 <article id="news_2" 
-                                    class="gr1s1 gc4s3
+                                    className="gr1s1 gc4s3
                                         flex
                                             h0-00 
                                             pb-100 
                                             white-90 bg-blue0"
                                 >
-                                    <hgroup class="flex justify-start items-start flex-column 
+                                    <hgroup className="flex justify-start items-start flex-column 
                                                 h-100
                                                 pa0-50
                                                 bg-blue0"
                                     >
-                                        <h5 class="flex items-center justify-start
+                                        <h5 className="flex items-center justify-start
                                             w-100 mb0-50"
                                         >
                                             News 2
                                         </h5> 
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate unde eius, est fugiat rerum possimus, modi eos officiis, architecto saepe cupidita</p>    
                                         <a  href="{% url 'website:practice-home' %}"
-                                            class="pa0-25
+                                            className="pa0-25
                                                 white-90 f0-75
                                                 ba b--white-90 br0-25"
                                         >Read More</a>
@@ -241,25 +241,25 @@ const ConsultantDetails = () => {
                                 </article>
                                 
                                 <article id="new_3" 
-                                    class="gr1s1 gc7s3
+                                    className="gr1s1 gc7s3
                                     flex
                                             h0-00 
                                             pb-100 
                                             white-90 bg-blue0"
                                 >
-                                    <hgroup class="flex justify-start items-start flex-column 
+                                    <hgroup className="flex justify-start items-start flex-column 
                                                 w-100 h-100 
                                                 pa0-50
                                                 bg-blue0
                                                 ">
-                                        <h5 class="flex items-center justify-start
+                                        <h5 className="flex items-center justify-start
                                             w-100 mb0-50
                                             ">
                                             News 3
                                         </h5> 
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate unde eius, est fugiat rerum possimus, modi eos officiis, architecto saepe cupidita</p>    
                                         <a  href="{% url 'website:practice-home' %}"
-                                            class="pa0-25
+                                            className="pa0-25
                                                 white-90 f0-75
                                                 ba b--white-90 br0-25"
                                         >Read More</a>
@@ -267,23 +267,23 @@ const ConsultantDetails = () => {
                                 </article>
                                 
                                 <article id="people_rank_1" 
-                                    class="gr2s1 gc10s3
+                                    className="gr2s1 gc10s3
                                         flex
                                         h0-00 
                                         pb-100 
                                         white-90 bg-blue1"
                                 >
                                     <ul id=""
-                                        class="
+                                        className="
                                             w-100 h-100
                                             pa0-50
                                             bg-blue1"
                                     >   
                                         {/* {% for x in junior_ranks %} */}
-                                            <li class="">
+                                            <li className="">
                                                 
                                                 <Link  to="/"
-                                                    class="white-90" 
+                                                    className="white-90" 
                                                 > x </Link>
                                             </li>
                                         {/* {% endfor %}           */}
@@ -291,23 +291,23 @@ const ConsultantDetails = () => {
                                 </article>
                                                                 
                                 <article id="people_rank_2" 
-                                    class="gr2s1 gc7s3 shadow-5
+                                    className="gr2s1 gc7s3 shadow-5
                                     flex
                                             h0-00 
                                             pb-100 
                                             white-90 bg-blue1"
                                 >
                                     <ul id=""
-                                        class="
+                                        className="
                                             w-100
                                             pa0-50
                                             bg-blue1"
                                     >   
                                         {/* {% for x in ranks %} */}
-                                            <li class="">
+                                            <li className="">
                                                 
                                                 <a  href="{% url 'website:people-home' %}"
-                                                    class="white-90" 
+                                                    className="white-90" 
                                                 >x</a>
                                             </li>
                                         {/* {% endfor %} */}
@@ -315,29 +315,29 @@ const ConsultantDetails = () => {
                                 </article>
 
                                 <article id="misc_gold" 
-                                    class="gr2s1 gc1s3
+                                    className="gr2s1 gc1s3
                                         pb-100
                                         bg-black-20"
                                 >
                                     
                                 </article>
                                 <article id="misc_blue_1" 
-                                    class="gr2s1 gc4s3
+                                    className="gr2s1 gc4s3
                                         bg-black-20
                                         ">
                                 </article>
                                 <article id="misc_blue_2" 
-                                    class="gr1s1 gc10s3
+                                    className="gr1s1 gc10s3
                                         bg-green
                                         ">
                                 </article>
                             </div>
 
                             <article id="consultants_description" 
-                                class="gr4s1 gc1s12"
+                                className="gr4s1 gc1s12"
                             > 
                                 <div id=""
-                                    class="flex ggap1-00 w-100 tj"
+                                    className="flex ggap1-00 w-100 tj"
                                 >
                                     <div id="div"
                                     >
@@ -369,9 +369,9 @@ const ConsultantDetails = () => {
                         {/* <!--Related Projectss --> */}
                         <section className="mb1-00">
                             <hgroup id="consultants_related_projects"
-                                class="gc1s12 w-100 blue0"
+                                className="gc1s12 w-100 blue0"
                             >
-                                <h2 class="w-100 h-100
+                                <h2 className="w-100 h-100
                                     pv1-00 pb1-00 mb0-00
                                     f3-00 ttu
                                     ">
@@ -379,23 +379,23 @@ const ConsultantDetails = () => {
                                 </h2>
                             </hgroup>
                             <div id="3x1_Grid_relatedProjects" 
-                                class="grid gc1s12 ggap0-50
+                                className="grid gc1s12 ggap0-50
                                     ttu"
                             >   
                                 <article id=""
-                                    class="gr1s1 gc1s4
+                                    className="gr1s1 gc1s4
                                         flex items-center justify-center
                                         pa0-50 
                                         relative"
                                 >
                                     <hgroup 
-                                        class="flex 
+                                        className="flex 
                                         w-100 h-100 
                                         bg-black-20
                                         z-5
                                         absolute">
                                         <h5 
-                                            class="flex items-center justify-center 
+                                            className="flex items-center justify-center 
                                             w-100 h-100 
                                             white-90 "
                                         >
@@ -403,11 +403,11 @@ const ConsultantDetails = () => {
                                         </h5>     
                                     </hgroup> 
                                     <figure 
-                                        class=""
+                                        className=""
                                     >
                                         <img src={relatedProject01}
                                             alt=""
-                                            class="w-100 h-100
+                                            className="w-100 h-100
                                                 ba b--gold 
                                                 cover"
                                         />
@@ -415,7 +415,7 @@ const ConsultantDetails = () => {
                                 </article>
                                 
                                 <article id="" 
-                                    class="gr1s1 gc5s4
+                                    className="gr1s1 gc5s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -423,15 +423,15 @@ const ConsultantDetails = () => {
                                     <figure>
                                         <img src={relatedProject01}
                                             alt=""
-                                            class="w-100 h-100
+                                            className="w-100 h-100
                                                 ba b--gold 
                                                 cover"
                                         />
                                     </figure> 
-                                    <hgroup class="flex justify-around items-start flex-column 
+                                    <hgroup className="flex justify-around items-start flex-column 
                                         w-100 h-100 bg-black-20
                                         absolute">
-                                        <h5 class="flex items-center justify-center
+                                        <h5 className="flex items-center justify-center
                                             w-100 tc 
                                             white-90">
                                             Project Two
@@ -440,7 +440,7 @@ const ConsultantDetails = () => {
                                 </article>
 
                                 <article id=""
-                                    class="gr1s1 gc9s4
+                                    className="gr1s1 gc9s4
                                         flex items-center justify-center
                                         pa0-50
                                         relative"
@@ -448,17 +448,17 @@ const ConsultantDetails = () => {
                                     <figure>
                                         <img src={relatedProject01}
                                             alt=""
-                                            class="w-100 h-100
+                                            className="w-100 h-100
                                                 ba b--gold 
                                                 cover"
                                         />
                                             
                                     </figure> 
-                                    <hgroup class="flex justify-around items-start flex-column 
+                                    <hgroup className="flex justify-around items-start flex-column 
                                         w-100 h-100 
                                         bg-black-20
                                         absolute">
-                                        <h5 class="flex items-center justify-center
+                                        <h5 className="flex items-center justify-center
                                             w-100 tc 
                                             white-90">
                                             Project Three
@@ -473,8 +473,8 @@ const ConsultantDetails = () => {
 
                         {/* <!-- Consultants Gallery -->  */}
                         <hgroup id="consultants_lists"
-                            class="gc1s12 w-100 blue0">
-                            <h2 class="w-100 h-100
+                            className="gc1s12 w-100 blue0">
+                            <h2 className="w-100 h-100
                                 pv1-00 pb1-00 mb0-00
                                 f3-00 ttu
                                 ">
@@ -483,32 +483,32 @@ const ConsultantDetails = () => {
                         </hgroup>
 
                         <div id="3x3_Grid_Consultants" 
-                            class="grid gc1s12 ggap0-50 mb1-00 ttu"
+                            className="grid gc1s12 ggap0-50 mb1-00 ttu"
                         >   
                             <article id="Consultants_01" 
-                                class="gr1s1 gc1s4
+                                className="gr1s1 gc1s4
                                     flex items-center justify-center
                                     pa0-50 
                                     relative"
                             >
                                 <figure 
-                                    class=""
+                                    className=""
                                 >
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                 </figure>
                                     <hgroup 
-                                    class="flex 
+                                    className="flex 
                                     w-100 h-100 
                                     bg-black-20
                                     z-5
                                     absolute">
                                     <h5 
-                                        class="flex items-center justify-center 
+                                        className="flex items-center justify-center 
                                         w-100 h-100 
                                         white-90 ">
                                         Consultant Details
@@ -517,7 +517,7 @@ const ConsultantDetails = () => {
                             </article>
                             
                             <article id="Consultants_02" 
-                                class="gr1s1 gc5s4
+                                className="gr1s1 gc5s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -525,16 +525,16 @@ const ConsultantDetails = () => {
                                 <figure>
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                         
                                 </figure> 
-                                <hgroup class="flex justify-around items-start flex-column 
+                                <hgroup className="flex justify-around items-start flex-column 
                                     w-100 h-100 bg-black-20
                                     absolute">
-                                    <h5 class="flex items-center justify-center
+                                    <h5 className="flex items-center justify-center
                                         w-100 tc 
                                         white-90">
                                         Consultant Details
@@ -543,7 +543,7 @@ const ConsultantDetails = () => {
                             </article>
 
                             <article id="Consultants_03" 
-                                class="gr1s1 gc9s4
+                                className="gr1s1 gc9s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -551,17 +551,17 @@ const ConsultantDetails = () => {
                                 <figure>
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                         
                                 </figure> 
-                                <hgroup class="flex justify-around items-start flex-column 
+                                <hgroup className="flex justify-around items-start flex-column 
                                     w-100 h-100 
                                     bg-black-20
                                     absolute">
-                                    <h5 class="flex items-center justify-center
+                                    <h5 className="flex items-center justify-center
                                         w-100 tc white-50
                                         white-90">
                                         Consultant Details
@@ -570,20 +570,20 @@ const ConsultantDetails = () => {
                             </article>
 
                             <article id="Consultants_04" 
-                                class="gr2s1 gc1s4
+                                className="gr2s1 gc1s4
                                     flex items-center justify-center
                                     pa0-50 
                                     relative"
                             >
                                 <hgroup 
-                                    class="flex 
+                                    className="flex 
                                     w-100 h-100 
                                     bg-black-20
                                     z-5
                                     absolute"
                                 >
                                     <h5 
-                                        class="flex items-center justify-center 
+                                        className="flex items-center justify-center 
                                         w-100 h-100 
                                         white-90 "
                                     >
@@ -591,11 +591,11 @@ const ConsultantDetails = () => {
                                     </h5>
                                 </hgroup> 
                                 <figure 
-                                    class=""
+                                    className=""
                                 >
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
@@ -603,7 +603,7 @@ const ConsultantDetails = () => {
                             </article>
                             
                             <article id="Consultants_05" 
-                                class="gr2s1 gc5s4
+                                className="gr2s1 gc5s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -611,16 +611,16 @@ const ConsultantDetails = () => {
                                 <figure>
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                 </figure> 
-                                <hgroup class="flex justify-around items-start flex-column 
+                                <hgroup className="flex justify-around items-start flex-column 
                                     w-100 h-100 bg-black-20
                                     absolute"
                                 >
-                                    <h5 class="flex items-center justify-center
+                                    <h5 className="flex items-center justify-center
                                         w-100 tc 
                                         white-90"
                                     >
@@ -630,7 +630,7 @@ const ConsultantDetails = () => {
                             </article>
 
                             <article id="Consultants_06" 
-                                class="gr2s1 gc9s4
+                                className="gr2s1 gc9s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -638,17 +638,17 @@ const ConsultantDetails = () => {
                                 <figure>
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                         
                                 </figure> 
-                                <hgroup class="flex justify-around items-start flex-column 
+                                <hgroup className="flex justify-around items-start flex-column 
                                     w-100 h-100 
                                     bg-black-20
                                     absolute">
-                                    <h5 class="flex items-center justify-center
+                                    <h5 className="flex items-center justify-center
                                         w-100 tc 
                                         white-90">
                                         Consultant Details
@@ -657,30 +657,30 @@ const ConsultantDetails = () => {
                             </article>
 
                             <article id="Consultants_07" 
-                                class="gr3s1 gc1s4
+                                className="gr3s1 gc1s4
                                     flex items-center justify-center
                                     pa0-50 
                                     relative"
                             >
                                 <hgroup 
-                                    class="flex 
+                                    className="flex 
                                     w-100 h-100 
                                     bg-black-20
                                     z-5
                                     absolute">
                                     <h5 
-                                        class="flex items-center justify-center 
+                                        className="flex items-center justify-center 
                                         w-100 h-100 
                                         white-90 ">
                                         Consultant Details
                                     </h5>     
                                 </hgroup> 
                                 <figure 
-                                    class=""
+                                    className=""
                                 >
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
@@ -688,7 +688,7 @@ const ConsultantDetails = () => {
                             </article>
                             
                             <article id="Consultants_08" 
-                                class="gr3s1 gc5s4
+                                className="gr3s1 gc5s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -696,16 +696,16 @@ const ConsultantDetails = () => {
                                 <figure>
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                         
                                 </figure> 
-                                <hgroup class="flex justify-around items-start flex-column 
+                                <hgroup className="flex justify-around items-start flex-column 
                                     w-100 h-100 bg-black-20
                                     absolute">
-                                    <h5 class="flex items-center justify-center
+                                    <h5 className="flex items-center justify-center
                                         w-100 tc 
                                         white-90">
                                         Consultant Details
@@ -714,7 +714,7 @@ const ConsultantDetails = () => {
                             </article>
 
                             <article id="Consultants_09" 
-                                class="gr3s1 gc9s4
+                                className="gr3s1 gc9s4
                                     flex items-center justify-center
                                     pa0-50
                                     relative"
@@ -722,17 +722,17 @@ const ConsultantDetails = () => {
                                 <figure>
                                     <img src={consultant}
                                         alt=""
-                                        class="w-100 h-100
+                                        className="w-100 h-100
                                             ba b--gold 
                                             cover"
                                     />
                                         
                                 </figure> 
-                                <hgroup class="flex justify-around items-start flex-column 
+                                <hgroup className="flex justify-around items-start flex-column 
                                     w-100 h-100 
                                     bg-black-20
                                     absolute">
-                                    <h5 class="flex items-center justify-center
+                                    <h5 className="flex items-center justify-center
                                         w-100 tc 
                                         white-90">
                                         Consultant Details
@@ -751,10 +751,10 @@ const ConsultantDetails = () => {
 
                     {/* <!-- AESL History Aside  Start --> */}
                     <aside id="lc_gc4s1__pageAside--Consultant" 
-                        class="gc4s1 
+                        className="gc4s1 
                             blue0 relative"
                     >
-                        <div class="flex flex-column justify-start
+                        <div className="flex flex-column justify-start
                             min-vh-100 
                             pl1-00 pt2-00
                             sticky top-0"
@@ -764,46 +764,46 @@ const ConsultantDetails = () => {
                                     Consultants
                                 </Link>
                             </h2>
-                            <ul class="mb1-00 bl bw4 b--green pl1-00 f0-75">
+                            <ul className="mb1-00 bl bw4 b--green pl1-00 f0-75">
                                 <h3 >On this page</h3>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#consultants_summary"
-                                    class="blue0"
+                                    className="blue0"
                                     >
                                         Consultant Summary
                                     </a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#consultants_gallery"
-                                        class="blue0"
+                                        className="blue0"
                                     >
                                         Consultant's Gallery
                                     </a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#consultants_description"
-                                    class="blue0"
+                                    className="blue0"
                                     >
                                         Consultant's Description
                                     </a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#people_consultants_extra"
-                                        class="blue0"
+                                        className="blue0"
                                     >
                                         Consultant's Links
                                     </a>
                                 </li>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                     <a href="#consultants_related_projects"
-                                        class="blue0"
+                                        className="blue0"
                                     >
                                         Related Projects
                                     </a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#consultants_lists"
-                                    class="blue0"
+                                    className="blue0"
                                     >
                                         Consultants Lists
                                     </a>
@@ -816,7 +816,7 @@ const ConsultantDetails = () => {
             </main>
             {/* <!-- Page Main -->  */}
             {/* Page Footer  */}
-            <AESLPageFooter pageName = "Consultant Details"/>
+            <AESLPageFooter pageTitle = "Consultant Details"/>
             {/* Page Footer  */}
         </div>
     )

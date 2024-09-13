@@ -26,7 +26,7 @@ const ProjectCategories = () => {
                     <SectionHeader 
                         bgImage= {projectsbgImage}
                         title = 'Projects' 
-                        overview = 'The diversity of our projects portfolio cuts across all the tribal cultures and the socio-economic sectors of the Ghanaian economy.'
+                        overview = 'Our impressive portfolio of diverse and notable projects is characterized by innovative and sustainable design solutions that prioritize functionality, aesthetics, and the well-being of occupants. Our projects also cuts across all the tribal cultures and the socioeconomic sectors of the Ghanaian economy.'
                     />
                     <article id="ProjectCategories__content"
                         className="flex items-center justify-center

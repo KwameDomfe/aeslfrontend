@@ -21,56 +21,54 @@ const Mandate = () => {
 
             {/* Page Main Start */}
             <main id="" 
-                class="ph1-00"
+                className="ph1-00"
             >
                 <div id="l__3:1"
-                    class="grid gtc4"
+                    className="grid gtc4"
                 >
                     <div id="pageMain"
-                        class="gc1s3
-                            mb1-00 min-vh-100"
+                        className="gc1s3
+                            mb1-00 min-v-100"
                     >   
                         <article id="pageDetails"
-                            class="gc1s3
-                                mb1-00 min-vh-100"
+                            className="gc1s3
+                                mb1-00 min-v-100"
                         >   
                             {/* Practice Mandate */}
                             <div id="p--mandate"
-                                class="grid gtc12 ggap1-00"
+                                className="grid gtc12 ggap1-00"
                             >
                                 <article id="Project_Overview_1" 
-                                    class="gr2s1 gc1s12"
+                                    className="gr2s1 gc1s12"
                                 >   
-                                    <div class="ggap1-00 
+                                    <div className="ggap1-00 
                                         pv4-00 mh4-00
                                         tj blue0 lh-copy f1-25"
                                     >
                                         <p>
-                                            The Mandate of AESL established by the British was used for all state works over decades post-colonial.
+                                        Our company provides comprehensive architectural and engineering services to clients, including conceptualizing, designing, and managing projects with high-quality, innovative, and sustainable solutions. 
+
                                         </p>
                                         <p>
-                                            The institutions like State Construction Corporation (SCC), State Housing Corporation (SHC), Highways.
-                                        </p>
-                                        <p>
-                                            No privates businesses were allowed to handle state/ public works except the PWD.
+                                        The company strives to create functional, aesthetically pleasing and environmentally responsible designs that enhance the built environment and contribute positively.
                                         </p>
                                     </div>
                                 </article>
                             </div>
                             
                             {/* Practice */}
-                            <div id="p--mandateGallery"
-                                class="gr3s1 gc1s12
+                            {/* <div id="p--mandateGallery"
+                                className="gr3s1 gc1s12
                                     grid gtc12 ggap1-00
                                     white-90"
                             >
                                 <article id="" 
-                                    class="gr1s1 gc1s3
+                                    className="gr1s1 gc1s3
                                     flex items-center justify-center
                                     relative"
                                 >
                                      <hgroup 
-                                        class="flex flex-column items-center justify-center
+                                        className="flex flex-column items-center justify-center
                                             pa0-50 bg-blue0 
                                             absolute
                                                 ">
@@ -85,7 +83,7 @@ const Mandate = () => {
                                     >
                                         <img src={mandate}
                                             alt=""
-                                            class="
+                                            className="
                                                 w-100 h-100
                                                 cover"
                                         /> 
@@ -93,19 +91,19 @@ const Mandate = () => {
                                 </article>
                                 
                                 <article id="passport_office" 
-                                    class="gr1s1 gc6s4
+                                    className="gr1s1 gc6s4
                                         flex items-center justify-center
                                         relative"
                                 >
-                                    <figure class="shadow-5"
+                                    <figure className="shadow-5"
                                     >
                                         <img src={mandate}
                                             alt=""
-                                            class="pa0-50"
+                                            className="pa0-50"
                                         /> 
                                     </figure>
                                      <hgroup 
-                                        class="flex flex-column items-center justify-start
+                                        className="flex flex-column items-center justify-start
                                             pa0-50
                                             bg-blue0
                                             absolute
@@ -120,13 +118,13 @@ const Mandate = () => {
                                 </article>
                             
                                 <article id="proposed_apartment_2" 
-                                    class="gr2s2 gc1s3
+                                    className="gr2s2 gc1s3
                                     flex items-center justify-center
                                     relative"
                                 >
                                     
                                      <hgroup 
-                                        class="flex flex-column items-center justify-start
+                                        className="flex flex-column items-center justify-start
                                             pa0-50
                                             bg-blue0
                                             absolute
@@ -138,11 +136,11 @@ const Mandate = () => {
                                         - Accra , Ghana.
                                         </span>    
                                     </hgroup>  
-                                    <figure class="shadow-5"
+                                    <figure className="shadow-5"
                                     >
                                         <img src={mandate}            
                                             alt=""
-                                            class="w-100
+                                            className="w-100
                                             
                                                 ba b--gold 
                                                 "
@@ -151,23 +149,23 @@ const Mandate = () => {
                                 </article>
                             
                                 <article id="Office_Techiman" 
-                                    class="gr4s1 gc8s5
+                                    className="gr4s1 gc8s5
                                         flex items-center justify-center
                                         relative"
                                 >
                                     
                                     <hgroup 
-                                        class="flex items-center justify-center
+                                        className="flex items-center justify-center
                                             bg-blue0
                                             absolute
                                                 ">
-                                        <h3 class="
+                                        <h3 className="
                                                 flex items-center justify-around
                                                 pa0-50
                                                 white-90">
                                             OFFICE BLOCK
                                         </h3>    
-                                        <span class="white-90 flex items-center justify-center">
+                                        <span className="white-90 flex items-center justify-center">
                                             - Techiman, Ghana.
                                         </span>    
                                     </hgroup>  
@@ -175,7 +173,7 @@ const Mandate = () => {
                                     >
                                         <img src={mandate}
                                             alt=""
-                                            class="
+                                            className="
                                                 ba b--gold 
                                                 "
                                         /> 
@@ -183,21 +181,19 @@ const Mandate = () => {
                                 </article>
                             
                                 <article id="misc_gold" 
-                                    class="gr3s1 gc6s1
+                                    className="gr3s1 gc6s1
                                         flex items-center justify-center
                                         bg-gray"
                                 >
                                 </article>
                             
                                 <article id="misc_blue" 
-                                    class="gr2s1 gc6s3
+                                    className="gr2s1 gc6s3
                                         flex items-center justify-center
                                         bg-black-90"
                                 >
-                                        
                                 </article>
-                                {/* Practice */}
-                            </div>
+                            </div> */}
                             {/* Practice */}
                         </article>
                         <SectionFooter
@@ -207,11 +203,11 @@ const Mandate = () => {
                     {/* Practice Mandate */}
 
                     <div id="pageAside" 
-                        class="gc4s1 
+                        className="gc4s1 
                             w-100 blue0 relative"
                     >
                         <div 
-                            class="flex flex-column justify-between
+                            className="flex flex-column justify-between
                                 min-vh-100 
                                 ph2-00 pb1-00
                                 pt5-00
@@ -220,23 +216,23 @@ const Mandate = () => {
                             <div
                             >
                                 <a href= "/practice"
-                                    class="dib mb1-00 
+                                    className="dib mb1-00 
                                         f1-25 blue0 ttu fw6"
                                 >
                                     Back to Practice
                                 </a>
-                                <ul class="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
+                                <ul className="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
                                     <h3 >Mandate</h3>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                         <a href="#p--mandate"
-                                            class="gray"
+                                            className="gray"
                                         >
                                             AESL Mandate
                                         </a>
                                     </li>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                         <a href="#p--mandateGallery"
-                                            class="gray"
+                                            className="gray"
                                         >
                                             AESL Mandate Gallery
                                         </a>
@@ -244,16 +240,16 @@ const Mandate = () => {
                                 </ul>
                             </div> 
 
-                            <div class="h6-00 gray">
+                            <div className="h6-00 gray">
                                 <small>Previous</small><br/>
                                 <Link to="/practice/history" 
-                                    class="mb1-00 f0-75 gray b"
+                                    className="mb1-00 f0-75 gray b"
                                 >
                                     AESL History
                                 </Link> <br/><br/>
                                 <small>Next</small><br/>
                                 <Link to="/practice/functions" 
-                                    class="mb1-00 f0-75 gray b"
+                                    className="mb1-00 f0-75 gray b"
                                 >
                                     AESL Functions
                                 </Link>
@@ -265,7 +261,7 @@ const Mandate = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Mandate"/>
+            <AESLPageFooter pageTitle="Mandate"/>
              {/* Page Footer End */}
         </div>
     )

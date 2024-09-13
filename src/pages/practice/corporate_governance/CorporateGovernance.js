@@ -46,17 +46,9 @@ const CorporateGovernance = () => {
                                 <div className="flex ggap1-00 lh-copy mv4-00 f1-25 blue0">
                                     <div>
                                         <p>
-                                            The Corporate Governance of AESL established by the British was used for all state works over decades post-colonial.
+                                            AESL's corporate governance upholds ethical standards and promotes integrity and professionalism through a comprehensive code of conduct and a well-structured Board of Directors.
                                         </p>
-                                        <p>
-                                            The institutions like State Construction Corporation (SCC), State Housing Corporation (SHC), Highways.
-                                        </p>
-                                        <p>
-                                            No privates businesses were allowed to handle state/ public works except the PWD.
-                                        </p>
-                                        <p>
-                                            The Public Works Department (PWD) established by the British was used for all state works over decades post-colonial.
-                                        </p>
+                                  
                                     </div>
                                 </div>
                             
@@ -539,7 +531,7 @@ const CorporateGovernance = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Corporate Governance"/>
+            <AESLPageFooter pageTitle="Corporate Governance"/>
             {/* Page Footer End */}
         </div>
     )

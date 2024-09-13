@@ -6,11 +6,11 @@ const Index = () => {
     const title = 'Publications'
     return (
         <div id="PublicationsPage"
-            class=""
+            className=""
         >
             {/* Page Header Start */}
             <header id = ""
-                class="bg-white"
+                className="bg-white"
             >   
                 <CategoryHeaderBanner 
                     image = {xxx}
@@ -21,23 +21,23 @@ const Index = () => {
             {/* Page Header End */}
 
             {/* Page Main Start */}
-            <main class=""
+            <main className=""
             >
                 {/* News Start */}
-                    <div class="grid gtc12 ggap1-00
+                    <div className="grid gtc12 ggap1-00
                         pa1-00"
                     >
-                        <article class="gr1s3 gc1s12"
+                        <article className="gr1s3 gc1s12"
                         >
-                            <hgroup class="flex justify-around items-start flex-column"
+                            <hgroup className="flex justify-around items-start flex-column"
                             >
-                                <h2 class="
+                                <h2 className="
                                     w-100 h-100
                                     mt0-75"
                                 >
-                                    Please, we are sorry our <span class="blue0 bb bw2">{title} Page</span>  is under development
+                                    Please, we are sorry our <span className="blue0 bb bw2">{title} Page</span>  is under development
                                 </h2>
-                                <h4 class="
+                                <h4 className="
                                     w-100 h-100
                                     mt0-75 
                                     red"
@@ -53,10 +53,10 @@ const Index = () => {
 
             {/* Page Footer Start */}
             <footer id = ""
-                class=""
+                className=""
             >
                 <AESLPageFooter 
-                    pageName = 'Publications'
+                    pageTitle = 'Publications'
                 />
             </footer>
             {/* Page Footer End */}

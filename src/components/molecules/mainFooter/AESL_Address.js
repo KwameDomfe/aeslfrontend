@@ -7,7 +7,7 @@ const AESL_Address = () => {
     className=" w-100 
         flex flex-column justify-start items-center
         f1-00 tl" 
-    itemtype=""
+    itemType=""
 >
     <figure id="aesl_address--LogoAndName" 
         className="flex flex-column justify-center items-center
@@ -17,7 +17,7 @@ const AESL_Address = () => {
                 alt=""
                 className="br4-00 w3-00 mb1-00 "
         />
-        <div itemprop="name" class ="tc ttu b">
+        <div itemProp="name" className="tc ttu b">
             AESL <br /> Head Office
 
         </div>
@@ -25,12 +25,12 @@ const AESL_Address = () => {
 
     <address id="aesl_address--Locational_address"
         className="f0-75 w-100 tc"
-        itemprop="address" 
-        itemscope="" 
-        itemtype="http://schema.org/PostalAddress"
+        itemProp="address" 
+        itemScope="" 
+        itemType="http://schema.org/PostalAddress"
     >
         <span className="dib" 
-            itemprop="streetAddress"
+            itemProp="streetAddress"
         >
             <div className="mb0-25">
                 The Hall of Technology

@@ -22,20 +22,20 @@ const MVV = () => {
             {/* Page Header End */}
 
             {/* Page Main Start */}
-            <main class="ph1-00">
-                <div class="grid gtc4">
+            <main className="ph1-00">
+                <div className="grid gtc4">
 
                     <div id="pageDetails"
-                        class="gc1s3
+                        className="gc1s3
                             mb1-00 min-vh-100"
                     >
                         <div id="mvv" 
-                            class="grid gtc12 ggap1-00"
+                            className="grid gtc12 ggap1-00"
                         >
                             <article id="mvv--overview" 
-                                class="gr2s1 gc1s12"
+                                className="gr2s1 gc1s12"
                             >
-                                <div class="flex ggap1-00 
+                                <div className="flex ggap1-00 
                                     pv4-00 mh4-00
                                     tj blue0 lh-copy f1-25"
                                 >
@@ -55,16 +55,16 @@ const MVV = () => {
                         </div>
                         {/* <!-- Mission Start --> */}
                         <div id="mvv--mission"
-                            class="grid gtc12 ggap1-00
+                            className="grid gtc12 ggap1-00
                                 
                                 mb3-00"
                         >
                             <header id="mission_header"
-                                class="gr1s1 gc1s12 bg-gray w-100">
+                                className="gr1s1 gc1s12 bg-gray w-100">
                                 <hgroup id=""
-                                    class=""
+                                    className=""
                                 >
-                                    <h2 class="mv1-00 pl1-00
+                                    <h2 className="mv1-00 pl1-00
                                         white-90 f2-00 ttu"
                                     >
                                         Mission
@@ -72,10 +72,10 @@ const MVV = () => {
                                 </hgroup> 
                             </header>
                             <article id="" 
-                                class="gr2s1 gc1s12 grid gtc12 blue0 "
+                                className="gr2s1 gc1s12 grid gtc12 blue0 "
                             >   
                                 <div id ="mission_text" 
-                                    class="gc1s5 gr1s1 f1-25 grid items-center justify-center"
+                                    className="gc1s5 gr1s1 f1-25 grid items-center justify-center"
                                 >
                                     <p>
                                         “The Architectural and Engineering Services Limited, a firm of Consulting Engineers, Architects and Surveyors, exists to provide innovative and high quality services/ solutions in the design and supervision of projects in an efficient, timely and cost effective manner to delight its Clients within and outside Ghana, using the talents of highly developed, motivated, dedicated and well-managed workforce”.
@@ -83,18 +83,18 @@ const MVV = () => {
                                 </div>
                             
                                 <div id="mission_gallery"
-                                    class="gr1s1 gc6s7
+                                    className="gr1s1 gc6s7
                                             ggap1-00
                                             ">
                                     
                                     <article id="" 
-                                        class="gr1s1 gc1s12
+                                        className="gr1s1 gc1s12
                                         flex flex-column items-center justify-center"
                                     >
                                         <figure >
                                             <img src={mission}
                                                 alt=""
-                                                class="
+                                                className="
                                                     w-100 h-100
                                                     cover"
                                                 /> 
@@ -104,7 +104,7 @@ const MVV = () => {
                                 </div>
                             
                             </article>
-                            <footer id="mission_footer" class="gr3s1 gc1s12 pa1-00 bg-gray w-100">
+                            <footer id="mission_footer" className="gr3s1 gc1s12 pa1-00 bg-gray w-100">
                                 Practice || Mission Vision and Values 
                             </footer> 
                         </div>
@@ -112,15 +112,15 @@ const MVV = () => {
 
                         {/* <!-- Vision Start --> */}
                         <div id="mvv--vision"
-                            class="grid gtc12 ggap1-00
+                            className="grid gtc12 ggap1-00
                                 
                                 mb3-00"
                         >
-                            <header class="gr1s1 gc1s12 bg-gray w-100">
+                            <header className="gr1s1 gc1s12 bg-gray w-100">
                                 <hgroup id=""
-                                    class=""
+                                    className=""
                                 >
-                                    <h2 class="mv1-00 pl1-00
+                                    <h2 className="mv1-00 pl1-00
                                         white-90 f2-00 ttu"
                                     >
                                     Vision
@@ -128,9 +128,9 @@ const MVV = () => {
                                 </hgroup> 
                             </header>
                             <article id="Project_Overview_1" 
-                                class="gr2s1 gc1s12 grid gtc12 blue0"
+                                className="gr2s1 gc1s12 grid gtc12 blue0"
                             >   
-                                <div class="gc8s5 gr1s1 f1-25 grid items-center justify-center">
+                                <div className="gc8s5 gr1s1 f1-25 grid items-center justify-center">
                                     <p>
                                         “The Corporate vision is to attain and sustain leadership in the Construction Consultancy Service industry in Ghana as a world class company”.
 
@@ -139,17 +139,17 @@ const MVV = () => {
                                 
                                 {/* <!-- Practice --> */}
                                 <div id="practice"
-                                    class="gr1s1 gc1s7
+                                    className="gr1s1 gc1s7
                                     ggap1-00">
                                     
                                     <article id="" 
-                                        class="gr1s1 gc1s12
+                                        className="gr1s1 gc1s12
                                         flex items-center justify-center
                                         relative">
                                         <figure >
                                             <img src={vision}
                                                 alt=""
-                                                class="
+                                                className="
                                                     w-100 h-100
                                                     cover"
                                                 /> 
@@ -157,14 +157,14 @@ const MVV = () => {
                                     </article>
                                 
                                     <article id="misc_gold" 
-                                        class="gr3s1 gc6s1
+                                        className="gr3s1 gc6s1
                                             flex items-center justify-center
                                             bg-gold
                                             ">
                                     </article>
                                 
                                     <article id="misc_blue" 
-                                        class="gr2s1 gc6s3
+                                        className="gr2s1 gc6s3
                                             flex items-center justify-center
                                             bg-black-90
                                             ">
@@ -174,7 +174,7 @@ const MVV = () => {
                                 </div>
                                 {/* <!-- Practice --> */}
                             </article>
-                            <footer class="gr3s1 gc1s12 pa1-00 bg-gray w-100">
+                            <footer className="gr3s1 gc1s12 pa1-00 bg-gray w-100">
                                 Practice || Mission Vision and Values 
                             </footer>
                         </div>
@@ -182,16 +182,16 @@ const MVV = () => {
 
                         {/* <!-- Values Start --> */}
                         <div id="mvv--values"
-                            class="grid gtc12 ggap1-00
+                            className="grid gtc12 ggap1-00
                                 
                                 "
                         >
                             <header id="values_header"
-                                class="gr1s1 gc1s12 bg-gray w-100">
+                                className="gr1s1 gc1s12 bg-gray w-100">
                                 <hgroup id=""
-                                    class=""
+                                    className=""
                                 >
-                                    <h2 class="mv1-00 pl1-00
+                                    <h2 className="mv1-00 pl1-00
                                         white-90 f2-00 ttu"
                                     >
                                         Values
@@ -199,9 +199,9 @@ const MVV = () => {
                                 </hgroup> 
                             </header>
                             <article id="values_main" 
-                                class="gr2s1 gc1s12 grid gtc12 blue0"
+                                className="gr2s1 gc1s12 grid gtc12 blue0"
                             >   
-                                <div class="gc1s5 gr1s1 f1-25 grid items-center justify-center">
+                                <div className="gc1s5 gr1s1 f1-25 grid items-center justify-center">
                                     <p>
                                         Professionalism
                                         Excellence
@@ -212,16 +212,16 @@ const MVV = () => {
                                 
                                 {/* <!-- Practice --> */}
                                 <div id="practice"
-                                    class="gr1s1 gc6s7
+                                    className="gr1s1 gc6s7
                                     ggap1-00">
                                     <article id="proposed_apartment_2" 
-                                        class="gr2s2 gc2s10
+                                        className="gr2s2 gc2s10
                                         flex items-center justify-center
                                         relative">
-                                        <figure class="shadow-5">
+                                        <figure className="shadow-5">
                                             <img src={values}
                                                 alt=""
-                                                class="w-100
+                                                className="w-100
                                                 
                                                     ba b--gold 
                                                     "
@@ -229,13 +229,13 @@ const MVV = () => {
                                         </figure>
                                     </article>
                                     <article id="misc_gold" 
-                                        class="gr3s1 gc6s1
+                                        className="gr3s1 gc6s1
                                             flex items-center justify-center
                                             bg-gold
                                             ">
                                     </article>
                                     <article id="misc_blue" 
-                                        class="gr2s1 gc6s3
+                                        className="gr2s1 gc6s3
                                             flex items-center justify-center
                                             bg-black-90
                                             ">
@@ -245,7 +245,7 @@ const MVV = () => {
                                 {/* <!-- Practice --> */}
                             </article>
                             <footer id="page_footer"
-                                class="gr3s1 gc1s12 pa1-00 white-90 bg-gray w-100">
+                                className="gr3s1 gc1s12 pa1-00 white-90 bg-gray w-100">
                                 Practice || Mission Vision and Values 
                             </footer>
                         </div>
@@ -253,10 +253,10 @@ const MVV = () => {
                     </div>
 
                     <div id="pageNav" 
-                        class="gc4s1 
+                        className="gc4s1 
                             w-100 blue0 relative"
                     >
-                        <div class="flex flex-column justify-between
+                        <div className="flex flex-column justify-between
                             min-vh-100 
                             ph2-00 pb1-00
                             pt5-00
@@ -264,48 +264,48 @@ const MVV = () => {
                         >
                             <div>
                                 <Link to = "/practice"
-                                    class="dib mb1-00 
+                                    className="dib mb1-00 
                                         f1-25 blue0 ttu fw6">Back to Practice
                                 </Link>
-                                <ul class="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
+                                <ul className="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
                                     <h3 >Mission vision Values</h3>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                         <a href="#mvv--overview"
-                                            class="gray"
+                                            className="gray"
                                         >
                                         Overview</a> 
                                     </li>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                         <a href="#mvv--mission"
-                                            class="gray"
+                                            className="gray"
                                         >
                                         Mission</a> 
                                     </li>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                         <a href="#mvv--vision"
-                                            class="gray"
+                                            className="gray"
                                         >
                                         Vision</a> 
                                     </li>
-                                    <li class="mb1-00 i">
+                                    <li className="mb1-00 i">
                                         <a href="#mvv--values"
-                                            class="gray"
+                                            className="gray"
                                         >
                                         Values</a> 
                                     </li>
                                 </ul>
                             </div> 
 
-                            <div class="h6-00 gray">
+                            <div className="h6-00 gray">
                                 <small>Previous</small><br/>
                                 <Link to ="/practice/functions" 
-                                    class="mb1-00 f0-75 gray b"
+                                    className="mb1-00 f0-75 gray b"
                                 >
                                     AESL Functions
                                 </Link> <br/><br/>
                                 <small>Next</small><br/>
                                 <Link to ="/practice/sector-ministry" 
-                                    class="mb1-00 f0-75 gray b"
+                                    className="mb1-00 f0-75 gray b"
                                 >
                                     AESL Sector Ministry
                                 </Link>
@@ -318,7 +318,7 @@ const MVV = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Mission Vision and Values"/>
+            <AESLPageFooter pageTitle="Mission Vision and Values"/>
             {/* Page Footer End */}
         </div>
     )

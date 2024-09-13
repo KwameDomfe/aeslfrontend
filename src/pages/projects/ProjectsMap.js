@@ -26,7 +26,7 @@ const ProjectsMap = () => {
             >
                 {/* <!-- Projects List--> */}
                 <footer id = "projectsPage__Footer"
-                    class="gc1s12 mv1-00"
+                    className="gc1s12 mv1-00"
                 >
                     <SectionFooter 
                         sectionTitle = "Projects Map"
@@ -42,7 +42,7 @@ const ProjectsMap = () => {
                 className=""
             >
                 <AESLPageFooter
-                    pageName = 'Projects Map'
+                    pageTitle = 'Projects Map'
                 />
             </footer>
             {/* Page Footer End */}

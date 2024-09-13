@@ -18,18 +18,18 @@ const SectorMinistry = () => {
             {/* Page Header End */}
 
             {/* Page Main Start */}
-            <main class="ph1-00">
-            <div class="grid gtc4">
+            <main className="ph1-00">
+            <div className="grid gtc4">
                 <div id="pageMain"
-                    class="gc1s3 grid
+                    className="gc1s3 grid
                         mb1-00 min-vh-100"
                 >   
                     {/* <!-- Sector Ministry Overview --> */}
                         <div id="sm--sectorMinistryOverview">
                             <article id="Project_Overview_1" 
-                                class="gr2s1 gc2s10 "
+                                className="gr2s1 gc2s10 "
                             >   
-                                <div class="flex ggap1-00 
+                                <div className="flex ggap1-00 
                                     pv4-00 mh4-00
                                     tj blue0 lh-copy f1-25"
                                 >
@@ -48,17 +48,17 @@ const SectorMinistry = () => {
                                 
                                 {/* <!-- Practice --> */}
                                 <div id="practice"
-                                    class="
+                                    className="
                                         grid gtc12 ggap1-00
                                         white-90 mb2-00"
                                 >
                                 
                                     <article id="" 
-                                        class="gr1s1 gc1s6
+                                        className="gr1s1 gc1s6
                                         flex items-center justify-center
                                         relative">
                                         <hgroup 
-                                            class="flex flex-column items-center justify-center
+                                            className="flex flex-column items-center justify-center
                                                 pa0-50 bg-blue0 
                                                 absolute
                                                     ">
@@ -72,7 +72,7 @@ const SectorMinistry = () => {
                                         <figure >
                                             <img src={sectorMinistry}
                                                 alt=""
-                                                class="
+                                                className="
                                                     
                                                     cover"
                                                 /> 
@@ -80,18 +80,18 @@ const SectorMinistry = () => {
                                     </article>
                                     
                                     <article id="passport_office" 
-                                        class="gr1s1 gc7s6
+                                        className="gr1s1 gc7s6
                                             flex items-center justify-center
                                             relative"
                                     >
-                                        <figure class="shadow-5">
+                                        <figure className="shadow-5">
                                             <img src={sectorMinistry}            
                                                 alt=""
-                                                class="pa0-50"
+                                                className="pa0-50"
                                             /> 
                                         </figure>
                                         <hgroup 
-                                            class="flex flex-column items-center justify-start
+                                            className="flex flex-column items-center justify-start
                                                 pa0-50
                                                 bg-blue0
                                                 absolute
@@ -106,12 +106,12 @@ const SectorMinistry = () => {
                                     </article>
                                 
                                     <article id="proposed_apartment_2" 
-                                        class="gr2s1 gc1s6
+                                        className="gr2s1 gc1s6
                                         flex items-center justify-center
                                         relative"
                                     >
                                         <hgroup 
-                                            class="flex flex-column items-center justify-start
+                                            className="flex flex-column items-center justify-start
                                                 pa0-50
                                                 bg-blue0
                                                 absolute
@@ -123,10 +123,10 @@ const SectorMinistry = () => {
                                             - Accra , Ghana.
                                             </span>    
                                         </hgroup>
-                                        <figure class="shadow-5">
+                                        <figure className="shadow-5">
                                             <img src={sectorMinistry}
                                                 alt=""
-                                                class="w-100
+                                                className="w-100
                                                 
                                                     ba b--gold 
                                                     "
@@ -135,56 +135,56 @@ const SectorMinistry = () => {
                                     </article>
                                 
                                     <article id="Office_Techiman" 
-                                        class="gr2s1 gc7s6
+                                        className="gr2s1 gc7s6
                                             flex items-center justify-center
                                             relative"
                                     >
                                         <hgroup 
-                                            class="flex items-center justify-center
+                                            className="flex items-center justify-center
                                                 bg-blue0
                                                 absolute
                                                     ">
-                                            <h3 class="
+                                            <h3 className="
                                                     flex items-center justify-around
                                                     pa0-50
                                                     white-90">
                                                 OFFICE BLOCK
                                             </h3>    
-                                            <span class="white-90 flex items-center justify-center">
+                                            <span className="white-90 flex items-center justify-center">
                                                 - Techiman, Ghana.
                                             </span>    
                                         </hgroup>
                                         <figure >
                                             <img src={sectorMinistry}            
                                                 alt=""
-                                                class="ba b--gold"
+                                                className="ba b--gold"
                                             /> 
                                         </figure>
                                     </article>
                                 
                                     <article id="misc_gold" 
-                                        class="gr5s1 gc6s1
+                                        className="gr5s1 gc6s1
                                             flex items-center justify-center h4-00
                                             bg-gray"
                                     >
                                     </article>
                                 
                                     <article id="misc_black_1" 
-                                        class="gr4s1 gc9s3
+                                        className="gr4s1 gc9s3
                                             flex items-center justify-center h6-00
                                             bg-black-90"
                                     >
                                     </article>
 
                                     <article id="misc_black_2" 
-                                        class="gr5s1 gc9s3
+                                        className="gr5s1 gc9s3
                                             flex items-center justify-center h6-00
                                             bg-black-90"
                                     >
                                     </article>
 
                                     <article id="misc_black_3" 
-                                        class="gr4s1 gc2s3
+                                        className="gr4s1 gc2s3
                                             flex items-center justify-center h6-00
                                             bg-black-90" 
                                     >
@@ -195,7 +195,7 @@ const SectorMinistry = () => {
                                 {/* <!-- Practice --> */}
                             </article>
 
-                            <footer class="gr3s1 gc1s12 
+                            <footer className="gr3s1 gc1s12 
                                 w-100
                                 pa1-00 mb2-00 
                                 bg-gray white-90
@@ -207,14 +207,14 @@ const SectorMinistry = () => {
                     {/* <!-- Sector Ministry Overview --> */}
                     {/* <!-- Sector Minister --> */}
                         <div id="sm--sectorMinister"
-                            class="grid gtc12 ggap1-00"    
+                            className="grid gtc12 ggap1-00"    
                         >
                             <header id=""
-                                class="gr1s1 gc1s12 bg-gray w-100">
+                                className="gr1s1 gc1s12 bg-gray w-100">
                                 <hgroup id=""
-                                    class=""
+                                    className=""
                                 >
-                                    <h2 class="mv1-00 pl1-00
+                                    <h2 className="mv1-00 pl1-00
                                         white-90 f2-00 ttu"
                                     >
                                         sector minister
@@ -222,9 +222,9 @@ const SectorMinistry = () => {
                                 </hgroup> 
                             </header>
                             <article id="" 
-                                class="gr2s1 gc1s12 grid gtc12"
+                                className="gr2s1 gc1s12 grid gtc12"
                             >   
-                                <div class="gr1s1 gc7s6 ph2-00 blue0">
+                                <div className="gr1s1 gc7s6 ph2-00 blue0">
                                     <p>
                                         The Minister for Works and hosibb  bla bla bla.
                                     </p>
@@ -239,16 +239,16 @@ const SectorMinistry = () => {
                                 
                                 {/* <!-- Practice --> */}
                                 <div id=""
-                                    class="gr1s1 gc1s6
+                                    className="gr1s1 gc1s6
                                             
                                             white-90">
                                     
                                     <article id="" 
-                                        class="
+                                        className="
                                         flex items-center justify-center
                                         relative">
                                         <hgroup 
-                                            class="flex flex-column items-center justify-center
+                                            className="flex flex-column items-center justify-center
                                                 pa0-50 bg-blue0 
                                                 absolute
                                                     ">
@@ -262,7 +262,7 @@ const SectorMinistry = () => {
                                         <figure >
                                             <img src={sectorMinistry}
                                                 alt=""
-                                                class="
+                                                className="
                                                     w-100 h-100
                                                     cover"
                                                 /> 
@@ -273,7 +273,7 @@ const SectorMinistry = () => {
                                 </div>
                                 {/* <!-- Practice --> */}
                             </article>
-                            <footer class="gr3s1 gc1s12 
+                            <footer className="gr3s1 gc1s12 
                                 w-100
                                 pa1-00 
                                 bg-gray white-90
@@ -286,9 +286,9 @@ const SectorMinistry = () => {
                 </div>
 
                 <div id="" 
-                    class="gc4s1 
+                    className="gc4s1 
                         w-100 blue0 relative">
-                    <div class="flex flex-column justify-between
+                    <div className="flex flex-column justify-between
                         min-vh-100 
                         ph2-00 pb1-00
                         pt5-00
@@ -296,21 +296,21 @@ const SectorMinistry = () => {
                     >
                         <div>
                             <Link to= "/practice"
-                                class="dib mb1-00 
+                                className="dib mb1-00 
                                     f1-25 blue0 ttu fw6">Back to Practice
                             </Link>
-                            <ul class="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
+                            <ul className="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
                                 <h3 >Sector Ministry</h3>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#sm--sectorMinistryOverview"
-                                        class="gray"
+                                        className="gray"
                                     >
                                         Ministry of Works and Housing
                                     </a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#sm--sectorMinister"
-                                        class="gray"
+                                        className="gray"
                                     >
                                         Sector Minister
                                     </a>
@@ -318,16 +318,16 @@ const SectorMinistry = () => {
                             </ul>
                         </div> 
 
-                        <div class="h6-00 gray">
+                        <div className="h6-00 gray">
                             <small>Previous</small><br/>
                             <Link to="/practice/mission-vision-and-values" 
-                                class="mb1-00 f0-75 gray b"
+                                className="mb1-00 f0-75 gray b"
                             >
                                 AESL Mission, Vision and Values
                             </Link> <br/><br/>
                             <small>Next</small><br/>
                             <Link to="/practice/corporate-governance" 
-                                class="mb1-00 f0-75 gray b"
+                                className="mb1-00 f0-75 gray b"
                             >
                                 AESL Corporate Governance
                             </Link>
@@ -340,7 +340,7 @@ const SectorMinistry = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Sector Ministry"/>
+            <AESLPageFooter pageTitle="Sector Ministry"/>
             {/* Page Footer End */}
         </div>
     )

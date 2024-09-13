@@ -20,7 +20,7 @@ const CorporateResponsibilities = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Corporate Responsibilities"/>
+            <AESLPageFooter pageTitle="Corporate Responsibilities"/>
             {/* Page Footer End */}
         </div>
     )

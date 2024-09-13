@@ -8,11 +8,11 @@ const RootLayout = () => {
     return (
         // <page Layout Start
         <div id="l__twoColumn" 
-            class="flex flex-column flex-row-l vh-100 w-100"
+            className="flex flex-column flex-row-l vh-100 w-100"
         >   
             {/* Main Header Start */}
                 <header id="lc__MainHeader" 
-                    class=""  
+                    className=""  
                 >  
                     <MainHeader />
                 </header>
@@ -20,7 +20,7 @@ const RootLayout = () => {
             
             {/* <!-- Main Content Start --> */}
                 <main id="lc__MainContent"
-                    class="vh-100 w-100 of-y-scroll"
+                    className="vh-100 w-100 of-y-scroll"
                 >   
                     {/* Page Content Start */}
                     <Outlet />
@@ -28,7 +28,7 @@ const RootLayout = () => {
 
                     {/* Main Footer Start */}
                     <footer id="lc__mainFooter"
-                        class=""
+                        className=""
                     >
                         <MainFooter />
                     </footer>

@@ -31,21 +31,21 @@ const ProjectDetails = () => {
             
             {/* Page Main Start */}
             <div id="l_3:1_Layout_ProjectDetails" 
-                class="grid gtc4"
+                className="grid gtc4"
             >    
                 {/* <!--Page Main Start --> */}
                     <main id="lc_gc1s3_Main_ProjectDetils"
-                        class="gc1s4 gc1s3-l
+                        className="gc1s4 gc1s3-l
                             min-vh-100"
                     >   
                         {/* <!-- Project Details--> */}
                         <article id="projectDetails"
-                            class="min-vh-100 w-100 
+                            className="min-vh-100 w-100 
                             bg-white blue0"
                         >
                             {/* <!-- Projects Overview --> */}
                             <section id="projectDetails--Overview"
-                                class=""
+                                className=""
                             >
                                 <ProjectOverview />
                             </section>
@@ -53,7 +53,7 @@ const ProjectDetails = () => {
 
                             {/* <!-- Projects gallery --> */}
                             <section id="projectDetails--Gallery"
-                                class=""
+                                className=""
                             >   
                                 <ProjectGallery />
                             </section>
@@ -61,7 +61,7 @@ const ProjectDetails = () => {
                             
                             {/* <!-- Projects Concept --> */}
                             <section id="projectDetails--Concept"
-                                class=""
+                                className=""
                             >
                                 <ProjectConcept />
                             </section>
@@ -69,7 +69,7 @@ const ProjectDetails = () => {
 
                             {/* <!-- Projects Design --> */}
                             <section id="projectDetails--Design"
-                                class=""
+                                className=""
                             >
                                 <ProjectDesign />
                             </section>
@@ -77,7 +77,7 @@ const ProjectDetails = () => {
 
                             {/* <!-- Projects Construction --> */}
                             <section id="projectDetails--Construction"
-                                class=""
+                                className=""
                             >
                                <ProjectConstruction />
                             </section>
@@ -85,7 +85,7 @@ const ProjectDetails = () => {
 
                             {/* <!-- Project Data Start --> */}
                             <section id="projectDetails--Data"
-                                class=""
+                                className=""
                             >
                                 <ProjectData />
                             </section>
@@ -93,14 +93,14 @@ const ProjectDetails = () => {
                             
                             {/* <!-- Related Projects Start --> */}
                             <section id="projectDetails--RelatedProjects"
-                                class=""
+                                className=""
                             >
                                 <RelatedProjects />
                             </section>
                             {/* <!-- Related Projects End --> */}
                             {/* <!-- Page Footer Start--> */}
                             <footer id="pageFooter"
-                                class="mb1-00"
+                                className="mb1-00"
                             > 
                                 {/* {% include 'website/_partials/page_footer.html' %} */}
                             </footer>
@@ -112,55 +112,55 @@ const ProjectDetails = () => {
 
                 {/* <!-- Page Aside Start --> */}
                     <aside id="lc_gc4s1_Aside_ProjectDetils" 
-                        class="gc4s1-l bg-yellow"
+                        className="gc4s1-l bg-yellow"
                     >
                         <nav id=""
-                            class="dn flex-l flex-column-l justify-start-l
+                            className="dn flex-l flex-column-l justify-start-l
                                 min-vh-100 w-100 
                                  
                                 sticky top-0"
                         >
-                            <hgroup class="ttu f1-00 pb1-00 bg-white-20 pv1-00 ma0-50">
+                            <hgroup className="ttu f1-00 pb1-00 bg-white-20 pv1-00 ma0-50">
                                 <Link to="/projects"
-                                    class="blue0 ml1-50"    
+                                    className="blue0 ml1-50"    
                                 >Back to Projects</Link>
                             </hgroup>
-                            <ul class="bl bw3 b--blue0 pa1-00 f0-75 blue0 bg-white-20 ma0-50"
+                            <ul className="bl bw3 b--blue0 pa1-00 f0-75 blue0 bg-white-20 ma0-50"
                             >
                                 <h2 className="pb0-50 bb ttc">On this page</h2>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#projectDetails--Overview"
-                                        class="blue0"
+                                        className="blue0"
                                     >Project Overview</a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#projectDetails--Gallery"
-                                                class="blue0"
+                                                className="blue0"
                                             >Project Gallery</a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#projectDetails--Concept"
-                                                class="blue0"
+                                                className="blue0"
                                             >Project Concept</a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#projectDetails--Design"
-                                                class="blue0"
+                                                className="blue0"
                                             >Project Design</a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#projectDetails--Construction"
-                                                class="blue0"
+                                                className="blue0"
                                             >Project Construction</a>
                                 </li>
-                                <li class="mb1-00 i">
+                                <li className="mb1-00 i">
                                     <a href="#projectDetails--Data"
-                                                class="blue0"
+                                                className="blue0"
                                             >Project Data</a>
                                 </li>
-                                <li class=" i">
+                                <li className=" i">
                                     <a href="#projectDetails--RelatedProjects"
-                                                class="blue0"
+                                                className="blue0"
                                             >Related Projects</a>
                                 </li>
                             </ul>
@@ -175,7 +175,7 @@ const ProjectDetails = () => {
                 className=""
             >
                 <AESLPageFooter
-                    pageName = 'Projects / Project Name'
+                    pageTitle = 'Projects / Project Name'
                 />
             </footer>
             {/* Page Footer End */}

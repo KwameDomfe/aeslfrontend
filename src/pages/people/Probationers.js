@@ -421,7 +421,7 @@ const Probationers = () => {
         {/* <!-- Page Main -->  */}
         {/* <!-- Page Footer -->   */}
         <AESLPageFooter 
-            pageName = "Probationers"
+            pageTitle = "Probationers"
         />
         {/* <!-- Page Footer -->  */}
     </div>

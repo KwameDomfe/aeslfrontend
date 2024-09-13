@@ -10,8 +10,8 @@ const ProjectDesign = () => {
         >
             {/* <!-- Project Design Title --> */}
             <hgroup id="project_design_title"
-                class="gc1s12">
-                <h2 class="mv1-00
+                className="gc1s12">
+                <h2 className="mv1-00
                     f2-00 f3-00-m"
                 >
                     PROJECT DESIGN
@@ -21,9 +21,9 @@ const ProjectDesign = () => {
 
             {/* <!-- Project design Description --> */}
             <article id="project_design_description" 
-                class="gr2s1 gc1s12 flex w-100 ggap2-00 tj"
+                className="gr2s1 gc1s12 flex w-100 ggap2-00 tj"
             >
-                <div class="f1-25 tj lh-copy">
+                <div className="f1-25 tj lh-copy">
                     <p>Project Design Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores officia molestias doloremque omnis? Ullam unde eum dignissimos minus totam recusandae nesciunt maxime distinctio cum voluptates, suscipit nemo magnam cupiditate at reiciendis quas officiis. Officia eum consectetur molestias sunt magni. Adipisci culpa maxime repellat est voluptas perferendis, porro rem dolor ullam?</p>
                 </div> 
             </article>
@@ -31,7 +31,7 @@ const ProjectDesign = () => {
 
             {/* <!-- Project design gallery --> */}
             <article id="project_design_gallery_1" 
-                class="gr3s2 gc2s4
+                className="gr3s2 gc2s4
                     flex items-center justify-center
                     relative
                     "
@@ -44,7 +44,7 @@ const ProjectDesign = () => {
             </article>
 
             <article id="project_design_gallery_2" 
-                class="gr3s3 gc7s6
+                className="gr3s3 gc7s6
                     flex items-center justify-center
                     relative"
             >
@@ -56,7 +56,7 @@ const ProjectDesign = () => {
             </article>
 
             <article id="project_design_gallery_3" 
-                class="gr6s3 gc7s6
+                className="gr6s3 gc7s6
                     flex items-center justify-center
                     min-vh-50
                     relative
@@ -70,7 +70,7 @@ const ProjectDesign = () => {
             </article>
 
             <article id="project_design_gallery_4" 
-                class="gr5s2 gc2s4
+                className="gr5s2 gc2s4
                     flex items-center justify-center
                     h-100
                     relative"
@@ -79,7 +79,7 @@ const ProjectDesign = () => {
             </article>
 
             <article id="project_design_gallery_5" 
-                class="gr7s2 gc2s4
+                className="gr7s2 gc2s4
                     flex items-center justify-center
                     h-100
                     relative"
@@ -92,7 +92,7 @@ const ProjectDesign = () => {
             </article>
             
             <footer id="project_Concept_gallery_5" 
-                class="gr9s1 gc1s12
+                className="gr9s1 gc1s12
                     items-center justify-center
                     h-100
                     relative"

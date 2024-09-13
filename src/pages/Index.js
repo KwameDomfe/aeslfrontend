@@ -40,7 +40,7 @@ const Homepage = () => {
                 className="w-100 mv1-00"
             >
                 <AESLPageFooter 
-                    pageName = "Homepage"
+                    pageTitle = "Homepage"
                 />
             </footer>
             {/* Page Footer End */}

@@ -43,24 +43,24 @@ const Index = () => {
             >
                  {/* <!-- Overview --> */}
             <div id="overview"
-                class="grid gtc12 ggap1-00
+                className="grid gtc12 ggap1-00
                     ph1-00 mb2-00
                     blue0"
             >
                 {/* <!-- Overview Description -->  */}
                 <header 
-                    class="gr1s1 gc2s10 
+                    className="gr1s1 gc2s10 
                         w-100
                         blue0 bb"
                 >
-                   <PageOverview overview = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea asperiores molestias possimus praesentium aspernatur eos mollitia libero fuga! Doloremque, facilis! Architecto quasi vel rerum ipsam ex sapiente repellendus quisquam. Tempore quis delectus excepturi omnis, harum eaque possimus alias similique, ullam, qui veniam dicta itaque nostrum quo quia aperiam animi! Quidem.'
+                   <PageOverview overview = 'Our practice focuses on delivering excellence to clients’ requirements. We are set apart in the industry due to our comprehensive meticulous practice that focuses on delivering excellence Combining our architectural and engineering expertise, AESL consistently deliver projects that not only meet client requirements but also exceed expectations, resulting in exceptional and enduring built environments.'
                    />
                 </header>
                 {/* <!-- Overview Description --> */}
             </div>
             {/* <!-- Overview --> */}
             <div id="practice__content" 
-                class="bg-blue0"
+                className="bg-blue0"
             >
 
                 <PracticeCardReverse 
@@ -72,32 +72,32 @@ const Index = () => {
                 />
                 <PracticeCard 
                     image = {corporateGovernance}
-                    description = 'The Corporate Governance of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..'
+                    description = "AESL's corporate governance upholds ethical standards and promotes integrity and professionalism through a comprehensive code of conduct and a well-structured Board of Directors."
                     title = 'Corporate Governance'
                     url = 'corporate-governance'
                 />
                 <PracticeCardReverse 
                     image = {management}
-                    description = 'The management of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..'
+                    description = 'The management team is responsible for driving innovation, maintaining high standards of quality, and providing exceptional architectural and engineering services to clients. They provide strategic direction and oversee the day-to-day activities of the company, working closely with employees to ensure projects are executed successfully, budgets and timelines are adhered to, and client satisfaction is achieved.'
                     title = 'Management'
                     url = 'management'
                     
                 />
                 <PracticeCard 
                     image = {history}
-                    description = 'The History of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..'
+                    description = 'AESL initially came to be known as AESC when consultancy services were separated from the Public Works Department (PWD) under NRCD 193, 1973. As a government corporation, AESC became the sole consultant for public works. The company was later restructured by an act of parliament, ACT 461 Statutory Corporation (Conversion to Companies).'
                     title = 'History'
                     url = 'history'
                 />
                 <PracticeCardReverse 
                     image = {functions}
-                    description = 'The Functions of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..'
+                    description = 'AESL provides an extensive variety of architectural and engineering services, including architectural design, engineering analysis and design, project management, construction documentation, construction supervision, sustainable design and energy efficiency, and client communication as well as collaboration.'
                     title = 'Functions'
                     url = 'functions'
                 />
                 <PracticeCard 
                     image = {mandate}
-                    description = 'The Mandate of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..'
+                    description = 'Our company provides comprehensive architectural and engineering services to clients, including conceptualizing, designing, and managing projects with high-quality, innovative, and sustainable solutions.'
                     title = 'Mandate'
                     url = 'mandate'
                 />
@@ -126,24 +126,24 @@ const Index = () => {
                     url = 'corporate-responsibilities'
                 />
                 {/* <article id="l__management"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00 
                         "
                 >   
                     
                     <div id=""
-                        class="gr1s1 gc6s7 items-center justify-center
+                        className="gr1s1 gc6s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id=""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                     shadow-5"
                         >
                             <img id=""
                                 src="{% static '_images/practice/management/2.jpeg' %}"                
                                 alt=""
-                                class="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
+                                className="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
                             /> 
                            
                         </figure>
@@ -152,14 +152,14 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc1s5 items-center justify-center
+                        className="gr1s1 gc1s5 items-center justify-center
                             w-100 h-100 bg-white br0-50 br--left">
                         <article 
-                            class="grid
+                            className="grid
                                 h-100"  
                         >   
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         blue0 f0-75 tc
@@ -167,11 +167,11 @@ const Index = () => {
                                         
                                         shadow-5
                                             ">
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         The management of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..
                                     </h2>    
                                     <a  href="{% url 'website:management' %}"
-                                        class="dib 
+                                        className="dib 
                                             pa0-50 mb1-00 
                                             blue0 
                                             ba b br0-25
@@ -189,24 +189,24 @@ const Index = () => {
                 </article> */}
                    
                 {/* <article id="l__history"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00
                         bg-white"
                 >   
                     
                     <div id="" 
-                        class="gr1s1 gc1s7 items-center justify-center
+                        className="gr1s1 gc1s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id =""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                 shadow-5  "
                         >
                             <img id=""
                                 src="{% static '_images/practice/history/History-01.JPG' %}"           
                                 alt="AESL Board Meeting"
-                                class="gc1s1 gr1s1 h-100 cover br0-50 br--left"
+                                className="gc1s1 gr1s1 h-100 cover br0-50 br--left"
                             /> 
                             
                         </figure> 
@@ -215,25 +215,25 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
+                        className="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
                     >
                         <article 
-                            class="grid
+                            className="grid
                                 h-100 "  
                         >   
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         bg-blue0 white
                                         f0-75 tc
                                         shadow-5 br0-50 br--right"
                                 >
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         Initially came to be known as AESC when consultancy services were separated from the Public Works Department (PWD) under NRCD 193, 1973, and as a government corporation, AESC, became the sole consultants for public Works...
                                     </h2>    
                                     <a  href="{% url 'website:history' %}"
-                                        class="dib 
+                                        className="dib 
                                         pa0-50 mb1-00 
                                         white
                                         ba b br0-25
@@ -251,24 +251,24 @@ const Index = () => {
                 </article> */}
                 
                 {/* <article id="l__mandate"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00 
                         "
                 >   
                     
                     <div id=""
-                        class="gr1s1 gc6s7 items-center justify-center
+                        className="gr1s1 gc6s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id=""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                     shadow-5"
                         >
                             <img id=""
                                 src="{% static '_images/practice/mandate/mandate-01.jpg' %}"                
                                 alt=""
-                                class="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
+                                className="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
                             /> 
                            
                         </figure>
@@ -277,14 +277,14 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc1s5 items-center justify-center
+                        className="gr1s1 gc1s5 items-center justify-center
                             w-100 h-100 bg-white br0-50 br--left">
                         <article 
-                            class="grid
+                            className="grid
                                 h-100"  
                         >   
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         blue0 f0-75 tc
@@ -292,11 +292,11 @@ const Index = () => {
                                         
                                         shadow-5
                                             ">
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         The mandate of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..
                                     </h2>    
                                     <a  href="{% url 'website:mandate' %}"
-                                        class="dib 
+                                        className="dib 
                                             pa0-50 mb1-00 
                                             blue0 
                                             ba b br0-25
@@ -314,24 +314,24 @@ const Index = () => {
                 </article> */}
                    
                 {/* <article id="l__functions"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00
                         bg-white"
                 >   
                     
                     <div id="" 
-                        class="gr1s1 gc1s7 items-center justify-center
+                        className="gr1s1 gc1s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id =""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                 shadow-5  "
                         >
                             <img id=""
                                 src="{% static '_images/practice/functions/sod_cutting.jpg' %}"           
                                 alt="AESL Board Meeting"
-                                class="gc1s1 gr1s1 h-100 cover br0-50 br--left"
+                                className="gc1s1 gr1s1 h-100 cover br0-50 br--left"
                             /> 
                             
                         </figure> 
@@ -340,25 +340,25 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
+                        className="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
                     >
                         <article 
-                            class="grid
+                            className="grid
                                 h-100 "  
                         >   
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         bg-blue0 white
                                         f0-75 tc
                                         shadow-5 br0-50 br--right"
                                 >
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         The functions of the AESL is Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..
                                     </h2>    
                                     <a  href="{% url 'website:functions' %}"
-                                        class="dib 
+                                        className="dib 
                                         pa0-50 mb1-00 
                                         white
                                         ba b br0-25
@@ -376,24 +376,24 @@ const Index = () => {
                 </article> */}
                 
                 {/* <article id="l__mission_vision_values"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00 
                         "
                 >   
                     
                     <div id=""
-                        class="gr1s1 gc6s7 items-center justify-center
+                        className="gr1s1 gc6s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id=""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                     shadow-5"
                         >
                             <img id=""
                                 src="{% static '_images/practice/mission_vision_values/01.jpg' %}"                
                                 alt=""
-                                class="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
+                                className="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
                             /> 
                            
                         </figure>
@@ -402,14 +402,14 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc1s5 items-center justify-center
+                        className="gr1s1 gc1s5 items-center justify-center
                             w-100 h-100 bg-white br0-50 br--left">
                         <article 
-                            class="grid
+                            className="grid
                                 h-100"  
                         >   
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         blue0 f0-75 tc
@@ -417,11 +417,11 @@ const Index = () => {
                                         
                                         shadow-5
                                             ">
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         The mission, vision, and values of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..
                                     </h2>    
                                     <a  href="{% url 'website:mission-vision-values' %}"
-                                        class="dib 
+                                        className="dib 
                                             pa0-50 mb1-00 
                                             blue0 
                                             ba b br0-25
@@ -439,24 +439,24 @@ const Index = () => {
                 </article> */}
                    
                 {/* <article id="l__alliances"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00
                         bg-white"
                 >   
                     
                     <div id="" 
-                        class="gr1s1 gc1s7 items-center justify-center
+                        className="gr1s1 gc1s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id =""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                 shadow-5  "
                         >
                             <img id=""
                                 src="{% static '_images/practice/alliances/practice_2.jpg' %}"           
                                 alt="AESL Board Meeting"
-                                class="gc1s1 gr1s1 h-100 cover br0-50 br--left"
+                                className="gc1s1 gr1s1 h-100 cover br0-50 br--left"
                             /> 
                             
                         </figure> 
@@ -465,25 +465,25 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
+                        className="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
                     >
                         <article 
-                            class="grid
+                            className="grid
                                 h-100 "  
                          >  
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         bg-blue0 white
                                         f0-75 tc
                                         shadow-5 br0-50 br--right"
                                 >
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         The alliances of the AESL is Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempore saepe atque voluptatum, harum vitae..
                                     </h2>    
                                     <a  href="{% url 'website:alliances' %}"
-                                        class="dib 
+                                        className="dib 
                                         pa0-50 mb1-00 
                                         white
                                         ba b br0-25
@@ -501,24 +501,24 @@ const Index = () => {
                 </article> */}
                 
                 {/* <article id="l__client_Speaks"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00 
                         "
                 >   
                     
                     <div id=""
-                        class="gr1s1 gc6s7 items-center justify-center
+                        className="gr1s1 gc6s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id=""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                     shadow-5"
                         >
                             <img id=""
                                 src="{% static '_images/practice/client_speak/01.jpeg' %}"                
                                 alt=""
-                                class="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
+                                className="gc1s1 gr1s1 h-100 w-100 cover br0-50 br--right"
                             /> 
                             
                         </figure>
@@ -527,14 +527,14 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc1s5 items-center justify-center
+                        className="gr1s1 gc1s5 items-center justify-center
                             w-100 h-100 bg-white br0-50 br--left">
                         <article 
-                            class="grid
+                            className="grid
                                 h-100"  
                         >   
                                 <hgroup id = ""
-                                    class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                    className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                         w-100 h-100
                                         ph1-00
                                         blue0 f0-75 tc
@@ -542,11 +542,11 @@ const Index = () => {
                                         
                                         shadow-5
                                             ">
-                                    <h2 class = " mv2-00 lh-copy">
+                                    <h2 className= " mv2-00 lh-copy">
                                         The clients of AESL is the Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptatum!.
                                     </h2>    
                                     <a  href="{% url 'website:client-speak' %}"
-                                        class="dib 
+                                        className="dib 
                                             pa0-50 mb1-00 
                                             blue0 
                                             ba b br0-25
@@ -564,24 +564,24 @@ const Index = () => {
                 </article> */}
                    
                 {/* <article id="l__corporate_responsibilities"
-                    class="grid gtc12 
+                    className="grid gtc12 
                         container white-90
                         pa4-00
                         bg-white"
                 >   
                     
                     <div id="" 
-                        class="gr1s1 gc1s7 items-center justify-center
+                        className="gr1s1 gc1s7 items-center justify-center
                             w-100 h-100 "
                     >
                         <figure id =""
-                            class="grid items-center justify-center
+                            className="grid items-center justify-center
                                 shadow-5  "
                         >
                             <img id=""
                                 src="{% static '_images/practice/corporate_responsilities/01.jpg' %}"           
                                 alt="AESL Board Meeting"
-                                class="gc1s1 gr1s1 h-100 cover br0-50 br--left"
+                                className="gc1s1 gr1s1 h-100 cover br0-50 br--left"
                             /> 
                         </figure> 
                     </div>
@@ -589,25 +589,25 @@ const Index = () => {
 
                     
                     <div id="" 
-                        class="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
+                        className="gr1s1 gc8s5 w-100 h-100 items-center justify-center"
                     >
                         <article 
-                            class="grid
+                            className="grid
                                 h-100 "  
                          > 
                             <hgroup id = ""
-                                class="gr1s1 gc1s1 flex flex-column items-center justify-center
+                                className="gr1s1 gc1s1 flex flex-column items-center justify-center
                                     w-100 h-100
                                     ph1-00
                                     bg-blue0 white
                                     f0-75 tc
                                     shadow-5 br0-50 br--right"
                             >
-                                <h2 class = " mv2-00 lh-copy">
+                                <h2 className= " mv2-00 lh-copy">
                                     The corporate responsibilities of the AESL is Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias deleniti reprehenderit voluptas totam nemo explicabo!.
                                 </h2>    
                                 <a  href="{% url 'website:corporate-responsibilities' %}"
-                                    class="dib 
+                                    className="dib 
                                     pa0-50 mb1-00 
                                     white
                                     ba b br0-25
@@ -629,7 +629,7 @@ const Index = () => {
             <footer className=""
             >
                 <AESLPageFooter 
-                pageName = 'Practice'
+                pageTitle = 'Practice'
                 />
             </footer>
       </article>

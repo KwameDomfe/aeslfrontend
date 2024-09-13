@@ -40,7 +40,12 @@ const Services = () => {
                                 <p className="mv4-00 
                                     f1-50 tj blue0"
                                 >
-                                    The Architectural and Engineering Services Corporation (AESC) as it was then called, was established in 1973 under the National Redemption Council Decree (NRCD) 193 to take over the consultancy functions of the then Public Works Department (PWD). The objects of the Corporation were:
+                                    AESL offers a comprehensive suite of services that encompass architectural design, engineering, project management, and consulting, with the goal of delivering high-quality, sustainable, and innovative solutions that meet client requirements and contribute to the development of robust and well-executed construction projects.
+                                </p>
+                                <p className="mv4-00 
+                                    f1-50 tj blue0"
+                                >
+                                    AESL offers a range of services to deliver high-quality, sustainable and innovative solutions that meet client requirements and contribute to successful construction projects.
                                 </p>
                               
                             </header>
@@ -572,7 +577,7 @@ const Services = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Services"/>
+            <AESLPageFooter pageTitle="Services"/>
             {/* Page Footer End */}
         </div>
     )

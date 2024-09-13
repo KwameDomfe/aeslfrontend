@@ -421,7 +421,7 @@ const SupportTeam = () => {
         {/* <!-- Page Main -->  */}
         {/* <!-- Page Footer -->   */}
         <AESLPageFooter 
-            pageName = "Support Team"
+            pageTitle = "Support Team"
         />
         {/* <!-- Page Footer -->  */}
     </div>

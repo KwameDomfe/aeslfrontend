@@ -6,12 +6,12 @@ const PageOverview = (props) => {
 
     return (
         <hgroup id=""
-        class=""
+        className=""
     >
         <div id="Project_Overview_1" 
-            class="gr2s1 gc1s10 f1-50"
+            className="gr2s1 gc1s10 f1-50"
         > 
-            <p class="mb0-00 pv4-00 lh-copy tj tracked">
+            <p className="mb0-00 pv4-00 lh-copy tj tracked">
                 {overview}
             </p>
         </div>     

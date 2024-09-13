@@ -5,14 +5,14 @@ const RelatedProjects = (props) => {
 
     // const {} = props
     return (
-        <div class="grid gc1s12 gtc12
+        <div className="grid gc1s12 gtc12
             min-vh-50 
             pa1-00"
         >
             <hgroup id="project_data Title"
-                class="gc1s12 gr1s1"
+                className="gc1s12 gr1s1"
             >
-                <h2 class="mv1-00 ttu
+                <h2 className="mv1-00 ttu
                     f2-00 f3-00-m"
                 >
                     related projects
@@ -20,7 +20,7 @@ const RelatedProjects = (props) => {
             </hgroup>
 
             <article id="" 
-                class="gr2s4 gc1s4
+                className="gr2s4 gc1s4
                     flex items-center justify-center
                     pa0-50
                     relative"
@@ -34,7 +34,7 @@ const RelatedProjects = (props) => {
             </article>
             
             <article id="" 
-                class="gr2s4 gc5s4
+                className="gr2s4 gc5s4
                     flex items-center justify-center
                     pa0-50
                     relative"
@@ -48,7 +48,7 @@ const RelatedProjects = (props) => {
             </article>
 
             <article id="" 
-                class="gr2s4 gc9s4
+                className="gr2s4 gc9s4
                     flex items-center justify-center
                     pa0-50
                     relative"

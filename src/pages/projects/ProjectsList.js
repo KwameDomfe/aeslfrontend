@@ -26,17 +26,17 @@ const ProjectsList = () => {
             <main className="bg-white grid gtc12"
             >
                 <header id="functions--overview"
-                                class="gr1s1 gc2s10 f1-25"
+                                className="gr1s1 gc2s10 f1-25"
                             >
                     <hgroup id=""
-                        class="mv2-00"
+                        className="mv2-00"
                     >
-                        <p class=" 
+                        <p className=" 
                                 lh-copy tj"
                         >
                             These are the Projects of The Architectural and Engineering Services Corporation (AESC) as it was then called, was established in 1973 under the National Redemption Council Decree (NRCD) 193 to take over the consultancy functions of the then Public Works Department (PWD). 
                         </p>     
-                        <p class=" 
+                        <p className=" 
                             lh-copy tj"
                         >
                             The objects of the Corporation were:
@@ -194,7 +194,7 @@ const ProjectsList = () => {
                 className=""
             >
                 <AESLPageFooter
-                    pageName = 'Projects List'
+                    pageTitle = 'Projects List'
                 />
             </footer>
             {/* Page Footer End */}

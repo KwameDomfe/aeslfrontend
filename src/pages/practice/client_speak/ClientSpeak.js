@@ -20,7 +20,7 @@ const ClientSpeak = () => {
             {/* Page Main End */}
             
             {/* Page Footer Start */}
-            <AESLPageFooter pageName="Client Speak"/>
+            <AESLPageFooter pageTitle="Client Speak"/>
             {/* Page Footer End */}
         </div>
     )

@@ -3,7 +3,7 @@ import React from 'react'
 const PoweredBy = () => {
   return (
     <div id = "m__poweredby"
-    class="flex items-center justify-center flex-column 
+    className="flex items-center justify-center flex-column 
         white 
         f0-75"
 >
@@ -11,11 +11,11 @@ const PoweredBy = () => {
     <a href="https://www.kdadesign.tech"
         className="white-90"
     >
-        <div class="flex">
-            <small class="">
+        <div className="flex">
+            <small className="">
                 kda design technologies
             </small>
-            <small class="ml0-50">
+            <small className="ml0-50">
                 &copy; {new Date().getFullYear()};
             </small>
         </div>

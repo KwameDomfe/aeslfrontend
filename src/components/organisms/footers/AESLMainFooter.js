@@ -12,21 +12,21 @@ const MainFooter = () => {
 
     return (
         <div id="page-footer" 
-    class="flex
+    className="flex
     w-100 min-vh-100
     pa1-00
     bg-blue0
     white-90"
 >
     <div id="container" 
-        class=" grid gtc12 ggap1-00
+        className=" grid gtc12 ggap1-00
             w-100"      
-        tabindex="0" 
+        tabIndex="0" 
         title="" 
         aria-label=""
     >
         <section id="description_and_address"
-            class="gr2s1 gc1s12 ggap1-00
+            className="gr2s1 gc1s12 ggap1-00
                 flex flex-column flex-row-s flex-start ggap2-00 
                 w-100
                 f1-00 tj"
@@ -36,21 +36,21 @@ const MainFooter = () => {
         </section>
 
         <section id="o_subscription"
-            class="gr3s1 gc1s12 gc1s6-m
+            className="gr3s1 gc1s12 gc1s6-m
                 w-100 h-100"
         >
             <AESLSubscription />
         </section> 
         
         <section id="o_navigation"
-            class="gr1s1 gc1s12"
+            className="gr1s1 gc1s12"
             sections=""
         >
             <MainFooterNav />
         </section> 
 
         <section id="o_links" 
-            class="gr5s1 gc1s12 gc7s6-m gr3s1-m
+            className="gr5s1 gc1s12 gc7s6-m gr3s1-m
                 flex flex-column 
                 w-100" 
             

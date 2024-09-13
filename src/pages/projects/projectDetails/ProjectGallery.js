@@ -4,14 +4,14 @@ import xxx from '../../../images/placeholders/regular_images/sky.jpg'
 
 const ProjectGallery = () => {
   return (
-        <div class="grid gtc12 ggap1-00
+        <div className="grid gtc12 ggap1-00
         ph1-00 w-100
         mb2-00"
         >
             <hgroup id=""
-                class="gc1s12"
+                className="gc1s12"
             >
-                <h2 class="mv1-00
+                <h2 className="mv1-00
                     f2-00 f3-00-m"
                 >
                     PROJECT GALLERY
@@ -19,7 +19,7 @@ const ProjectGallery = () => {
             </hgroup> 
             
             <article id="project_gallery_1" 
-                class="gr2s1 gc1s6
+                className="gr2s1 gc1s6
                     flex items-center justify-center
                     relative"
             >
@@ -31,7 +31,7 @@ const ProjectGallery = () => {
             </article>
 
             <article id="project_gallery_1" 
-                class="gr2s1 gc7s6
+                className="gr2s1 gc7s6
                     flex items-center justify-center
                     relative"
             >
@@ -43,7 +43,7 @@ const ProjectGallery = () => {
             </article>
 
             <article id="project_gallery_1" 
-                class="gr3s1 gc1s6
+                className="gr3s1 gc1s6
                     flex items-center justify-center
                     relative"
             >
@@ -55,7 +55,7 @@ const ProjectGallery = () => {
             </article>
 
             <article id="project_gallery_1" 
-                class="gr3s1 gc7s6
+                className="gr3s1 gc7s6
                     flex items-center justify-center
                     relative"
             >
@@ -67,7 +67,7 @@ const ProjectGallery = () => {
             </article>
 
             <footer id="project_Concept_gallery_5" 
-                class="gr4s1 gc1s12
+                className="gr4s1 gc1s12
                     items-center justify-center
                     h-100
                     relative"

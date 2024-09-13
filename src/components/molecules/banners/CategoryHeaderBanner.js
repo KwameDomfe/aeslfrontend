@@ -6,20 +6,20 @@ const CategoryHeaderBanner = (props) => {
 
     return (
         <section id = "princeples_pageHeader"
-            class="grid gtc12
+            className="grid gtc12
             "
         >
-            <figure class="gc1s12"
+            <figure className="gc1s12"
             >
                 <img src={image}
                     alt=""
-                    class="w-100 vh-50 vh-60-l cover"
+                    className="w-100 vh-50 vh-60-l cover"
                 />
             </figure>
-            <hgroup class=" flex items-center w-100 blue0 ph1-00 gc1s12 f3-50 "
+            <hgroup className=" flex items-center w-100 blue0 ph1-00 gc1s12 f2-50 f3-50-m "
             >
                 {Icon}
-                <h2 class="
+                <h2 className="
                     ml2-00 ttu tl"
                 >
                     {title}

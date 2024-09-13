@@ -419,7 +419,7 @@ const Professionals = () => {
         {/* <!-- Page Main -->  */}
         {/* <!-- Page Footer -->   */}
         <AESLPageFooter 
-            pageName = "Professionals"
+            pageTitle = "Professionals"
         />
         {/* <!-- Page Footer -->  */}
     </div>

@@ -22,32 +22,32 @@ const MainHeader = () => {
    
     return (
         <article id="o__TwoColumnHeader" 
-            class="flex justify-between flex-column-l items-center
+            className="flex justify-between flex-column-l items-center
                 vh-100-l 
                 pa0-75 
                 bg-blue0"
         >   
             <div id="m__AESLLogo"
-                class="flex items-center justify-center flex-column-l"
-                tabindex="0" 
+                className="flex items-center justify-center flex-column-l"
+                tabIndex="0" 
                 title="AESL Logo" 
                 aria-label="AESL Logo"
             >
                 <Link to="/"
-                    class="white-90 mb1-00-l flex"
+                    className="white-90 mb1-00-l flex"
                 >
                 <Logo />
                 </Link>
             </div>
             
             <div id="m__SearchForm" 
-                class="dn flex-l items-center justify-center w-100"
+                className="dn flex-l items-center justify-center w-100"
             >
                 <SearchForm />
             </div>
 
             <div id="m__MenuToggle" 
-                class="flex items-center justify-center dn-l
+                className="flex items-center justify-center dn-l
                     pointer"
             >
                 <MenuToggle toggleMenu={toggleMenu}
@@ -56,25 +56,25 @@ const MainHeader = () => {
             </div>
             
             <nav id="m__MainNav"
-                class="dn flex-l
+                className="dn flex-l
                 w-100"
             >
                 <PrimaryNavigation />
             </nav>
             <nav id="m__SocialMediaNav"
-                class="dn flex-l items-center justify-center w-100-l mv1-00-l" 
-                tabindex="0"
+                className="dn flex-l items-center justify-center w-100-l mv1-00-l" 
+                tabIndex="0"
             >
                 <SocialNavigation />
             </nav>
             
             <section id="m__" 
-                class="dn flex-l flex-column-l"
+                className="dn flex-l flex-column-l"
             >
                 <UserAccounts />
             </section>
             <footer id="m__" 
-                class="dn flex-l flex-column-l"
+                className="dn flex-l flex-column-l"
             >
                 <MiscNav />
 
