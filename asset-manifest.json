@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aeslfrontend/static/css/main.0815f5bb.css",
-    "main.js": "/aeslfrontend/static/js/main.f1621fc1.js",
+    "main.js": "/aeslfrontend/static/js/main.8da69eb6.js",
     "static/media/1_0.jpg": "/aeslfrontend/static/media/1_0.e9011506008aa52aae29.jpg",
     "static/media/5_0.jpg": "/aeslfrontend/static/media/5_0.277ddda26f5594d58fd3.jpg",
     "static/media/2.PNG": "/aeslfrontend/static/media/2.e6ce130676952911ce4a.PNG",
@@ -66,10 +66,10 @@
     "static/media/facebook.svg": "/aeslfrontend/static/media/facebook.4c38149b469ee5615f4a02295a5f8d80.svg",
     "static/media/burger-menu-svgrepo-com.svg": "/aeslfrontend/static/media/burger-menu-svgrepo-com.25a2ee7d2dd76688a91386dc6fc7b146.svg",
     "main.0815f5bb.css.map": "/aeslfrontend/static/css/main.0815f5bb.css.map",
-    "main.f1621fc1.js.map": "/aeslfrontend/static/js/main.f1621fc1.js.map"
+    "main.8da69eb6.js.map": "/aeslfrontend/static/js/main.8da69eb6.js.map"
   },
   "entrypoints": [
     "static/css/main.0815f5bb.css",
-    "static/js/main.f1621fc1.js"
+    "static/js/main.8da69eb6.js"
   ]
 }
