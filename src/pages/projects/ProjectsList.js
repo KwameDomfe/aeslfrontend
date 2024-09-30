@@ -35,12 +35,11 @@ const ProjectsList = () => {
                                 lh-copy tj"
                         >
                             These are the Projects of The Architectural and Engineering Services Corporation (AESC) as it was then called, was established in 1973 under the National Redemption Council Decree (NRCD) 193 to take over the consultancy functions of the then Public Works Department (PWD). 
-                        </p>     
-                        <p className=" 
-                            lh-copy tj"
+                        </p>
+                        <p className="lh-copy tj"
                         >
                         </p>
-                    </hgroup> 
+                    </hgroup>
                 </header>
     
                 {/* <!-- Projects List--> */}
@@ -76,7 +75,7 @@ const ProjectsList = () => {
                                             w-100
                                             blue0 bb"
                                         >
-                                            <p className="w10-00">Sept. 2018</p>
+                                            <p className="w10-00">Sept. 2020</p>
                                             <p className="w10-00">Civic and Culture</p>
                                             <p className="w14-00">Culture </p>
                                             <p className="w20-00">project Name</p>
