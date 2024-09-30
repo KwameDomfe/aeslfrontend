@@ -39,8 +39,7 @@ const ProjectsList = () => {
                         <p className=" 
                             lh-copy tj"
                         >
-                            The objects of the Corporation were:
-                        </p>     
+                        </p>
                     </hgroup> 
                 </header>
     
