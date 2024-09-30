@@ -5,6 +5,7 @@ const ProjectCard = (props) => {
     
     const {
         name, 
+        client,
         location, 
         image,
         description,
@@ -29,6 +30,7 @@ const ProjectCard = (props) => {
                     bb"
                 >
                     <span className="mb0-50 b">{name} </span> 
+                    <span className="mb0-50 ">Client: {client} </span> 
                     <span className="f0-75 tr">{location} </span>  
                 </div>
             </hgroup>

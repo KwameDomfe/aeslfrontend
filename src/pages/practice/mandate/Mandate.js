@@ -221,20 +221,14 @@ const Mandate = () => {
                                 >
                                     Back to Practice
                                 </a>
-                                <ul className="mb1-00 bl bw4 pa1-00 b--gray gray f0-75">
+                                <ul className="mb1-00 bl bw4 pa1-00 b--gray gray f0-75"
+                                >
                                     <h3 >Mandate</h3>
                                     <li className="mb1-00 i">
                                         <a href="#p--mandate"
                                             className="gray"
                                         >
                                             AESL Mandate
-                                        </a>
-                                    </li>
-                                    <li className="mb1-00 i">
-                                        <a href="#p--mandateGallery"
-                                            className="gray"
-                                        >
-                                            AESL Mandate Gallery
                                         </a>
                                     </li>
                                 </ul>

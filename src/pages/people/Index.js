@@ -1,12 +1,14 @@
-import PeopleBanner from '../../images/people/00.jpeg'
 import CategoryHeaderBanner from '../../components/molecules/banners/CategoryHeaderBanner'
 import AESLPageFooter from '../../components/organisms/footers/AESLPageFooter'
 import AESLPeopleNav from '../../components/organisms/navs/AESL_PeopleNav'
-import sky from '../../images/placeholders/regular_images/sky.jpg'
 import SectionFooter from '../../components/organisms/footers/SectionFooter'
+import CategoryOverview from '../../components/molecules/CategoryOverview'
+
+import PeopleBanner from '../../images/people/00.jpeg'
+import sky from '../../images/placeholders/regular_images/sky.jpg'
+
 import { Link } from 'react-router-dom'
 import { BsPeople } from 'react-icons/bs'
-import CategoryOverview from '../../components/molecules/CategoryOverview'
 
 const PeopleIndex = () => {
   
@@ -21,7 +23,7 @@ const PeopleIndex = () => {
                 <CategoryHeaderBanner 
                     image = {PeopleBanner}
                     title ='People'
-                    Icon = {<BsPeople />}
+                    icon = {<BsPeople />}
                 />
                 <AESLPeopleNav />
             </header>
@@ -163,7 +165,7 @@ const PeopleIndex = () => {
                                                         br0-50
                                                         f1-25 tc"
                                                     >
-                                                    <h1 className= "mv1-00 f2-00">
+                                                    <h1 className= "mv1-00 f2-00 ttu">
                                                         AESL Consultants
                                                     </h1>
                                                     <p className="lh-copy mb2-00"
@@ -213,16 +215,16 @@ const PeopleIndex = () => {
                                                         f1-25
                                                         tc"
                                                 >
-                                                    <h1 className= "f2-00 mv1-00">
+                                                    <h1 className= "f2-00 mv1-00 ttu">
                                                         AESL Professionals
                                                     </h1>
-                                                    <p className="lh-copy mb2-00">
+                                                    <p className="lh-copy mb2-00 red">
                                                         AESL has a highly qualified and experienced team of engineers that can provide a wide range of capabilities including general infrastructure, heavy civil engineering and building structure design. 
                                                     </p>
-                                                    <p className="lh-copy mb2-00">
+                                                    <p className="lh-copy mb2-00 red">
                                                         AESL has a highly qualified and experienced team of engineers that can provide a wide range of capabilities including general infrastructure, heavy civil engineering and building structure design. 
                                                     </p>
-                                                    <p className="lh-copy mb2-00">
+                                                    <p className="lh-copy mb2-00 red">
                                                         AESL has a highly qualified and experienced team of engineers that can provide a wide range of capabilities including general infrastructure, heavy civil engineering and building structure design. 
                                                     </p>
                                                 </hgroup> 
@@ -430,16 +432,16 @@ const PeopleIndex = () => {
                                                         f1-25 tc blue0 
                                                         br1-00"
                                                 >
-                                                    <h1 className= "f2-00 mv1-00">
+                                                    <h1 className= "f2-00 mv1-00 ttu">
                                                     AESL Support Team
                                                     </h1>
-                                                    <p className="lh-copy">
+                                                    <p className="lh-copy red">
                                                         We provide a range of Professional Quantity Surveying, Land Surveying and Valuation services tailored to meet our clients requirements. We always take challenges and bring them to a conclusion.
                                                     </p>
-                                                    <p className="lh-copy">
+                                                    <p className="lh-copy red">
                                                         We provide a range of Professional Quantity Surveying, Land Surveying and Valuation services tailored to meet our clients requirements. We always take challenges and bring them to a conclusion.
                                                     </p>
-                                                    <p className="lh-copy">
+                                                    <p className="lh-copy red">
                                                         We provide a range of Professional Quantity Surveying, Land Surveying and Valuation services tailored to meet our clients requirements. We always take challenges and bring them to a conclusion.
                                                     </p>
                                                 </hgroup> 

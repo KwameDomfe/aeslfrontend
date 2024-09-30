@@ -25,10 +25,10 @@ const PrinciplesIndex = () => {
                 className="bg-red"
             >
                 <CategoryHeaderBanner 
-                image = {principlesBanner}
-                title ='principles'
-                Icon = {<LuFootprints />}
-            />
+                    image = {principlesBanner}
+                    title ='principles'
+                    icon = {<LuFootprints />}
+                />
                 <AESLPrinciplesNav />
             </header>
             {/* Page Header End  */}
@@ -49,127 +49,127 @@ const PrinciplesIndex = () => {
                 {/* Overview  */}
                 
                 <div id="Content"
-                    className="grid gtc12 ggap1-00
+                    className="grid gtc12 ggap1-00 mb1-00
                         white-90"
                 >
                     <article id="principles_Civic" 
-                        className="gr1s1 gc2s6
-                            grid items-center justify-center"
+                        className="gr1s1 gc1s12 gc2s10-s gc2s7-m
+                            grid items-center z-2 justify-center"
                     > 
                         <PrinciplesCard 
                             bgImage= {principles01}
                             title= "Civic"
-                            overview="Civic Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam nobis dolor asperiores quaerat. Natus nobis esse sapiente veniam distinctio!"
-                            url="/priciples/civic"
+                            overview="Aesl collaborates with local governments to address civic needs through safety-focused designs and engineering projects. They ensure structures meet regulatory standards and contribute positively to the public sector. Aesl supports urban planning initiatives, promoting sustainable growth and efficient land use. They educate local schools and organizations on architecture and engineering, raising industry awareness through internship programs and National Services."
+                            url="/principles/"
                             colour = "red"
                         />
                     </article>
                     <article id="misc_gold" 
-                        className="gr1s1 gc8s4
+                        className="gr1s1 gc9s3
                             grid items-center justify-center
                             ba b--red bw3"
                     >
                     </article>
                     
                     <article id="" 
-                        className="gr2s1 gc6s6
+                        className="gr2s1 gc1s12 gc2s10-s gc5s7-m
                             grid items-center justify-center 
-                            "
+                            z-2"
                     >
                         <PrinciplesCard 
                             bgImage= {principles01}
                             title= "PROFESSIONALISM"
-                            overview="Professionalism Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam nobis dolor asperiores quaerat. Natus nobis esse sapiente veniam distinctio!"
-                            url="/priciples/professionalism"
+                            overview="As a reputable company, Architectural and Engineering Services Limited (A.E.S.L) upholds high industry standards and ethical practices. Our team of skilled professionals is dedicated to continuous learning and innovation, ensuring they stay at the forefront of design and engineering advancements. We prioritize clear communication, transparency, trust, and reliability, delivering quality results and exceeding client expectations in every project."
+                            url="/principles/"
                             colour = "blue0"
                         />
                     </article>
                     <article id="misc_black" 
-                        className="gr2s1 gc2s4
+                        className="gr2s1 gc2s3
                             flex items-center justify-center
                             ba b--blue0 bw3
                             ">
                     </article>
                     
                     <article id="" 
-                        className="gr3s1 gc2s6
-                        grid items-center justify-center"
+                        className="gr3s1 gc1s12 gc2s10-s gc2s7-m
+                        grid items-center justify-center z-2"
                     >
                         <PrinciplesCard 
                             bgImage= {principles01}
                             title= "excellence"
-                            overview="Excellence Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam nobis dolor asperiores quaerat. Natus nobis esse sapiente veniam distinctio!"
-                            url="/priciples/excellence"
+                            overview="Architectural and Engineering Services Limited is committed to providing innovative, high-quality design and engineering solutions to clients. They use advanced technologies and best practices to ensure timely and budget-friendly project completion. They continuously seek feedback and incorporate lessons learned to improve processes. Their culture of collaboration and accountability aims to exceed client expectations in every aspect of their work."
+                            url="/principles/"
                             colour = "red"
                         />
                     </article>
                 
                     <article id="" 
-                        className="gr4s1 gc6s6
+                        className="gr4s1 gc1s12 gc2s10-s gc5s7-m
                             grid items-center justify-center
-                            "
+                            z-2"
                     >
                         <PrinciplesCard 
                             bgImage= {principles01}
                             title= "Integrity and Honesty"
-                            overview="Integrity and Honesty Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam nobis dolor asperiores quaerat. Natus nobis esse sapiente veniam distinctio!"
-                            url="/priciples/integrity-and-honesty"
+                            overview="Architectural and Engineering Services Limited upholds integrity, honesty, and transparency in all interactions, fostering trust, credibility, and lasting relationships through accurate information, fair pricing, and reliable timelines."
+                            url="/principles/"
                             colour = "blue0"
                         />
                     </article>
 
                     <article id="principles_TimelinessAndCostEffectiveness" 
-                        className="gr5s1 gc2s6
+                        className="gr5s1 gc1s12 gc2s10-s gc2s7-m
                             grid items-center justify-center
-                            "
+                            z-2"
                     >
                         <PrinciplesCard 
                             bgImage= {principles01}
                             title= "Timeliness And Cost Effectiveness"
-                            overview="Timeliness And Cost Effectiveness Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam nobis dolor asperiores quaerat. Natus nobis esse sapiente veniam distinctio!"
-                            url="/priciples/timeliness-and-cost-effectiveness"
+                            overview="Architectural and Engineering Services Limited prioritizes timeliness through effective project management techniques, offering affordable solutions while maintaining quality. Their staff meticulously organizes and distributes resources to maximize efficiency and reduce waiting times. They complete projects on time and within budget, exceeding client expectations and improving satisfaction levels."
+                            url="/principles/"
                             colour = "red"
                         />
                     </article>
                 
                     <article id="principles_sustainability" 
-                        className="gr6s1 gc6s6
-                            grid items-center justify-center"
+                        className="gr6s1 gc1s12 gc2s10-s gc5s7-m
+                            grid items-center justify-center z-2"
                         
                     >
                         <PrinciplesCard 
                             bgImage= {principles01}
                             title= "Sustainability"
-                            overview="Sustainability Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel aperiam nobis dolor asperiores quaerat. Natus nobis esse sapiente veniam distinctio!"
-                            url="/priciples/sustainability"
+                            overview="Architectural and Engineering Services Limited is dedicated to sustainability in all aspects of their work, prioritizing eco-friendly design principles and minimizing environmental impact. They actively seek innovative solutions for energy efficiency and resource conservation in every project. They collaborate with clients and stakeholders to integrate sustainability into planning and execution stages, aiming to create lasting positive impacts on communities and the environment"
+                            url="/principles/"
                             colour = "blue0"
                         />
                     </article>
 
                     <article id="misc_gold" 
-                        className="gr3s1 gc8s4"
+                        className="gr3s1 gc9s3 ba b--red bw3"
                     >
-                        <PrinciplesCard colour="red"/>
                     </article>
                 
                     <article id="misc_black" 
-                        className="gr4s1 gc2s4
+                        className="gr4s1 gc2s3
                             ba b--blue0 bw3"
                     >
                     </article>
 
                     <article id="misc_gold" 
-                        className="gr5s1 gc8s4
+                        className="gr5s1 gc9s3
                             ba b--red bw3"
                     >
                     </article>
                 
                     <article id="misc_black" 
-                        className="gr6s1 gc2s4
+                        className="gr6s1 gc2s3
                             ba b--blue0 bw3"
                     >
                     </article>
                     {/* Practice  */}
+                </div>
                     <div id="ContentFooter"
                         className="mb1-00 gc2s10"
                     >
@@ -177,7 +177,6 @@ const PrinciplesIndex = () => {
                             sectionTitle ="Principles"
                         />
                     </div>
-                </div>
 
             </main>
             {/* Page Main  */}

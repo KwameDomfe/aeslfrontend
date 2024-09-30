@@ -48,7 +48,7 @@ const Consultants = () => {
                 {/* <!-- AESL Consultants Main Start --> */}
                 <div id="lc_gc1s3__Consultants_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Consultants --> */}
                     <div id="people_consultants"
@@ -67,7 +67,7 @@ const Consultants = () => {
                                     lh-copy f1-25 tj"
                             >
                                 <div>
-                                    Consultants Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                    Consultants play a vital role in delivering tailored design and engineering solutions. They collaborate closely with clients to understand their needs and develop innovative strategies that address unique challenges. Consultants bring specialized knowledge in areas such as structural, mechanical, or electrical engineering, enhancing project quality. Through effective communication and teamwork, they ensure projects progress smoothly from inception to completion. Their commitment to sustainability and best practices helps create spaces that are both functional and environmentally friendly.
                                 </div>
                             </div>
 

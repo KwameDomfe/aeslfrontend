@@ -251,49 +251,49 @@ const MainFooterNav = () => {
                     >
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/civic"
+                                to="principles"
                             >
                                 Civic
                             </Link>
                         </li>
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/professionalism"
+                                to="principles"
                             >
                                 Professionalism
                             </Link>
                         </li>
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/excellence"
+                                to="principles"
                             >
                                 Excellence
                             </Link>
                         </li>
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/integrity-and-honesty"
+                                to="principles"
                             >
                                 Integrity and Honesty
                             </Link>
                         </li>
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/timeliness-and-cost-effectiveness"
+                                to="principles"
                             >
                                 Timeliness and Cost Effectiveness
                             </Link>
                         </li>
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/sustainability"
+                                to="principles"
                             >
                                 Sustainability
                             </Link>
                         </li>
                         <li className="mb1-00 ">
                             <Link  className="white-90" 
-                                to="principles/empowerment"
+                                to="principles"
                             >
                                 Empowerment
                             </Link>

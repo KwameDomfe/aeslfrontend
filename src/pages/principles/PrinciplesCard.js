@@ -1,36 +1,31 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const PrinciplesCard = (props) => {
 
-    const {bgImage, title, overview, url, colour} = props
+    const {bgImage, title, overview, colour} = props
 
     return (
         <div className="grid items-center justify-center">
             <figure  className ={`gc1s1 gr1s1 grid items-center justify-center
-                    pa0-50 bg-${colour}`}
+                pa0-50 bg-${colour}`
+                }
             >
                 <img src={bgImage}
                     alt=""
-                    className="w-100 h-100
+                    className="w-100 
                         cover"
                 /> 
             </figure>
             <hgroup 
-                className={`gc1s1 gr1s1 grid items-center justify-center
-                    ma4-00 pa1-00 bg-${colour} z1`}
+                className={`gc1s1 gr1s1 tj
+                mh2-00 pv2-00 pa1-00 bg-${colour} z1`}
             >
-                <h3 className="ttu">
+                <h2 className="ttu f2-00">
                     {title}
-                </h3>    
-                <span>
+                </h2>
+                <p className="mb2-00 f1-25">
                     {overview}
-                </span> 
-                <Link to ={url}
-                    className="pa0-25 mt2-00 ba tc white-90"
-                >
-                    EXPLORE
-                </Link>
+                </p>
             </hgroup>
         </div>
     )

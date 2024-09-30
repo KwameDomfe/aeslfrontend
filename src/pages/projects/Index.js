@@ -19,7 +19,9 @@ import proj04 from '../../images/projects/civic_and_culture/civic/4_1.jpg'
 // Objects
 const projects = [
     {   id : 1,
+        
         name : "Ghana Police Station",
+        client : "Ghana Police Service",
         location : "Several",
         image : proj01,
         description : "Ghana Police Station Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
@@ -28,7 +30,9 @@ const projects = [
         subCategory :"Civic"
     },
     {   id : 2,
+        
         name : "Regional Coordinating Council",
+        client : "Ghana Government",
         location : "Several",
         image : proj02,
         description : "Regional Cordinating Council Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
@@ -37,16 +41,21 @@ const projects = [
         subCategory :"Civic"
     },
     {   id : 3,
-        name : "Manhyia Palace",
+        
+        name : "Manhyia Palace Renovation",
+        client : "Manhyia Palace",
         location : "Kumasi",
         image : proj03,
         description : "Manhyia Palace Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
         url :"/projects/project-details",
-        category : "Civic and Culture",
-        subCategory :"Culture"
+        category : "Civic and Culture", 
+            
+        subCategory:"Culture"
     },
     {   id : 4,
+        
         name : "Foreign Affairs Ministry",
+        client : "Ministry of Foreign Affairs",
         location : "Accra",
         image : proj04,
         description : "Foreign Affairs Ministry Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
@@ -55,7 +64,9 @@ const projects = [
         subCategory :"Civic"
     },
     {   id : 5,
+        
         name : "Regional Coordinating",
+        client : "",
         location : "Several",
         image : proj01,
         description : "Regional Cordinating Council Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
@@ -78,8 +89,8 @@ const ProjectsIndex = () => {
             >
                 <CategoryHeaderBanner 
                     image = {projectsBanner}
+                    icon = {<GrProjects />}
                     title ='projects'
-                    Icon = {<GrProjects />}
                 />
                 <AESLProjectsNav />
             </header>
@@ -106,12 +117,14 @@ const ProjectsIndex = () => {
                         justify-start
                         mv2-00"
                     >
-                        {projects.map((project) =>
+                        {projects.map
+                            ( (project) =>
                                 (
                                     <li key={project.id}>
                                         <ProjectCard 
                                             name = {project.name}
                                             location = {project.location}
+                                            client = {project.client}
                                             image = {project.image}
                                             description = {project.description}
                                             url ={project.url}
@@ -121,6 +134,7 @@ const ProjectsIndex = () => {
                                     </li>
                                 )
                             )
+                            
                         }
                     </ul>
 

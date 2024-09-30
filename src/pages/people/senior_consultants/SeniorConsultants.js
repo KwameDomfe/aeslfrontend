@@ -48,7 +48,7 @@ const SeniorConsultants = () => {
                 {/* <!-- AESL Senior Consultants Main Start --> */}
                 <div id="lc_gc1s3__Principal_Consultants_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Senior Consultants --> */}
                     <div id="people_senior_consultants"
@@ -66,11 +66,11 @@ const SeniorConsultants = () => {
                                     mt6-00 mb4-00 
                                     lh-copy f1-25 tj"
                             >
-                                <div>
-                                    Senior Consultants Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                <div
+                                >
+                                    Senior consultants specialize in project management and design development, guiding multidisciplinary teams to ensure timely and budget-friendly completion. They prioritize client communication, stay updated with industry trends, and prioritize quality and sustainability, ensuring designs meet regulatory standards and environmental considerations.
                                 </div>
                             </div>
-
                         </header>
                         {/* <!-- Senior Consultants Description End --> */}
 

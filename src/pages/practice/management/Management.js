@@ -96,10 +96,10 @@ const Management = () => {
                                     >
                                         Managing Director
                                     </h3>
-                                    <p>
+                                    <p className="red">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam maiores soluta sit in suscipit quibusdam aliquid laboriosam, voluptatibus aspernatur porro molestias corrupti animi alias quo! Minus quidem itaque iusto hic?
                                     </p>
-                                    <p>
+                                    <p className="red">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis repudiandae suscipit alias error. Saepe ratione nesciunt obcaecati consectetur, quae dolorem harum odio at, eos sint hic dolorum debitis corporis!
                                     </p>
                                     <div>
@@ -158,17 +158,20 @@ const Management = () => {
                                             Managing Director's Message
                                         </h2>
                                         <p className=" tts">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi aspernatur a laudantium quaerat provident neque ipsam accusamus suscipit totam. Eaque velit beatae ratione, odit dolorem dolore at vel cumque optio ea, voluptates dolores sequi voluptas eligendi labore sit impedit.
+                                        The achievement so far was against numerous odds and challenges that the construction industry encountered during the recent years.
+                                        </p>
+                                        <p className=" tts">
+                                        The weak growth in the global economy which significantly affected the Ghanaian economy, resulted in the Government of Ghana reducing expenditures, particularly in construction works throughout the country.
                                         </p>    
-                                        <p className=" ttl">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi aspernatur a laudantium quaerat provident neque ipsam accusamus suscipit totam. Eaque velit beatae ratione, odit dolorem dolore at vel cumque optio ea, voluptates dolores sequi voluptas eligendi labore sit impedit.
+                                        <p className=" tts">
+                                        Nevertheless, number of initiatives were undertaken including the Company’s strategic decision to adopt building information modelling (BIM) for project delivery. This is not only to improve staff skills but also to ensure quality service delivery to our	clients.
+                                        </p>
+                                        <p className=" tts">
+                                        Our major projects for the year including provision of administrative blocks and staff accommodation for the Six New Regions, the Foundry and numerical Tooling Centre, and the Renovation of Jubilee House and the national sports stadia have all been handled with great client satisfaction and continues to be landmark for the company.
                                         </p>    
-                                        <p className=" ttl">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi aspernatur a laudantium quaerat provident neque ipsam accusamus suscipit totam. Eaque velit beatae ratione, odit dolorem dolore at vel cumque optio ea, voluptates dolores sequi voluptas eligendi labore sit impedit.
-                                        </p>    
-                                        <p className=" ttl">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor excepturi aspernatur a laudantium quaerat provident neque ipsam accusamus suscipit totam. Eaque velit beatae ratione, odit dolorem dolore at vel cumque optio ea, voluptates dolores sequi voluptas eligendi labore sit impedit.
-                                        </p>    
+                                        <p className=" tts">
+                                        The conditions of service for our staff are improved to ensure a motivated staff. We want to maintain AESL‘s leadership in the industry and ensure that it a place where people aspire to be to help build places of enduring values.
+                                        </p>
                                     
                                     </hgroup> 
                                 </article>
@@ -313,7 +316,7 @@ const Management = () => {
                                         <h2 className= "mb1-00">VACANT</h2>
                                         <h3 className= "mb1-00">Deputy Managing Director (<span className= "mb1-00"> Architecture and Planning </span>)</h3>
                                         
-                                        <p>
+                                        <p className ="red">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis ipsa repudiandae nisi, fugit nulla corporis reprehenderit dolores dolorum vel, mollitia excepturi laborum aperiam voluptates perferendis esse quo voluptate rem.
                                         </p>
                                         <div>
@@ -363,7 +366,7 @@ const Management = () => {
                                         <h2 className= "mb1-00">VACANT</h2>
                                         <h3 className= "mb1-00">Deputy Managing Director (<span className= "mb1-00">Engineering</span>)</h3>
                                         
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem rerum nihil quidem corrupti quam. Modi magnam ipsam sunt ullam quasi, tempora voluptatibus corrupti neque odio perspiciatis fugit et enim aliquid.</p>
+                                        <p className ="red">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem rerum nihil quidem corrupti quam. Modi magnam ipsam sunt ullam quasi, tempora voluptatibus corrupti neque odio perspiciatis fugit et enim aliquid.</p>
                                         <div>
                                         <Link to="/practice/management/deputy-managing-director/engineering"
                                             className="ba br0-25 dib mt2-00 white-90 pa0-50">

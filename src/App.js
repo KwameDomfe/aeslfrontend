@@ -5,9 +5,9 @@ import './css/gdb_normalize.css';
 
 // React Router Dom
 import {
-    Route,
     createBrowserRouter,
     createRoutesFromElements,
+    Route,
     RouterProvider,
 } from 'react-router-dom';
 
@@ -16,7 +16,9 @@ import RootLayout from './layouts/RootLayout';
 // import HelpLayout from './layouts/TwoColumn_3_9_Layout';
 // import BlogsLayout from './layouts/BlogsLayout';
 
-/* Pages Routes */
+/* 
+    Pages Routes 
+*/
 
 // Home Page Start
 import HomepageIndex from './pages/Index';
@@ -87,7 +89,7 @@ import DeputyManagingDirectorDetails from './pages/practice/management/DeputyMan
 const myRouter = createBrowserRouter(
     createRoutesFromElements(
         <Route path = '/'
-        element={<RootLayout />}
+            element={<RootLayout />}
         > 
             <Route index
                 element = {<HomepageIndex />}

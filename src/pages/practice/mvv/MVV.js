@@ -7,6 +7,7 @@ import AESLPracticeNav from '../../../components/organisms/navs/AESL_PracticeNav
 import AESLPageFooter from '../../../components/organisms/footers/AESLPageFooter'
 import { Link } from 'react-router-dom'
 import SubCategoryHeaderBanner from '../../../components/molecules/banners/SubCategoryHeaderBanner'
+import SectionFooter from '../../../components/organisms/footers/SectionFooter'
 
 const MVV = () => {
     return (
@@ -26,7 +27,7 @@ const MVV = () => {
                 <div className="grid gtc4">
 
                     <div id="pageDetails"
-                        className="gc1s3
+                        className="gc1s4 gc1s3-l
                             mb1-00 min-vh-100"
                     >
                         <div id="mvv" 
@@ -36,10 +37,10 @@ const MVV = () => {
                                 className="gr2s1 gc1s12"
                             >
                                 <div className="flex ggap1-00 
-                                    pv4-00 mh4-00
+                                    pa1-00 pa4-00-m
                                     tj blue0 lh-copy f1-25"
                                 >
-                                    <div>
+                                    <div className="red">
                                         <p>
                                             The Mission Vision and Values of AESL established by the British was used for all state works over decades post-colonial.
                                         </p>
@@ -75,7 +76,7 @@ const MVV = () => {
                                 className="gr2s1 gc1s12 grid gtc12 blue0 "
                             >   
                                 <div id ="mission_text" 
-                                    className="gc1s5 gr1s1 f1-25 grid items-center justify-center"
+                                    className="gc1s12 gc2s5-m gr1s1-m f1-25 grid items-center justify-center"
                                 >
                                     <p>
                                         “The Architectural and Engineering Services Limited, a firm of Consulting Engineers, Architects and Surveyors, exists to provide innovative and high quality services/ solutions in the design and supervision of projects in an efficient, timely and cost effective manner to delight its Clients within and outside Ghana, using the talents of highly developed, motivated, dedicated and well-managed workforce”.
@@ -83,7 +84,7 @@ const MVV = () => {
                                 </div>
                             
                                 <div id="mission_gallery"
-                                    className="gr1s1 gc6s7
+                                    className="gr1s1 gc1s12 gc7s5-m
                                             ggap1-00
                                             ">
                                     
@@ -99,13 +100,12 @@ const MVV = () => {
                                                     cover"
                                                 /> 
                                         </figure>
-                                        <figcaption>AESL Mission</figcaption>
                                     </article>
                                 </div>
                             
                             </article>
-                            <footer id="mission_footer" className="gr3s1 gc1s12 pa1-00 bg-gray w-100">
-                                Practice || Mission Vision and Values 
+                            <footer id="mission_footer" className="gr3s1 gc1s12 pa1-00 bg-gray white-90 w-100">
+                                Practice || Mission Vision and Values / Mission
                             </footer> 
                         </div>
                         {/* <!-- Mission End --> */}
@@ -130,7 +130,7 @@ const MVV = () => {
                             <article id="Project_Overview_1" 
                                 className="gr2s1 gc1s12 grid gtc12 blue0"
                             >   
-                                <div className="gc8s5 gr1s1 f1-25 grid items-center justify-center">
+                                <div className="gc1s12 gc7s5-m gr2s1 gr1s1-m f1-25 grid items-center justify-center">
                                     <p>
                                         “The Corporate vision is to attain and sustain leadership in the Construction Consultancy Service industry in Ghana as a world class company”.
 
@@ -139,9 +139,8 @@ const MVV = () => {
                                 
                                 {/* <!-- Practice --> */}
                                 <div id="practice"
-                                    className="gr1s1 gc1s7
+                                    className="gr1s1 gr1s1-m gc1s12 gc2s5-m
                                     ggap1-00">
-                                    
                                     <article id="" 
                                         className="gr1s1 gc1s12
                                         flex items-center justify-center
@@ -155,36 +154,21 @@ const MVV = () => {
                                                 /> 
                                         </figure>
                                     </article>
-                                
-                                    <article id="misc_gold" 
-                                        className="gr3s1 gc6s1
-                                            flex items-center justify-center
-                                            bg-gold
-                                            ">
-                                    </article>
-                                
-                                    <article id="misc_blue" 
-                                        className="gr2s1 gc6s3
-                                            flex items-center justify-center
-                                            bg-black-90
-                                            ">
-                                    </article>
                                     {/* <!-- Practice --> */}
                                 
                                 </div>
                                 {/* <!-- Practice --> */}
                             </article>
-                            <footer className="gr3s1 gc1s12 pa1-00 bg-gray w-100">
-                                Practice || Mission Vision and Values 
+                            <footer className="gr3s1 gc1s12 pa1-00 bg-gray white-90 w-100">
+                                Practice || Mission Vision and Values / Vision
                             </footer>
                         </div>
                         {/* <!-- Vision End --> */}
 
                         {/* <!-- Values Start --> */}
                         <div id="mvv--values"
-                            className="grid gtc12 ggap1-00
-                                
-                                "
+                            className="grid gtc12 ggap1-00 
+                                mb1-00"
                         >
                             <header id="values_header"
                                 className="gr1s1 gc1s12 bg-gray w-100">
@@ -201,7 +185,7 @@ const MVV = () => {
                             <article id="values_main" 
                                 className="gr2s1 gc1s12 grid gtc12 blue0"
                             >   
-                                <div className="gc1s5 gr1s1 f1-25 grid items-center justify-center">
+                                <div className="gc1s12 gc2s5-m gr2s1 gr1s1-m f1-25 grid items-center justify-center">
                                     <p>
                                         Professionalism
                                         Excellence
@@ -212,7 +196,7 @@ const MVV = () => {
                                 
                                 {/* <!-- Practice --> */}
                                 <div id="practice"
-                                    className="gr1s1 gc6s7
+                                    className="gr1s1 gc1s12 gc7s5-m
                                     ggap1-00">
                                     <article id="proposed_apartment_2" 
                                         className="gr2s2 gc2s10
@@ -246,18 +230,19 @@ const MVV = () => {
                             </article>
                             <footer id="page_footer"
                                 className="gr3s1 gc1s12 pa1-00 white-90 bg-gray w-100">
-                                Practice || Mission Vision and Values 
+                                Practice || Mission Vision and Values / Values
                             </footer>
                         </div>
                         {/* <!-- Values End --> */}
+                        <SectionFooter sectionTitle = "Paractice/Mission Vision and Values"/>
                     </div>
 
                     <div id="pageNav" 
-                        className="gc4s1 
+                        className="dn flex-l gc4s1
                             w-100 blue0 relative"
                     >
                         <div className="flex flex-column justify-between
-                            min-vh-100 
+                            vh-100 
                             ph2-00 pb1-00
                             pt5-00
                             sticky top-0"
@@ -313,6 +298,7 @@ const MVV = () => {
                         </div>
                         
                     </div>
+                
                 </div>
             </main>
             {/* Page Main End */}

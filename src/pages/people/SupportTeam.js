@@ -48,7 +48,7 @@ const SupportTeam = () => {
                 {/* <!-- AESL Support Team Main Start --> */}
                 <div id="lc_gc1s3__support_team_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Support Team --> */}
                     <div id="people_support_team"
@@ -67,7 +67,7 @@ const SupportTeam = () => {
                                     lh-copy f1-25 tj"
                             >
                                 <div>
-                                Support Team Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                    The support staff at Architectural and Engineering Services Limited provides essential project management, technical direction, and client communication support, guaranteeing seamless operations and raising client satisfaction through knowledgeable support and prompt outcomes.
                                 </div>
                             </div>
 

@@ -11,13 +11,13 @@ const PracticeCard = (props) => {
 
     return (
         <article id="l__sector_ministry"
-            className="grid gtc12 
-                container
-                pa4-00 bg-white shadow-gray"
+            className="grid gtc12 ggap0-25
+                container h-100
+                pa2-00 bg-white shadow-grey br0-50 ba b--blue0"
         >
             <div id="" 
-                className="grid gr1s1 gc1s5 items-center justify-center
-                    w-100 h-100 bg-blue0 shadow-grey br0-50 br--left"
+                className="grid gr2s1 gc1s12 gr1s1-m gc1s5-m items-center justify-center
+                    w-100 h-100 bg-blue0 shadow-grey br0-50"
             >
                 <hgroup id = ""
                     className="gr1s1 gc1s1 flex flex-column items-center justify-center
@@ -41,13 +41,13 @@ const PracticeCard = (props) => {
                 </hgroup> 
             </div>
             <figure id=""
-                className="gr1s1 gc6s7 grid items-center justify-center
+                className="gc1s12 gr1s1 gr1s1-m gc7s6-m grid items-center justify-center
                 w-100 h-100 shadow-grey br0-50"
             >
                 <img id=""
                     src={image}
                     alt=""
-                    className="gc1s1 gr1s1 h-100 w-100 cover br--right br0-50"
+                    className="gc1s1 gr1s1 h-100 w-100 cover br0-50"
                 />
             </figure>
         </article>

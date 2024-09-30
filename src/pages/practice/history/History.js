@@ -1,9 +1,9 @@
 import history from '../../../images/practice/history/History-01.JPG'
 import AESLPracticeNav from '../../../components/organisms/navs/AESL_PracticeNav'
-import { Link } from 'react-router-dom'
 import SectionFooter from '../../../components/organisms/footers/SectionFooter'
 import AESLPageFooter from '../../../components/organisms/footers/AESLPageFooter'
 import SubCategoryHeaderBanner from '../../../components/molecules/banners/SubCategoryHeaderBanner'
+import { Link } from 'react-router-dom'
 
 
 const History = () => {
@@ -33,7 +33,7 @@ const History = () => {
                                 mb1-00
                                 blue0"
                         >
-                            <section id="" 
+                            <header id="historyHeader" 
                                 className="gr1s1 gc2s10"
                             >   
                                 <div className="mv6-00 lh-copy tj f1-25"
@@ -42,12 +42,14 @@ const History = () => {
                                         AESL initially came to be known as AESC when consultancy services were separated from the Public Works Department (PWD) under NRCD 193, 1973. As a government corporation, AESC became the sole consultant for public works. The company was later restructured by an act of parliament, ACT 461 Statutory Corporation (Conversion to Companies).
                                     </p>
                                 </div>
-                            </section>
-                            <section id="" 
+                            </header>
+                            <main id="historyMain" 
                                 className="gr2s1 gc1s12"
                             >     
-                                <div className="grid ggap1-00 ">
-                                    <figure className="shadow-5 w-100 flex items-center justify-center items-center">
+                                <div id="historyMainContent" className="grid ggap1-00"
+                                >
+                                    <figure className="flex items-center justify-center items-center w-100 shadow-5"
+                                    >
                                         <img src={history}
                                         alt=""
                                         className="pa0-50 w-60"
@@ -67,7 +69,7 @@ const History = () => {
                                     </div>
                                 </div>
                                 
-                                <div id="history-gallery"
+                                <div id="historyMainGallery"
                                     className="gr3s1 gc1s12
                                             grid gtc12 ggap1-00
                                             
@@ -114,7 +116,7 @@ const History = () => {
                                             relative"
                                     >
                                         <figure className="shadow-5">
-                                            <img src={history}            
+                                            <img src={history}
                                                 alt=""
                                                 className="pa0-50"
                                             /> 
@@ -150,8 +152,7 @@ const History = () => {
                                     <article id="misc_gold" 
                                         className="gr1s1 gc5s2
                                             flex items-center justify-center
-                                            bg-gray
-                                            "
+                                            bg-gray"
                                     >
                                     </article>
                                 
@@ -162,10 +163,10 @@ const History = () => {
                                     >
                                     </article>
                                 </div>
-                            <SectionFooter 
-                                sectionTitle="History"
-                            />
-                            </section>
+                                <SectionFooter 
+                                    sectionTitle="History"
+                                />
+                            </main>
                         </div>
                     </div>
                     {/* <!-- AESL History End --> */}
@@ -177,45 +178,62 @@ const History = () => {
                     >
                         <div className="flex flex-column justify-between
                             min-vh-100 
-                            pa1-00 pt6-00
+                            ph1-00 pb1-00
+                            pt5-00
                             sticky top-0"
                         >
                             <div>
-                                <Link to = "/practice"
+                                <Link to = '/practice'
                                     className="dib mb1-00 
-                                        f1-25 blue0 ttu fw6">Back to Practice
+                                        f1-25 blue0 ttu fw6"
+                                >
+                                    Back to 
                                 </Link>
-                                <ul className="mb1-00 bl bw4 pa1-00 b--gray gray f0-75"
+                                <ul className="mb1-00 pa1-00 
+                                    bl bw4 b--gray 
+                                    gray f0-75"
                                 >
                                     <h3 >History</h3>
-                                    <li className="mb1-00 i">
-                                        <a href="#history"
+                                    <li className="mb1-00 i"
+                                    >
+                                        <a href='#historyHeader'
                                             className="gray"
                                         >
-                                        AESL History
+                                            AESL History Overview
                                         </a>
                                     </li>
-                                    <li className="mb1-00 i">
-                                        <a href="#history-gallery"
+                                    <li className="mb1-00 i"
+                                    >
+                                        <a href = '#historyMainContent'
                                             className="gray"
                                         >
-                                        AESL History Gallery
+                                            AESL History Content
+                                        </a>
+                                    </li>
+                                    <li className="mb1-00 i"
+                                    >
+                                        <a href = '#historyMainGallery'
+                                            className="gray"
+                                        >
+                                            AESL History Gallery
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
-                            <div className="mb1-00 gray"
-                            >
-                                {/* <small>Previous</small> <br />
-                                <Link to ="/practice/mission-vision-and-values" 
-                                className="mb1-00 gray f0-75 b"
+                            </div> 
+
+                            <div className="h6-00 gray">
+                                <small></small><br/>
+                                <Link to = '' 
+                                    className="mb1-00 f0-75 gray b"
                                 >
-                                    AESL Mission, Vision and Values
-                                </Link> 
-                                <br/><br/>  */}
-                                <small>Next</small> 
-                                <br/>
-                                <Link to ="/practice/mandate" className="mb1-00 gray f0-75 b">AESL Mandate</Link>
+                                    
+                                </Link> <br/><br/>
+                                <small>Next</small><br/>
+                                <Link to ='/practice/mandate'
+                                    className="mb1-00 f0-75 gray b"
+                                >
+                                    AESL Mandate
+                                </Link>
                             </div>
                         </div>
                     </div>

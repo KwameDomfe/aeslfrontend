@@ -48,7 +48,7 @@ const ServicePersonnel = () => {
                 {/* <!-- AESL Service Personnel Main Start --> */}
                 <div id="lc_gc1s3__service_personnel_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Service Personnel --> */}
                     <div id="people_service_personnel"
@@ -64,7 +64,7 @@ const ServicePersonnel = () => {
                                 className="flex ggap1-00 
                                     w-100 blue0
                                     mt6-00 mb4-00 
-                                    lh-copy f1-25 tj"
+                                    lh-copy f1-25 tj red"
                             >
                                 <div>
                                 Service Personnel Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.

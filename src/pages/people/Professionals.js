@@ -48,7 +48,7 @@ const Professionals = () => {
                 {/* <!-- AESL Professionals Main Start --> */}
                 <div id="lc_gc1s3__professionals_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Consultants --> */}
                     <div id="people_professionals"
@@ -67,7 +67,7 @@ const Professionals = () => {
                                     lh-copy f1-25 tj"
                             >
                                 <div>
-                                Professionals Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                    Our company boasts a team of highly skilled professionals dedicated to delivering exceptional design and engineering solutions. With expertise in various disciplines, including architecture, structural engineering, and environmental planning, we tackle diverse project challenges. Their collaborative approach fosters innovation, ensuring that each project meets the highest standards of quality and functionality. Committed to professional development, these experts stay abreast of industry trends and advancements. Their focus on sustainability and client satisfaction drives the creation of spaces that are not only beautiful but also environmentally responsible.
                                 </div>
                             </div>
 

@@ -48,7 +48,7 @@ const SeniorProfessionals = () => {
                 {/* <!-- AESL Senior Professionals Main Start --> */}
                 <div id="lc_gc1s3__senior_professionals_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Consultants --> */}
                     <div id="people_senior_professionals"
@@ -67,7 +67,7 @@ const SeniorProfessionals = () => {
                                     lh-copy f1-25 tj"
                             >
                                 <div>
-                                Senior Professionals Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                    At Architectural and Engineering Services Limited, senior professionals bring a wealth of experience and expertise to complex projects. They lead multidisciplinary teams, ensuring that innovative design and engineering solutions are effectively implemented. With a deep understanding of industry standards and regulations, they guide projects through every phase, from initial concept to final execution. Their strong leadership and mentorship foster a culture of collaboration and continuous improvement within the organization. Committed to sustainability and client success, they consistently deliver results that exceed expectations while promoting environmentally responsible practices.
                                 </div>
                             </div>
 

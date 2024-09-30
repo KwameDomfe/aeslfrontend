@@ -9,7 +9,7 @@ const SectionHeader = (props) => {
             <img src={bgImage}
                 alt=""
                 className="gc1s1 gr1s1 
-                    h6-00 h12-00-s cover"
+                    h6-00 h12-00-m cover"
             /> 
             <hgroup className="gc1s1 gr1s1
                 flex 
@@ -21,7 +21,7 @@ const SectionHeader = (props) => {
                 >
                     {title}
                 </h3>
-                <h4 className="dn dib-s 
+                <h4 className="dn dib-m 
                     w-75-m 
                     pa1-00 mb0-00 
                     gold f1-50 tj tracked-tight lh-title"

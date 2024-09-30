@@ -5,8 +5,8 @@ const AESL_PageFooter = (props) => {
     const {pageTitle} = props
 
     return (
-        <div className="flex-s justify-between items-center
-            pv2-00 ph1-00 mb1-00 
+        <div className="flex-m justify-between items-center
+            pa1-00 mb1-00 
             bg-blue0 gold"
         >
             <div className="flex justify-center items-center f1-50"

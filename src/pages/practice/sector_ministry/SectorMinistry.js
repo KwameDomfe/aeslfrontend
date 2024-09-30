@@ -33,15 +33,15 @@ const SectorMinistry = () => {
                                     pv4-00 mh4-00
                                     tj blue0 lh-copy f1-25"
                                 >
-                                    <div>
+                                    <div className="red">
                                         <p>
-                                            The Ministry of Works and Housing (MWH) established by the British was used for all state works over decades post-colonial.
+                                        The Ministry of Works and Housing is a key government agency responsible for the planning, development, and management of infrastructure and housing within the country. With its significant history tied to the country’s development and governance, the Ministry’s evolution reflects Ghana’s changing needs and priorities in infrastructure and housing, positioning it as a key player in the country’s ongoing projects.
                                         </p>
                                         <p>
-                                            The institutions like State Construction Corporation (SCC), State Housing Corporation (SHC), Highways.
+                                            
                                         </p>
                                         <p>
-                                            No privates businesses were allowed to handle state/ public works except the PWD.
+                                           
                                         </p>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ const SectorMinistry = () => {
                                         className="gr1s1 gc1s6
                                         flex items-center justify-center
                                         relative">
-                                        <hgroup 
+                                        {/* <hgroup 
                                             className="flex flex-column items-center justify-center
                                                 pa0-50 bg-blue0 
                                                 absolute
@@ -68,7 +68,7 @@ const SectorMinistry = () => {
                                             <span>
                                                 - Techiman, Ghana.
                                             </span>    
-                                        </hgroup>
+                                        </hgroup> */}
                                         <figure >
                                             <img src={sectorMinistry}
                                                 alt=""
@@ -90,7 +90,7 @@ const SectorMinistry = () => {
                                                 className="pa0-50"
                                             /> 
                                         </figure>
-                                        <hgroup 
+                                        {/* <hgroup 
                                             className="flex flex-column items-center justify-start
                                                 pa0-50
                                                 bg-blue0
@@ -102,7 +102,7 @@ const SectorMinistry = () => {
                                             <span>
                                             - Accra , Ghana.
                                             </span>    
-                                        </hgroup>
+                                        </hgroup> */}
                                     </article>
                                 
                                     <article id="proposed_apartment_2" 
@@ -110,7 +110,7 @@ const SectorMinistry = () => {
                                         flex items-center justify-center
                                         relative"
                                     >
-                                        <hgroup 
+                                        {/* <hgroup 
                                             className="flex flex-column items-center justify-start
                                                 pa0-50
                                                 bg-blue0
@@ -122,7 +122,7 @@ const SectorMinistry = () => {
                                             <span>
                                             - Accra , Ghana.
                                             </span>    
-                                        </hgroup>
+                                        </hgroup> */}
                                         <figure className="shadow-5">
                                             <img src={sectorMinistry}
                                                 alt=""
@@ -139,7 +139,7 @@ const SectorMinistry = () => {
                                             flex items-center justify-center
                                             relative"
                                     >
-                                        <hgroup 
+                                        {/* <hgroup 
                                             className="flex items-center justify-center
                                                 bg-blue0
                                                 absolute
@@ -153,7 +153,7 @@ const SectorMinistry = () => {
                                             <span className="white-90 flex items-center justify-center">
                                                 - Techiman, Ghana.
                                             </span>    
-                                        </hgroup>
+                                        </hgroup> */}
                                         <figure >
                                             <img src={sectorMinistry}            
                                                 alt=""
@@ -224,7 +224,7 @@ const SectorMinistry = () => {
                             <article id="" 
                                 className="gr2s1 gc1s12 grid gtc12"
                             >   
-                                <div className="gr1s1 gc7s6 ph2-00 blue0">
+                                <div className="gr1s1 gc7s6 ph2-00 blue0 red">
                                     <p>
                                         The Minister for Works and hosibb  bla bla bla.
                                     </p>

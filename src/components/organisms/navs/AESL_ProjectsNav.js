@@ -73,7 +73,7 @@ const AESL_ProjectsNav = () => {
             </div>
             
             <div id="projectCategories--nav2" 
-                className="gr2s1 gr1s1-m gc1s1 gc2s1-s gc3s1-m
+                className="gr2s1 gr1s1-m gc1s1 gr1s1-s gc3s1-s gc3s1-m
                     w10-00 h10-00 
                     bg-blue0
                     br0-50 ba shadow-yellow"

@@ -48,7 +48,7 @@ const AssistantProfessionals = () => {
                 {/* <!-- AESL Assistant Professionals Main Start --> */}
                 <div id="lc_gc1s3__assistant_professionals_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Consultants --> */}
                     <div id="people_assistant_professionals"
@@ -67,7 +67,7 @@ const AssistantProfessionals = () => {
                                     lh-copy f1-25 tj"
                             >
                                 <div>
-                                Assistant Professionals Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                Assistant professionals at Architectural and Engineering Services Limited play a crucial role in supporting project teams and ensuring smooth operations. They assist in research, drafting, and design processes, contributing to the development of innovative solutions. With a focus on detail and accuracy, they help prepare technical documentation and reports that meet industry standards. Their proactive approach and strong communication skills facilitate collaboration among team members and clients. Committed to professional growth, they continuously seek to enhance their knowledge and skills within the field.
                                 </div>
                             </div>
 
@@ -420,7 +420,7 @@ const AssistantProfessionals = () => {
         {/* <!-- Page Main -->  */}
         {/* <!-- Page Footer -->   */}
         <AESLPageFooter 
-            pageTitle = "Professionals"
+            pageTitle = "Asssstant Professionals"
         />
         {/* <!-- Page Footer -->  */}
     </div>

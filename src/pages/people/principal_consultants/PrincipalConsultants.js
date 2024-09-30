@@ -47,7 +47,7 @@ const PrincipalConsultants = () => {
                 {/* <!-- AESL Principal Consultants Main Start --> */}
                 <div id="lc_gc1s3__Principal_Consultants_pageContent"
                     className="gc1s4 gc1s3-l
-                        min-vh-100 ph1-00"
+                        min-vh-100 ph1-00 mb1-00"
                 >   
                     {/* <!-- Principal Consultants --> */}
                     <div id="people_principal_consultants"
@@ -66,7 +66,8 @@ const PrincipalConsultants = () => {
                                     lh-copy f1-25 tj"
                             >
                                 <div>
-                                    Principal Consultants Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nulla asperiores pariatur, fugit autem sed eos blanditiis sint quia possimus ex voluptatem qui incidunt adipisci sit in optio, saepe, sequi debitis cumque at ad quas iure! Saepe quam corrupti magni doloremque numquam minima harum blanditiis sed amet? Porro, temporibus nobis.
+                                Our principal consultants lead projects from conceptualization to execution, ensuring that client needs are met with precision. Their team integrates architecture, engineering, and project management expertise to create functional and aesthetically pleasing environments. Committed to sustainability, they incorporate eco-friendly practices into their designs. With a strong emphasis on collaboration, our principal consultants foster relationships with clients and stakeholders to achieve successful project outcomes.
+
                                 </div>
                             </div>
 

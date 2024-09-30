@@ -10,18 +10,15 @@ const AESL_PrinciplesNav = () => {
         >
             <nav id="principles_nav1" 
                 className="gr1s1 gc1s1
-                    h10-00 w10-00 br0-50
+                    h10-00 w10-00
                     f1-00 shadow-red ba br0-50"
             >
                 <ul id=""
-                    className="
-                        w-100 h-100 
-                        pa0-50
-                        bg-blue0 br0-50"
+                    className="pa0-50"
                 >
                     <li className="mb0-50">
                         <Link to ="/principles"
-                            className="white-90 hover-black:hover hover-black:focus" 
+                            className="white-90"
                         >Principles
                         </Link>
                     </li>   
@@ -33,44 +30,46 @@ const AESL_PrinciplesNav = () => {
                     f1-00 shadow-red ba br0-50"
             >
                 <ul id=""
-                    className="
-                        w-100 h-100 
-                        pa0-50
-                        bg-blue0 br0-50"
+                    className="pa0-50"
                 >
                     <li className="mb0-50">
                         <Link to ="/principles"
-                            className="white-90 hover-black:hover hover-black:focus" 
-                        >Civic</Link>
-                    </li>   
+                            className="white-90"
+                        >
+                            Civic
+                        </Link>
+                    </li>
                     <li className="mb0-50">
                         <Link to ="/principles"
                             className="white-90" 
-                        >Professionalism</Link> 
-                    </li>     
+                        >
+                            Professionalism
+                        </Link>
+                    </li>
                     <li className="mb0-50">
                         <Link to ="/principles"
-                            className="white-90"    
-                        >Excellence</Link>
-                    </li>     
+                            className="white-90"
+                        >
+                            Excellence
+                        </Link>
+                    </li>
                     <li className=" mb0-50">
                         <Link to ="/principles"
                             className="white-90" 
-                        >Integrity and Honesty</Link>
-                    </li>     
+                        >
+                            Integrity and Honesty
+                        </Link>
+                    </li>
                 
-                </ul> 
+                </ul>
             </nav>
 
             <nav id="practice_nav2" 
-                className="gr1s1 gc3s1
+                className="gr2s1 gr1s1-m gc1s1 gc3s1-m gr1s1-l gc3s1-l
                 h10-00 w10-00 shadow-red
-                ba br0-50
-                ">
-                <ul className=" 
-                        w-100 h-100
-                        pa0-50 
-                        bg-blue0 br0-50"
+                ba br0-50"
+            >
+                <ul className="pa0-50"
                 >
                 <li className="mb0-50">
                     <Link to ="/principles"
@@ -92,7 +91,7 @@ const AESL_PrinciplesNav = () => {
             </nav>
 
             <nav id="practice_list" 
-                className="gr1s1 gc12s1
+                className="gc2s1 gr2s1 gr1s1-m gc4s1-m gr1s1-l gc12s1-l
                     h10-00 w10-00 shadow-red br0-50
                     "
             >
@@ -100,7 +99,6 @@ const AESL_PrinciplesNav = () => {
                     w-100 h-100
                     pa0-50
                     blue0
-                    ba
                     bg-white br0-50"
                 >
                     
