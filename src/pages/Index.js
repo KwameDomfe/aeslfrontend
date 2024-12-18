@@ -4,7 +4,7 @@ import Offices from './homepage/Offices'
 import AESLPageFooter from '../components/organisms/footers/AESLPageFooter'
 import { useEffect } from 'react'
 
-const Homepage = () => {
+const Index = () => {
 
     // UseEffect
     
@@ -48,4 +48,4 @@ const Homepage = () => {
     )
 }
 
-export default Homepage
+export default Index

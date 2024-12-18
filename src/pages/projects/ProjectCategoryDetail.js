@@ -1,17 +1,25 @@
 // Images
 import projectsBanner from '../../images/projects/00.jpeg'
-import proj01 from '../../images/projects/civic_and_culture/civic/1_0.jpg'
-import proj02 from '../../images/projects/civic_and_culture/civic/2.PNG'
+import proj01 from '../../images/projects/civic_and_culture/civic/PoliceHeadquaters/1_0.jpg'
+import proj02 from '../../images/projects/civic_and_culture/civic/PoliceHeadquaters/1_1.jpg'
+
 // Compoments
 import CategoryHeaderBanner from '../../components/molecules/banners/CategoryHeaderBanner'
 import AESLPageFooter from '../../components/organisms/footers/AESLPageFooter'
 import AESLProjectsNav from '../../components/organisms/navs/AESL_ProjectsNav'
 import ProjectCard from '../../components/organisms/cards/ProjectCard'
 import SectionFooter from '../../components/organisms/footers/SectionFooter'
+// import { useParams } from 'react-router-dom'
+import {projects, projectCategories} from '../../data/projectsInfo'
+import { useState } from 'react'
 
 
-const ProjectCategoryDetail = () => {
-  
+const ProjectCategoryDetail = (props) => {
+    // console.log(Projects)
+    const {} = props
+    const [jects, setJects] = useState(projects);
+    console.log(jects);
+
     return (
         <article id = ""
             className = ""
@@ -21,8 +29,8 @@ const ProjectCategoryDetail = () => {
                 className="bg-yellow"
             >
                 <CategoryHeaderBanner 
-                    image = {projectsBanner}
-                    title ='projects Category Name'
+                    image = {projectCategories.name}
+                    title ={jects.name}
                 />
                 <AESLProjectsNav />
             </header>
@@ -44,7 +52,7 @@ const ProjectCategoryDetail = () => {
                             className="f1-50"
                         >
                             <p className="mb0-00 lh-copy tracked tj">
-                                projectCategory Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse autem atque libero. Dolores quos eaque repudiandae optio aperiam laboriosam ratione harum aut quam, doloremque magni minima eligendi quisquam dolor praesentium ut similique, voluptates debitis eveniet provident assumenda blanditiis ipsa! Voluptatibus consequatur quidem mollitia nihil facilis natus suscipit nemo deserunt qui.
+                                {jects.overview}
                             </p>
                         </hgroup>
                     </div>
@@ -56,6 +64,7 @@ const ProjectCategoryDetail = () => {
                     className = "gc2s10 w-100 mt2-00 mb1-00"
                 >
                     {/* {% for projectSubCategory in projectSubCategories %} */}
+
                     <ul className= "mb2-00"
                     >
                         <li className=""
@@ -143,7 +152,7 @@ const ProjectCategoryDetail = () => {
                                 {/* {% endfor %} */}
                             </ul>
                             <footer className= "flex pa1-00 bg-blue0 gold i"> 
-                                <div className= "mr0-50">project Category </div> ||
+                                <div className= "mr0-50"> project Category Name</div> ||
                                 <div className= "ml0-50"> project SubCategory One</div>
                             </footer>
                         </li>

@@ -16,7 +16,7 @@ const CategoryHeaderBanner = (props) => {
                     className="w-100 vh-50 vh-60-l cover"
                 />
             </figure>
-            <hgroup className=" flex items-center w-100 blue0 ph1-00 gc1s12 f2-50 f3-50-m "
+            <hgroup className=" flex items-center w-100 blue0 ph1-00 gc1s12 f2-00 f2-50-m "
             >
                 {icon}
                 <h2 className="

@@ -1,7 +1,7 @@
 // Images
 import bannerImage from '../../images/index/banner_images/index-01.jpg'
-import engineering from '../../images/projects/infrastructure_and_survey/00.jpg'
-import architectureAndPlanning from '../../images/projects/residential/4.jpeg'
+import engineering from '../../images/index/eng.jpg'
+import architectureAndPlanning from '../../images/index/a_and_p.jpeg'
 
 // Components
 import HomePageHeaderCard from '../../components/organisms/cards/HomePageHeaderCard'

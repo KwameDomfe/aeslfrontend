@@ -11,7 +11,7 @@ const RootLayout = () => {
             className="flex flex-column flex-row-l vh-100 w-100"
         >   
             {/* Main Header Start */}
-                <header id="lc__MainHeader" 
+                <header id="lc__mainHeader" 
                     className=""  
                 >  
                     <MainHeader />
@@ -19,7 +19,7 @@ const RootLayout = () => {
             {/* Main Header End */}
             
             {/* <!-- Main Content Start --> */}
-                <main id="lc__MainContent"
+                <main id="lc__mainContent"
                     className="vh-100 w-100 of-y-scroll"
                 >   
                     {/* Page Content Start */}

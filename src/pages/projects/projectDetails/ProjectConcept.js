@@ -1,6 +1,7 @@
 import ProjectDetailCard from '../../../components/organisms/cards/ProjectDetailCard'
 import ProjectSectionFooter from '../../../components/organisms/footers/ProjectSectionFooter'
 import xxx from '../../../images/placeholders/regular_images/sky.jpg'
+import {projects} from '../../../data/projectsInfo'
 
 const ProjectConcept = () => {
   return (
@@ -15,8 +16,13 @@ const ProjectConcept = () => {
                 >
                     PROJECT CONCEPT
                 </h2>
-                
-                <p className="f1-25 tj lh-copy"> Project Concept Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veniam molestiae, eveniet atque autem enim, natus illo deserunt, esse magnam cumque quam? Repellat, voluptate, amet soluta quas magnam accusamus nesciunt laborum, eum obcaecati modi placeat iusto labore officiis? Molestiae architecto deleniti incidunt dolore eius! Magni voluptates aut quo quas nemo?</p>     
+                <div className="f1-25 tj lh-copy">
+                    <ul>
+                        <li className="mb0-50">{projects[0].projectConcept[0]}</li>
+                        <li className="mb0-50">{projects[0].projectConcept[1]}</li>
+                        <li className="mb0-50">{projects[0].projectConcept[2]}</li>
+                    </ul>
+                </div>
             </hgroup>
             {/* <!-- Project Concept Title End --> */}
 
@@ -37,7 +43,6 @@ const ProjectConcept = () => {
                     grid items-end justify-center
                     "
             >
-            
                 <ProjectDetailCard 
                     image={xxx} 
                     title="Concept Image One" 
@@ -67,26 +72,23 @@ const ProjectConcept = () => {
                     image={xxx} 
                     title="Concept Image One" 
                     description = "Repellat, voluptate, amet soluta quas magnam accusamus nesciunt voluptates aut quo quas nemo?"
-                />  
+                />
             </article>
             <article id="project_Concept_gallery_5" 
                 className="gr7s2 gc2s4
                     grid items-end justify-center
-                    h-100
-                    "
+                    h-100"
             >
-            
                 <ProjectDetailCard 
                     image={xxx} 
                     title="Concept Image One" 
                     description = "Repellat, voluptate, amet soluta quas magnam accusamus nesciunt voluptates aut quo quas nemo?"
                 />
             </article>
-            <footer id="project_Concept_gallery_6" 
+            <footer id="project_Concept_footer" 
                 className="gr9s1 gc1s12
                     items-center justify-center
-                    h-100 mt1-00
-                    "
+                    h-100 mt1-00"
             >
                 <ProjectSectionFooter />
             </footer>

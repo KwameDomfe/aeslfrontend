@@ -53,7 +53,7 @@
 .b--blue0{border-color:#004e7c}
 .b--gold{border-color:#ffb700}
 .b--gold-10{border-color:rgb(255, 183, 0,0.2)}
-.b--yellow{border-color:gold}
+.b--yellow{border-color:rgb(255, 255, 0)}
 .b--green{border-color:rgb(0 255 0 / 75%);}
 
 .b--transparent{border-color:transparent}

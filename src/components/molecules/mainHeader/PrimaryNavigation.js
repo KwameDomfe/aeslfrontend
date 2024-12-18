@@ -10,7 +10,7 @@ import { PiBookBold } from "react-icons/pi";
 
 
 const  PrimaryNavigation = (props) => {
-
+    
     const mainNav= [
         {
             id : 1,
@@ -50,7 +50,7 @@ const  PrimaryNavigation = (props) => {
         },
     ]
 
-    const {onClick} = props;
+    const {menuClick} = props;
     
     return (
         <ul className="flex flex-column ggap0-25 justify-start 
@@ -65,10 +65,10 @@ const  PrimaryNavigation = (props) => {
                         <li key = {id} 
                             className="flex bg-white-10 b--white-10
                                 br0-25 shadow-5"
-                            onClick = {onClick}
+                            onClick = {menuClick}
                         >
                             <NavLink to = {url}
-                                className="w14-00 f1-00 flex items-center white-90 pa0-25"
+                                className="w16-00 w14-00-l f1-00 flex items-center white-90 pa0-25"
                             >
                                 
                                 <Icon />

@@ -10,10 +10,22 @@ import ProjectConstruction from "./ProjectConstruction"
 import ProjectData from "./ProjectData"
 import RelatedProjects from "./RelatedProjects"
 import { Link } from "react-router-dom"
+import {projects} from '../../../data/projectsInfo'
+import { useEffect } from "react"
+import AESL_PageFooter from "../../../components/organisms/footers/AESLPageFooter"
 
-const ProjectDetails = () => {
-  return (
-    <article id = ""
+const ProjectDetails = (props) => {
+    
+    useEffect(() => {
+      
+        document.title={}
+        return () => {
+       
+        }
+    }, [])
+    
+    return (
+        <article id = ""
             className = ""
         >
             {/* Page Header Start */}
@@ -21,8 +33,8 @@ const ProjectDetails = () => {
                 className="bg-yellow pb1-00"
             >
                 <SubCategoryHeaderBanner 
-                    image = {projectsBanner}
-                    title ='project Name'
+                    image = {projects[0].thumbnail}
+                    title ={projects[0].name}
                     subTitle = 'Location'
                 />
                 <AESLProjectDetailsNav />
@@ -102,7 +114,7 @@ const ProjectDetails = () => {
                             <footer id="pageFooter"
                                 className="mb1-00"
                             > 
-                                {/* {% include 'website/_partials/page_footer.html' %} */}
+                                <AESL_PageFooter />
                             </footer>
                             {/* <!-- Page Footer End --> */}
                         </article>
@@ -112,7 +124,7 @@ const ProjectDetails = () => {
 
                 {/* <!-- Page Aside Start --> */}
                     <aside id="lc_gc4s1_Aside_ProjectDetils" 
-                        className="gc4s1-l bg-yellow"
+                        className="gc4s1-l bg-yello"
                     >
                         <nav id=""
                             className="dn flex-l flex-column-l justify-start-l
@@ -120,7 +132,7 @@ const ProjectDetails = () => {
                                  
                                 sticky top-0"
                         >
-                            <hgroup className="ttu f1-00 pb1-00 bg-white-20 pv1-00 ma0-50">
+                            <hgroup className="ttu f1-00 pb1-00 bg-white pv1-00 ma0-50">
                                 <Link to="/projects"
                                     className="blue0 ml1-50"    
                                 >Back to Projects</Link>

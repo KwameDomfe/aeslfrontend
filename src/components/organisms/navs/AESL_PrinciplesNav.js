@@ -33,32 +33,32 @@ const AESL_PrinciplesNav = () => {
                     className="pa0-50"
                 >
                     <li className="mb0-50">
-                        <Link to ="/principles"
+                        <a href ="#principles_Civic"
                             className="white-90"
                         >
                             Civic
-                        </Link>
+                        </a>
                     </li>
                     <li className="mb0-50">
-                        <Link to ="/principles"
+                        <a href ="#principles_Professionalism"
                             className="white-90" 
                         >
                             Professionalism
-                        </Link>
+                        </a>
                     </li>
                     <li className="mb0-50">
-                        <Link to ="/principles"
+                        <a href ="#principles_Excellence"
                             className="white-90"
                         >
                             Excellence
-                        </Link>
+                        </a>
                     </li>
                     <li className=" mb0-50">
-                        <Link to ="/principles"
+                        <a href ="#principles_IntegrityAndHonesty"
                             className="white-90" 
                         >
                             Integrity and Honesty
-                        </Link>
+                        </a>
                     </li>
                 
                 </ul>
@@ -72,20 +72,20 @@ const AESL_PrinciplesNav = () => {
                 <ul className="pa0-50"
                 >
                 <li className="mb0-50">
-                    <Link to ="/principles"
+                    <a href ="#principles_TimelinessAndCostEffectiveness"
                         className="white-90" 
-                    >Timeliness and Cost Effectiveness</Link> 
+                    >Timeliness and Cost Effectiveness</a> 
                 </li>                       
                 <li className="mb0-50">
-                    <Link to ="/principles"
+                    <a href ="#principles_Sustainability"
                         className="white-90" 
-                    >Sustainability</Link> 
+                    >Sustainability</a> 
                 </li>                       
                 <li className="mb0-50">
-                    <Link to ="/principles"
-                        className="white-90" 
-                    >Empowerment</Link> 
-                </li>                       
+                    <a href ="#principles_Empowerment"
+                        className="white-90"
+                    >Empowerment</a> 
+                </li>
                                 
                 </ul> 
             </nav>

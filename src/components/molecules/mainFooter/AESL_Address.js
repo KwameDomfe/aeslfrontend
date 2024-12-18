@@ -1,6 +1,9 @@
 import React from 'react'
 import aesl_logo from '../../../images/_partials/logos/aesl_logo.png'
 import { Link } from 'react-router-dom'
+import { TfiEmail } from "react-icons/tfi";
+
+<TfiEmail />
 const AESL_Address = () => {
   return (
     <div id="aesl_address"
@@ -60,18 +63,16 @@ const AESL_Address = () => {
             <p className="flex items-center justify-between 
                 w-100
                 pv0-25 ph1-00
-                ba br5-00 
+                ba br5-00 white-90 
                 b b--white-90"
             > 
-                <img src={aesl_logo}
-                    alt="WhatsApp" 
-                    className="w1-25 mr0-50" 
-                />info@aesl.com 
+                <TfiEmail className='f1-00 gc2s1 mr0-50' />
+                info@aesl.com 
             </p>
         </Link>
     </div>
     <p className="lh-copy tj i">
-        The Architectural & Engineering Services Limited (AES Ltd) is a Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, sit iste reprehenderit est sed perferendis dolorem quisquam incidunt. In tenetur ducimus ratione quidem consequatur quisquam facilis atque aliquam vero fugit..
+        The Architectural & Engineering Services Limited (AES Ltd) initially came to be known as AESC when consultancy services were separated from the Public Works Department (PWD) under NRCD 193, 1973. 
     </p>
 </div>
   )

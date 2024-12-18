@@ -35,8 +35,8 @@ const ProjectDetailCard = (props) => {
             <p className="blue0">
                 {description}
             </p>    
-        <span className="dib mv1-00 mr2-00 ba br0-25 pa0-25 b b--blue0 bg-blue0 yellow">View Image</span>
-        <span className="dib mv1-00 ba br0-25 pa0-25 b--blue0 blue0">Read More</span>
+        <span className="dib mv1-00 mr2-00 ba br0-25 pa0-25 b b--blue0 blue0">View Image</span>
+        {/* <span className="dib mv1-00 ba br0-25 pa0-25 b--blue0 blue0">Read More</span> */}
         </hgroup> : ''}
     </div>
   )

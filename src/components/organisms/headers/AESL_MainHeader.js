@@ -12,7 +12,7 @@ import PoweredBy from '../../molecules/mainHeader/PoweredBy'
 
 const MainHeader = () => {
 
-    // UseState Variables
+    // State Variables
     const [toggleMenu, SetToggleMenu] = useState(true)
 
     /* Custom Functions */
@@ -22,65 +22,81 @@ const MainHeader = () => {
    
     return (
         <article id="o__TwoColumnHeader" 
-            className="flex justify-between flex-column-l items-center
-                vh-100-l 
+            className={`flex justify-between flex-column items-center
+                ${toggleMenu ? "h-100": "vh-100"} of-hidden
                 pa0-75 
-                bg-blue0"
+                bg-blue0`}
         >   
             <div id="m__AESLLogo"
-                className="flex items-center justify-center flex-column-l"
+                className="flex justify-between justify-center-l w-100"
                 tabIndex="0" 
                 title="AESL Logo" 
                 aria-label="AESL Logo"
             >
                 <Link to="/"
-                    className="white-90 mb1-00-l flex"
                 >
-                <Logo />
+                    <Logo />
                 </Link>
+                <div id="m__MenuToggle" 
+                    className="flex items-center justify-center dn-l
+                        pointer"
+                >
+                    <MenuToggle menuToggle={toggleMenu}
+                        menuClick = {handleToggleMenu}
+                    />
+                </div>
             </div>
             
-            <div id="m__SearchForm" 
-                className="dn flex-l items-center justify-center w-100"
+            <div className = {`${toggleMenu ? 'dn':'flex'} flex-l flex-column justify-between 
+                    h-100 
+                    pt4-00 
+                    `
+                }
             >
-                <SearchForm />
-            </div>
+                <div id="m__SearchForm" 
+                    className="flex-l items-center justify-center w-100"
+                >
+                    <SearchForm />
+                </div>
+                
+                <nav id="m__MainNav"
+                    className="flex-l
+                    w-100"
+                >
+                    <PrimaryNavigation 
+                        menuClick ={handleToggleMenu}
+                    />
+                </nav>
+                
+                <nav id="m__SocialMediaNav"
+                    className="flex-l items-center justify-center w-100-l mv1-00-l" 
+                    tabIndex="0"
+                >
+                    <SocialNavigation 
+                        menuClick ={handleToggleMenu}
+                    />
+                </nav>
+                
+                <section id="m__" 
+                    className="flex-l flex-column-l"
+                >
+                    <UserAccounts 
+                        menuClick ={handleToggleMenu}
+                    />
+                </section>
+                
+                <footer id="m__" 
+                    className="flex-l flex-column-l"
+                >
+                    <MiscNav 
+                        menuClick ={handleToggleMenu}
+                    />
 
-            <div id="m__MenuToggle" 
-                className="flex items-center justify-center dn-l
-                    pointer"
-            >
-                <MenuToggle toggleMenu={toggleMenu}
-                    onClick = {handleToggleMenu}
-                />
+                    <PoweredBy 
+                        menuClick ={handleToggleMenu}
+                    />
+                </footer>
             </div>
-            
-            <nav id="m__MainNav"
-                className="dn flex-l
-                w-100"
-            >
-                <PrimaryNavigation />
-            </nav>
-            
-            <nav id="m__SocialMediaNav"
-                className="dn flex-l items-center justify-center w-100-l mv1-00-l" 
-                tabIndex="0"
-            >
-                <SocialNavigation />
-            </nav>
-            
-            <section id="m__" 
-                className="dn flex-l flex-column-l"
-            >
-                <UserAccounts />
-            </section>
-            <footer id="m__" 
-                className="dn flex-l flex-column-l"
-            >
-                <MiscNav />
-
-                <PoweredBy />
-            </footer>
         </article>
     )
 }

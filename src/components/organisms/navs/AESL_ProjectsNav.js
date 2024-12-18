@@ -1,16 +1,13 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {projects, projectCategories} from '../../../data/projectsInfo'
 const AESL_ProjectsNav = () => {
     return (
-        <div id="projectsNav"
+        <nav id="projectsNav"
             className="grid gtc12 gc1s12 ggap1-00
-            items-center justify-between
+                items-center justify-between
                 pa1-00
-                white-90
-                f1-00  tracked-tight
                 bg-blue0
-                "
+                white-90 f1-00 tracked-tight"
         >
             <div id="projects" 
                 className="gc1s1 gr1s1 gc1s1-m
@@ -38,38 +35,24 @@ const AESL_ProjectsNav = () => {
             >
                 <ul id = "projectCategories_list_1"
                     className="
-                    pa0-50 ">
-                        <li className="mb0-50">
-                            <Link to="/projects/civic-and-culture"
-                            className="white-90">
-                                Civic and Culture
-                            </Link>
-                        </li>
-                        <li className="mb0-50">
-                            <Link to="/projects/education"
-                            className="white-90">
-                                Education
-                            </Link>
-                        </li>
-                        <li className="mb0-50">
-                            <Link to="/projects/health"
-                            className="white-90">
-                                Health
-                            </Link>
-                        </li>
-                        <li className="mb0-50">
-                            <Link to="/projects/office-retail-and-mixed-use"
-                            className="white-90">
-                                Office Retail and Mixed-Use
-                            </Link>
-                        </li>
-                        <li className="mb0-50">
-                            <Link to="/projects/sports-and-leisure"
-                            className="white-90">
-                                Sports and Leisure
-                            </Link>
-                        </li>
-                </ul>   
+                    pa0-50 "
+                >
+                        {projectCategories.map(
+                                (project) => {
+                                    return (
+                                        <li className="mb0-50"
+                                        >
+                                            <Link to = {`/projects/${project.url}`}
+                                                className="white-90"
+                                            >
+                                                {project.name}
+                                            </Link>
+                                        </li>
+                                    )
+                                }
+                            ).splice(0,5)
+                        }
+                </ul>
             </div>
             
             <div id="projectCategories--nav2" 
@@ -83,30 +66,21 @@ const AESL_ProjectsNav = () => {
                         w-100, h-100
                         pa0-50"
                 >
-                    <li className="mb0-50">
-                        <Link to="/projects/residential"
-                        className="white-90 ">
-                            Residential
-                        </Link>
-                    </li>
-                    <li className="mb0-50">
-                        <Link to="/projects/industrial-and-infrastructure"
-                        className="white-90 ">
-                            Industrial and Infrastructure
-                        </Link>
-                    </li>
-                    <li className="mb0-50">
-                        <Link to="/projects/hospitality"
-                        className="white-90 ">
-                            Hospitality
-                        </Link>
-                    </li>
-                    <li className="mb0-50">
-                        <Link to="/projects/landscape-planning-and-survey"
-                        className="white-90 ">
-                            Landscape, Planning and Survey
-                        </Link>
-                    </li>
+                    {projectCategories.map(
+                                (project) => {
+                                    return (
+                                        <li className="mb0-50"
+                                        >
+                                            <Link to = {`/projects/${project.url}`}
+                                                className="white-90"
+                                            >
+                                                {project.name}
+                                            </Link>
+                                        </li>
+                                    )
+                                }
+                            ).splice(5,10)
+                        }
                 </ul>  
             </div>
 
@@ -139,7 +113,8 @@ const AESL_ProjectsNav = () => {
                     </li>     
                 </ul> 
             </div>
-        </div>
+
+        </nav>
     )
 }
 

@@ -148,9 +148,9 @@ const Management = () => {
                                 >
                                     <hgroup 
                                         className="flex flex-column justify-start 
-                                        pa4-00
+                                        pa2-00
                                         bg-gray 
-                                        fw4
+                                        f1-25 fw4
                                         ba
                                         lh-copy"
                                     >

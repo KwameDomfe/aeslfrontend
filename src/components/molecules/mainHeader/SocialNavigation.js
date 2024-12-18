@@ -3,7 +3,7 @@ import twitter from '../../../svgs/socialMedia/twitter.svg'
 import linkedin from '../../../svgs/socialMedia/linkedin.svg'
 import youtube from '../../../svgs/socialMedia/youtube.svg'
 // import { useState } from 'react'
-const SocialNavigation = () => {
+const SocialNavigation = (props) => {
 
     const socialNav= [
         {
@@ -27,7 +27,7 @@ const SocialNavigation = () => {
             url : 'https://www.youtube.com/'
         },
     ]
-
+    const {menuClick} = props
     return (
         <ul id=""
             className="flex justify-around items-center w-100
@@ -37,6 +37,7 @@ const SocialNavigation = () => {
                         return (
                             <li key={a.id} 
                                 className="mb0-00"
+                                onClick={menuClick}
                             >
                                 <a href = {a.url}
                                     className="flex justify-center items-center

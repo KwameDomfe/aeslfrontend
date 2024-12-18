@@ -1,11 +1,13 @@
-import React from 'react'
 import ghie from '../../../images/_partials/logos/ghie.png'
 import gia from '../../../images/_partials/logos/gia.png'
 import ghip from '../../../images/_partials/logos/ghip.jpg'
 import ghis from '../../../images/_partials/logos/ghis.jpg'
+import { Link } from 'react-router-dom'
 
 const ProfessionalInstitutions = () => {
-    // consts', lets', functions
+    
+    // functions
+    
     return (
         <article id="m_professionalInstitutions" 
             className="grid gtc3 ggap1-00" 
@@ -17,14 +19,15 @@ const ProfessionalInstitutions = () => {
                     br0-25 bg-white"  
                 data-use-new="true"
             >
-                <a href="www.gia.com.gh"
+                <Link to="https://www.gia.com.gh"
                     className="w-100 h-100"
+                    target="_blank"
                 >
                     <img src={gia} 
                         alt=""
                         className="w-100 h-100"
                     />
-                </a>
+                </Link>
             </figure>
 
             <figure id="GhIE"
@@ -33,14 +36,15 @@ const ProfessionalInstitutions = () => {
                     br0-5"
                 data-use-new="true"
             >
-                <a href="www.ghie.com.gh"
+                <Link to ="https://www.ghie.org.gh"
                     className="w-100 h-100"
+                    target="_blank"
                 >
                     <img src={ghie} 
                         alt="" 
                         className="br0-25"
                     />
-                </a>
+                </Link>
             </figure>
 
             <figure id="Ghip"
@@ -48,14 +52,15 @@ const ProfessionalInstitutions = () => {
                     flex items-center justify-center"
                 data-use-new="true"
             >
-                <a href="www.ghip.com.gh"
+                <Link to ="https://www.gip.org.gh"
                     className="w-100 h-100"
+                    target="_blank"
                 >
                     <img src={ghip} 
                         alt="" 
                         className="br0-25"
                     />
-                </a>
+                </Link>
             </figure>
 
             <figure id="Ghis"
@@ -63,14 +68,15 @@ const ProfessionalInstitutions = () => {
                     flex items-center justify-center"
                 data-use-new="true"
             >
-                <a href="www.ghis.com.gh"
+                <Link to ="https://www.ghis.org.gh"
                     className="w-100 h-100"
+                    target="_blank"
                 >
                     <img src={ghis} 
                         alt="" 
                         className="br0-25 h-100 w-100"
                     />
-                </a>
+                </Link>
             </figure>
 
         </article>

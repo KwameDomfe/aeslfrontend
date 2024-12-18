@@ -1,5 +1,6 @@
-import React from 'react'
+import {projects} from '../../../data/projectsInfo'
 
+// console.log(projects)
 const ProjectOverview = () => {
   return (
     <div 
@@ -17,9 +18,11 @@ const ProjectOverview = () => {
         </h2>
         </hgroup> 
         <div className="f1-25 tj lh-copy">
-            {/* {% for p in project_overview %} */}
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nobis at tenetur nesciunt velit tempore neque voluptas ut natus maiores quo cum non aperiam totam cumque doloribus blanditiis modi, laborum suscipit quaerat aliquid sed! Ab impedit animi ad dolorem voluptatibus totam earum praesentium aperiam mollitia, debitis neque eaque, reprehenderit nihil?</p>
-            {/* {% endfor %} */}
+            <ul>
+                <li>{projects[0].description.p1}</li>
+                <li>{projects[0].description.p2}</li>
+                <li>{projects[0].description.p3}</li>
+            </ul>
         </div>
     </div>
   )

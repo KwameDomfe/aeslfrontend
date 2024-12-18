@@ -25,7 +25,7 @@ const PrincipalConsultants = () => {
             </figure>
             <hgroup className="gc1s12 w-100 blue0">
                 <h2 className="w-100 h-100
-                    pa1-00 ph1-00 pb1-00 mb0-00
+                    pa1-00 mb0-00
                     f3-00 ttu"
                 >
                     Principal Consultants

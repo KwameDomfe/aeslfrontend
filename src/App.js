@@ -3,7 +3,7 @@ import './App.css';
 import './css/utilities.css';
 import './css/gdb_normalize.css';
 
-// React Router Dom
+/* React Router Dom */
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -17,11 +17,11 @@ import RootLayout from './layouts/RootLayout';
 // import BlogsLayout from './layouts/BlogsLayout';
 
 /* 
-    Pages Routes 
+    Pages Imports 
 */
 
 // Home Page Start
-import HomepageIndex from './pages/Index';
+import Index from './pages/Index';
 // Home Page End
 
 // Project Pages Start
@@ -40,9 +40,14 @@ import History from './pages/practice/history/History';
 import Mandate from './pages/practice/mandate/Mandate';
 import Functions from './pages/practice/functions/Functions';
 import MVV from './pages/practice/mvv/MVV';
-import Management from './pages/practice/management/Management';
 import SectorMinistry from './pages/practice/sector_ministry/SectorMinistry';
+import Management from './pages/practice/management/Management';
+import ManagingDirectorDetails from './pages/practice/management/ManagingDirectorDetails';
+import HODDetails from './pages/practice/management/HODDetails';
+import DeputyManagingDirectorDetails from './pages/practice/management/DeputyManagingDirectorDetails';
 import CorporateGovernance from './pages/practice/corporate_governance/CorporateGovernance';
+import BoardChairman from './pages/practice/corporate_governance/BoardChairman';
+import BoardMember from './pages/practice/corporate_governance/BoardMember';
 import Services from './pages/practice/services/Services';
 import ClientSpeak from './pages/practice/client_speak/ClientSpeak';
 import Alliances from './pages/practice/alliances/Alliances';
@@ -79,32 +84,30 @@ import PublicationsIndex from './pages/publications/Index';
 
 // Page Not Found Start
 import PageNotFound from './pages/miscPages/PageNotFound';
-import BoardChairman from './pages/practice/corporate_governance/BoardChairman';
-import BoardMember from './pages/practice/corporate_governance/BoardMember';
-import ManagingDirectorDetails from './pages/practice/management/ManagingDirectorDetails';
-import HODDetails from './pages/practice/management/HODDetails';
-import DeputyManagingDirectorDetails from './pages/practice/management/DeputyManagingDirectorDetails';
 // Page Not Found End
 
-const myRouter = createBrowserRouter(
+const aeslRouter = createBrowserRouter(
     createRoutesFromElements(
-        <Route path = '/'
+        <Route path='/'
             element={<RootLayout />}
         > 
             <Route index
-                element = {<HomepageIndex />}
+                exact
+                element = {<Index />}
             />
             <Route path = 'projects'
-                element  = {
+                element  = { 
                     <ProjectsIndex />
                 }
             />
             <Route path = 'projects'
             >
-                <Route path = 'civic-and-culture'
-                    element = {<ProjectCategoryDetail/>}
+                <Route path = ':category'
+                    element = {
+                        <ProjectCategoryDetail/>
+                    }
                 />
-                <Route path = 'education'
+                {/* <Route path = 'education'
                     element = {<ProjectCategoryDetail/>}
                 />
                 <Route path = 'health'
@@ -127,7 +130,7 @@ const myRouter = createBrowserRouter(
                 />
                 <Route path = 'landscape-planning-and-survey'
                     element = {<ProjectCategoryDetail/>}
-                />
+                /> */}
                 <Route path = 'project-films'
                     element = {<ProjectFilms/>}
                 />
@@ -146,7 +149,9 @@ const myRouter = createBrowserRouter(
             </Route>
 
             <Route path = 'practice'
-                element = {<PracticeIndex />}
+                element = {
+                <PracticeIndex />
+            }
             />
             <Route path = 'practice'
             >
@@ -173,7 +178,7 @@ const myRouter = createBrowserRouter(
                     <Route path = 'board-chairman'
                         element = {<BoardChairman />}
                     />
-                    <Route path = 'board-members/:id'
+                    <Route path = 'board-member'
                         element = {<BoardMember />}
                     />
                 </Route>
@@ -322,7 +327,7 @@ function App() {
 
     return (
         <RouterProvider
-            router = {myRouter}
+            router = {aeslRouter}
         />
     );
 };

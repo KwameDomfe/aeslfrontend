@@ -10,7 +10,7 @@ const PracticeCardReverse = (props) => {
         <article id="l__management"
             className="grid gtc12 ggap0-25 
                 container white-90
-                db pa2-00 bg-blue0 shadow-grey br0-50
+                db pa1-00 bg-blue0 shadow-grey br1-00
                 "
         > 
             <figure id=""

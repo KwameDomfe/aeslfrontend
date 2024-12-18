@@ -2,6 +2,9 @@ import React from 'react'
 import ProjectDetailCard from '../../../components/organisms/cards/ProjectDetailCard'
 import xxx from '../../../images/placeholders/regular_images/sky.jpg'
 import ProjectSectionFooter from '../../../components/organisms/footers/ProjectSectionFooter'
+
+import {projects} from '../../../data/projectsInfo'
+
 const ProjectConstruction = () => {
   return (
     <div className="grid gtc12 ggap1-00
@@ -23,11 +26,13 @@ const ProjectConstruction = () => {
             className="gr2s1 gc1s12 ggap2-00 flex w-100 tj"
         >
         <div className="f1-25 tj lh-copy">
-            {/* {% for p in project_construction %} */}
-            <p>
-                Project Contruction Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis repellendus rerum explicabo, quam modi odit. Eum perferendis quibusdam accusantium rem doloribus quo aspernatur beatae maxime repudiandae voluptates quisquam ex labore sed autem, tempora magni veritatis iusto tempore saepe consectetur. Voluptatibus at adipisci beatae officia in. Corporis, sunt. Ipsam, perferendis molestiae.
-            </p>
-            {/* {% endfor %} */}
+        <div className="f1-25 tj lh-copy">
+            <ul>
+                <li>{projects[0].projectConstruction.construction1}</li>
+                <li>{projects[0].projectConstruction.construction2}</li>
+                <li>{projects[0].projectConstruction.construction3}</li>
+            </ul>
+        </div>
         </div> 
         </article>    
         {/* <!-- Project constuction Description --> */}

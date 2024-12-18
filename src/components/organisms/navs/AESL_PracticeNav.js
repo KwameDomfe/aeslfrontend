@@ -58,7 +58,7 @@ const AESL_PracticeNav = () => {
     </article>
     
     <article id="practice_nav2" 
-        className="gr1s1 gc3s1
+        className="gr2s1 gr1s1-m gc2s1 gc3s1-m
             w10-00 h0-00 pb-100
             f1-00 
             ba br0-50 shadow-grey"

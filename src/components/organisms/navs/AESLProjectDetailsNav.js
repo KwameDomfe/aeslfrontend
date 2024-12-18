@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import {projects} from '../../../data/projectsInfo'
 const AESLProjectDetailsNav = () => {
   return (
     <div id="project_summary"
@@ -27,7 +27,7 @@ const AESLProjectDetailsNav = () => {
                     Project Coordinator
                 </h2>
                 <p className="mb0-25">
-                    Arc. Agyei Marfo Isaac
+                    {projects[0].projectCoordinator}
                 </p>
             </hgroup>
             <hgroup className="mb0-00">
@@ -36,9 +36,9 @@ const AESLProjectDetailsNav = () => {
                 </h2>
                 <ul className="mb0-25"
                 >
-                    <li>Arc. Agyei Marfo Isaac</li>
-                    <li>Arc. Amen A. K. Gbeckor-Kove</li>
-                    <li>Arc. Basil Akushey</li> 
+                    <li>{projects[0].projectLeads.projectLead1}</li>
+                    <li>{projects[0].projectLeads.projectLead2}</li>
+                    <li>{projects[0].projectLeads.projectLead3}</li> 
                 </ul>
             </hgroup>
         </div>
@@ -63,7 +63,7 @@ const AESLProjectDetailsNav = () => {
                     Client
                 </h2>
                 <p className="mb0-25">
-                   Manhyia Palace
+                {projects[0].client}
                 </p>     
             </hgroup>
             <hgroup 
@@ -73,7 +73,7 @@ const AESLProjectDetailsNav = () => {
                     Total Floor Area
                 </h2>
                 <p className="mb0-25">
-                   3,456 m<sup>2</sup>
+                {projects[0].grossFloorArea} m<sup>2</sup>
                 </p>     
             </hgroup>
             <hgroup 
@@ -83,7 +83,7 @@ const AESLProjectDetailsNav = () => {
                     Cost
                 </h2>
                 <p className="mb0-25">
-                    GHC 356.00 million
+                {projects[0].cost} million
                 </p>     
             </hgroup>
         </div> 
@@ -108,15 +108,15 @@ const AESLProjectDetailsNav = () => {
                     Start Date
                 </h2>
                 <p className="mb0-25">
-                    November, 2012
-                </p>     
+                {projects[0].dates.start}
+                </p>
             </hgroup>
             <hgroup className="mb1-00">
                 <h2 className="mb0-50 f0-75 white-60">
                     Completed Date
                 </h2>
                 <p className="mb0-25">
-                    March, 2015
+                {projects[0].dates.completed}
                 </p>     
             </hgroup>
         
@@ -157,7 +157,8 @@ const AESLProjectDetailsNav = () => {
                     Certifications
                 </h2>
                 <ul className="mb0-25">
-                    <li>Ghana Standard authority</li>
+                    <li>{projects[0].certifications.certification1}</li>
+                    <li>{projects[0].certifications.certification2}</li>
                 </ul>  
             </hgroup>
             

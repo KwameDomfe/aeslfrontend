@@ -13,7 +13,7 @@ const PracticeCard = (props) => {
         <article id="l__sector_ministry"
             className="grid gtc12 ggap0-25
                 container h-100
-                pa2-00 bg-white shadow-grey br0-50 ba b--blue0"
+                pa1-00 bg-white shadow-grey br1-00 ba b--blue0"
         >
             <div id="" 
                 className="grid gr2s1 gc1s12 gr1s1-m gc1s5-m items-center justify-center

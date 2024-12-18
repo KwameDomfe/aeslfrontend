@@ -1,6 +1,7 @@
 import React from 'react'
 import map from '../../../images/projects/_partials/samplemap.jpg'
 import ProjectSectionFooter from '../../../components/organisms/footers/ProjectSectionFooter'
+import {projects} from '../../../data/projectsInfo'
 const ProjectData = () => {
     return (
         <div className="grid gtc12 ggap1-00
@@ -27,7 +28,7 @@ const ProjectData = () => {
                             Project Coordinator
                         </h2>
                         <p className="mb0-25">
-                            Arc. Agyei Marfo Isaac
+                            {projects[0].projectCoordinator}
                         </p>
                     </hgroup>
                 </div>
@@ -40,9 +41,9 @@ const ProjectData = () => {
                             Project Leads
                         </h2>
                         <ul className="mb0-25">
-                            <li>Arc. Agyei Marfo Isaac</li>
-                            <li>Arc. Amen A. K. Gbeckor-Kove</li>
-                            <li>Arc. Basil Akushey</li>
+                            <li>{projects[0].projectLeads.projectLead1}</li>
+                            <li>{projects[0].projectLeads.projectLead2}</li>
+                            <li>{projects[0].projectLeads.projectLead3}</li>
                         </ul>
                     </hgroup>
                 </div>
@@ -51,17 +52,19 @@ const ProjectData = () => {
                     className="gc1s12 pa0-50 bg-white"
                 >
                     <h4>Data</h4>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between"
+                    >
                         <div id=""
                             className="w-100"
                         >
                             <hgroup id="project_summary_1" 
-                                className="">
+                                className=""
+                            >
                                     <h5 className="mb0-50">
                                     Start Date
                                     </h5>
                                     <p className="mb0-25"> 
-                                            November 2012, 
+                                        {projects[0].dates.start} 
                                     </p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
@@ -70,7 +73,7 @@ const ProjectData = () => {
                                     Completion Date
                                     </h5>
                                     <p className="mb0-25">
-                                            March 2015
+                                    {projects[0].dates.completed} 
                                     </p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
@@ -78,28 +81,28 @@ const ProjectData = () => {
                                     <h5 className="mb0-50">
                                         Location
                                     </h5>
-                                    <p className="mb0-25">project.location</p>
+                                    <p className="mb0-25">{projects[0].location}</p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Site Area
                                     </h5>
-                                    <p className="mb0-25">12,450 acres</p>
+                                    <p className="mb0-25">{projects[0].siteArea} acres</p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Gross Floor Area
                                     </h5>
-                                    <p className="mb0-25">12,450 m<sup>2</sup></p>
+                                    <p className="mb0-25">{projects[0].grossFloorArea }m<sup>2</sup></p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Floors
                                     </h5>
-                                    <p className="mb0-25">6</p>
+                                    <p className="mb0-25">{projects[0].numberOfFloors }</p>
                             </hgroup>
                         </div>
                         
@@ -110,35 +113,35 @@ const ProjectData = () => {
                                     <h5 className="mb0-50">
                                         General Contractor
                                     </h5>
-                                    <p className="mb0-25">Consar Limited</p>
+                                    <p className="mb0-25">{projects[0].contractors.general}</p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Electrical Contractors
                                     </h5>
-                                    <p className="mb0-25">JLM</p>
+                                    <p className="mb0-25">{projects[0].contractors.electrical}</p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Mechanical Contractors
                                     </h5>
-                                    <p className="mb0-25">FTH</p>
+                                    <p className="mb0-25">{projects[0].contractors.mechanical}</p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Plumbing Contractors
                                     </h5>
-                                    <p className="mb0-25">THE</p>
+                                    <p className="mb0-25">{projects[0].contractors.plumbing}</p>
                             </hgroup>
                             <hgroup id="project_summary_1" 
                                 className="">
                                     <h5 className="mb0-50">
                                         Facade Contractors
                                     </h5>
-                                    <p className="mb0-25">ExtFac</p>
+                                    <p className="mb0-25">{projects[0].contractors.facade}</p>
                             </hgroup>
                         </div>
                         
@@ -179,18 +182,56 @@ const ProjectData = () => {
                         "
                 >
                     <h2>Awards</h2>
-                    <div >
+                    <div className="f0-75">
                         <div className="flex">
-                            <div className="mr2-00">2008</div>
-                            <div>GIA National Award</div>
+                            <div className="mr2-00">{projects[0].awards.award1.date}</div>
+                                
+                                    <div>
+                                        <div>
+                                        <span className="gray">Award Name:</span> {projects[0].awards.award1.name}
+                                        </div>
+                                        <div>
+                                           <span className="gray">Awarded by:</span> {projects[0].awards.award1.institution}
+                                        </div>
+                                        <a href={projects[0].awards.award1.url}
+                                            className="gray"
+                                        >
+                                            {projects[0].awards.award1.url}
+                                        </a>
+                                    </div> 
+                               
                         </div>
                         <div className="flex">
-                            <div className="mr2-00">2008</div>
-                            <div>Environ Award</div>
+                            <div className="mr2-00">{projects[0].awards.award2.date}</div>
+                            <div>
+                                <div>
+                                <span className="gray">Awarded Name:</span> {projects[0].awards.award2.name}
+                                </div>
+                                <div>
+                                    {projects[0].awards.award2.institution}
+                                </div>
+                                <a href={projects[0].awards.award2.url}
+                                    className="gray"
+                                >
+                                    {projects[0].awards.award2.url}
+                                </a>
+                            </div>
                         </div>
                         <div className="flex">
-                            <div className="mr2-00">2008</div>
-                            <div>Green Earth Award</div>
+                            <div className="mr2-00">{projects[0].awards.award3.date}</div>
+                            <div>
+                                <div>
+                                <span className="gray">Awarded Name:</span> {projects[0].awards.award3.name}
+                                </div>
+                                <div>
+                                    {projects[0].awards.award3.institution}
+                                </div>
+                                <a href={projects[0].awards.award3.url}
+                                    className="gray"
+                                >
+                                    {projects[0].awards.award3.url}
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -200,29 +241,27 @@ const ProjectData = () => {
                         "
                 >
                     <h2>Other Project Team Members</h2>
-                    <div className="flex">
-                        <ul className="flex flex-wrap">
-                            <li className="mv0-50 mr0-50"><small>Arc. Walter Sermodzi </small></li>
-                            <li className="mv0-50 mr0-50"><small>Ing. Baffoe Bonnie </small></li>
-                            <li className="mv0-50 mr0-50"><small>Surv. Stephen Ntim </small></li>
-                            <li className="mv0-50 mr0-50"><small>Arc. Walter Sermodzi </small></li>
+                    <div className="flex ggap2-00"
+                    >
+                        <ul className="flex flex-column w-100"
+                        >
+                            <li>{projects[0].otherTeamMembers[0][0]}</li>
+                            <li>{projects[0].otherTeamMembers[0][1]}</li>
+                            <li>{projects[0].otherTeamMembers[0][2]}</li>
+                            <li>{projects[0].otherTeamMembers[0][3]}</li>
+                            <li>{projects[0].otherTeamMembers[0][4]}</li>
+                            <li>{projects[0].otherTeamMembers[0][5]}</li>
                             
                         </ul>
-                        <ul className="flex flex-wrap">
-                            <li className="mv0-50 mr0-50">
-                                <small>Arc. Walter Sermodzi </small>
-                            </li>
-                            <li className="mv0-50 mr0-50">
-                                <small>Ing. Baffoe Bonnie </small>
-                            </li>
-                            <li className="mv0-50 mr0-50">
-                                <small>Surv. Stephen Ntim </small>
-                            </li>
-                            <li className="mv0-50 mr0-50">
-                                <small>Arc. Walter Sermodzi </small>
-                            </li>
+                        <ul className="flex flex-column w-100"
+                        >
+                            <li>{projects[0].otherTeamMembers[1][0]}</li>
+                            <li>{projects[0].otherTeamMembers[1][1]}</li>
+                            <li>{projects[0].otherTeamMembers[1][2]}</li>
+                            <li>{projects[0].otherTeamMembers[1][3]}</li>
+                            <li>{projects[0].otherTeamMembers[1][4]}</li>
+                            <li>{projects[0].otherTeamMembers[1][5]}</li>
                         </ul>
-                    
                     </div>
                 </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const BoardMemberCard = (props) => {
-
+    // Props
     const {
         name,
         title,
@@ -34,12 +34,20 @@ const BoardMemberCard = (props) => {
                 </div>
                 
                 <div className="flex f0-75">
-                    <a className="ma0-50 ba br0-50 pa0-50 white-90" href={liknedInURL}>LinkedIn</a>
-                    <a className="ma0-50 ba br0-50 pa0-50 white-90" href={twitterURL}>Twitter</a>
+                    <a className="ma0-50 ba br0-50 pa0-50 white-90" 
+                        href={liknedInURL}
+                    >
+                        LinkedIn
+                    </a>
+                    <a className="ma0-50 ba br0-50 pa0-50 white-90" 
+                        href={twitterURL}
+                    >
+                        Twitter
+                    </a>
                     <Link className="ma0-50 ba br0-50 pa0-50 white-90" 
                         to={url}
                     >
-                            Read More
+                        Read More
                     </Link>
                 </div>
             </article>

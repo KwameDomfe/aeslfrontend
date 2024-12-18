@@ -7,7 +7,7 @@ const PrinciplesCard = (props) => {
     return (
         <div className="grid items-center justify-center">
             <figure  className ={`gc1s1 gr1s1 grid items-center justify-center
-                pa0-50 bg-${colour}`
+                pa0-50 br0-50 bg-${colour}`
                 }
             >
                 <img src={bgImage}
@@ -18,7 +18,7 @@ const PrinciplesCard = (props) => {
             </figure>
             <hgroup 
                 className={`gc1s1 gr1s1 tj
-                mh2-00 pv2-00 pa1-00 bg-${colour} z1`}
+                mh2-00 pv2-00 pa1-00 bg-${colour} z1 br0-25`}
             >
                 <h2 className="ttu f2-00">
                     {title}

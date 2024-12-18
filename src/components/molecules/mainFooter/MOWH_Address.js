@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { TbWorldWww } from "react-icons/tb";
 import mowh from '../../../images/_partials/logos/mwh.jpg'
 
 const MOWH_Address = () => {
@@ -25,12 +25,11 @@ const MOWH_Address = () => {
 
             <address id="Locational_address"
                 className="tc f0-75 w-100"
-                itemProp="address" 
-                itemScope="" 
-                itemType="http://schema.org/PostalAddress">
-                <span className="dib" itemProp="streetAddress">
+            >
+                <div className="" 
+                >
                     <div className="mb0-25">
-                        Starlet 91 Road,
+                        ---
                     </div> 
                     <div className="mb0-25">
                         Starlet 91 Road,
@@ -41,7 +40,7 @@ const MOWH_Address = () => {
                     <div className="mb0-25">
                         Ghana
                     </div> 
-                </span>
+                </div>
             </address>
             <div className="flex flex-column justify-center 
                 w-80 items-center
@@ -55,17 +54,15 @@ const MOWH_Address = () => {
                     rel="noopener noreferrer"
                 >
                         <p className="flex items-center justify-center ba br5-00 pv0-25 ph1-00
+                        white-90
                         b b--white-90">
-                        <img src={mowh}
-                        alt="WhatsApp" 
-                        className="w1-25 mr0-50" 
-                        />
+                        <TbWorldWww className='f1-00 gc2s1 mr0-50' />
                         www.mwh.gov.gh
                         </p>
                 </a>
             </div>
             <p className="lh-copy w-100 tj i">
-                The Ministry of Works and Housing (MWH) Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex ducimus deleniti odit aperiam, repudiandae mollitia eum quibusdam voluptatum ab ad et beatae magnam facere labore tenetur officia culpa voluptatem!.
+                The Ministry of Works and Housing (MWH) is a key government agency responsible for the planning, development, and management of infrastructure and housing within the country..
             </p>
         </div>
     )

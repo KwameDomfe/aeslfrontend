@@ -60,7 +60,7 @@ const MainFooter = () => {
                     section-index=""
                 >
                     <ProfessionalInstitutions />
-                    <Recents />
+                    {/* <Recents /> */}
                 </section>
             </div> 
         </div>

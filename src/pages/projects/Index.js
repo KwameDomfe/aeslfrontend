@@ -11,74 +11,18 @@ import { GrProjects } from "react-icons/gr";
 
 // Images
 import projectsBanner from '../../images/projects/00.jpeg'
-import proj01 from '../../images/projects/civic_and_culture/civic/1_0.jpg'
-import proj02 from '../../images/projects/civic_and_culture/civic/2.PNG'
-import proj03 from '../../images/projects/civic_and_culture/culture/5_0.jpg'
-import proj04 from '../../images/projects/civic_and_culture/civic/4_1.jpg'
-
-// Objects
-const projects = [
-    {   id : 1,
-        
-        name : "Ghana Police Station",
-        client : "Ghana Police Service",
-        location : "Several",
-        image : proj01,
-        description : "Ghana Police Station Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
-        url :"/projects/project-details",
-        category : "Civic and Culture",
-        subCategory :"Civic"
-    },
-    {   id : 2,
-        
-        name : "Regional Coordinating Council",
-        client : "Ghana Government",
-        location : "Several",
-        image : proj02,
-        description : "Regional Cordinating Council Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
-        url :"/projects/project-details",
-        category : "Civic and Culture",
-        subCategory :"Civic"
-    },
-    {   id : 3,
-        
-        name : "Manhyia Palace Renovation",
-        client : "Manhyia Palace",
-        location : "Kumasi",
-        image : proj03,
-        description : "Manhyia Palace Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
-        url :"/projects/project-details",
-        category : "Civic and Culture", 
-            
-        subCategory:"Culture"
-    },
-    {   id : 4,
-        
-        name : "Foreign Affairs Ministry",
-        client : "Ministry of Foreign Affairs",
-        location : "Accra",
-        image : proj04,
-        description : "Foreign Affairs Ministry Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
-        url :"/projects/project-details",
-        category : "Civic and Culture",
-        subCategory :"Civic"
-    },
-    {   id : 5,
-        
-        name : "Regional Coordinating",
-        client : "",
-        location : "Several",
-        image : proj01,
-        description : "Regional Cordinating Council Buildings ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk . . . ",
-        url :"/projects/project-details",
-        category : "Civic and Culture",
-        subCategory :"Civic"
-    },
-]
+import {projects} from '../../data/projectsInfo'
+import { useEffect } from 'react'
 
 // Function
 const ProjectsIndex = () => {
-  
+    useEffect(() => {
+      
+        document.title='AESL || Projects'
+        return () => {
+       
+        }
+    }, [])
     return (
         <article id = "pageContent"
             className = ""
@@ -109,40 +53,45 @@ const ProjectsIndex = () => {
                     />
                 </div>
                 {/* <!-- Overview --> */}
+
                 {/* <!-- Projects --> */}
                 <div id="projects"
-                    className= "w-100 mb1-00 ph1-00 white-90"
+                    className= "mb1-00 ph1-00 white-90"
                 >
                     <ul className="grid gtc2-s gtc3-m gtc4-xl ggap1-00 
                         justify-start
-                        mv2-00"
+                        mt2-00 mb1-00"
                     >
-                        {projects.map
-                            ( (project) =>
-                                (
-                                    <li key={project.id}>
-                                        <ProjectCard 
-                                            name = {project.name}
-                                            location = {project.location}
-                                            client = {project.client}
-                                            image = {project.image}
-                                            description = {project.description}
-                                            url ={project.url}
-                                            category = {project.category}
-                                            subCategory ={project.subCategory}
-                                        />
-                                    </li>
-                                )
+                        { projects && projects.map((project) => 
+                                {
+                                    return (
+                                        <li key = {project.id}
+                                            className="h-100 w-100"
+                                        >
+                                            <ProjectCard
+                                                name        = {project.name}
+                                                client      = {project.client}
+                                                location    = {project.location}
+                                                thumbnail   = {project.thumbnail}
+                                                description    = {project.overview}
+                                                url         = {project.url}
+                                                category    = {project.category}
+                                            />
+                                        </li>
+                                    )
+                                }
+
                             )
-                            
                         }
                     </ul>
 
                 </div>
+                {/* <!-- Projects --> */}
+                {/* <!-- Projects Footer --> */}
                 <SectionFooter 
                     sectionTitle = "Projects"
                 />
-                {/* <!-- Projects --> */}
+                {/* <!-- Projects Footer --> */}
             </main>
             {/* Page Main End */} 
 
